@@ -1,0 +1,9 @@
+[index] 11 docs -> 860 chunks | dense: tfidf-lsa | rerank: off | llm: extractive fallback
+
+relevance gate (gate_independent.csv; dense gate threshold 0.968 on tfidf-lsa)
+  on-topic questions answered: 11/13   (refused by gate: 2, rejected after the LLM: 0, blocked: 0)
+  off-topic / not-in-documents questions refused: 2/4
+  on-topic not answered [no_answer]: What safety precautions should be followed before performing maintenance on the CYGG cyclone dust collector?
+  on-topic not answered [no_answer]: According to the operating and maintenance manual, what general relationship is described between collecting efficiency and water gauge?
+  off-topic ANSWERED: What is the current market price of a Parker C Series C3000 cyclone dust collector in India?
+  off-topic ANSWERED: What is the current inlet gas temperature of the ExactSpace industrial cyclone machine?

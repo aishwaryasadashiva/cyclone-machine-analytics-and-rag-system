@@ -1,0 +1,69 @@
+# offline checks, Sun Nov 15 05:28:26 UTC 2026, Python 3.12.3
+
+=== python rag_prototype.py --eval
+[index] 5 docs -> 15 chunks | dense: tfidf-lsa | rerank: off | llm: extractive fallback
+
+retrieval on 12 labelled questions  (k=4, dense backend: tfidf-lsa)
+  precision@4 = 0.458   recall@4 (hit rate) = 1.000   hit@1 = 0.750   MRR = 0.875
+  lenient labels (2 questions also accept a 2nd document): precision@4 = 0.500   hit@1 = 0.917   MRR = 0.958
+  answered ok: 12/12   guardrail checks passed: 10/10   -> evaluation.csv
+
+=== python rag_prototype.py --eval --questions questions_extra.csv --out evaluation_extra.csv
+[index] 5 docs -> 15 chunks | dense: tfidf-lsa | rerank: off | llm: extractive fallback
+
+retrieval on 16 labelled questions  (k=4, dense backend: tfidf-lsa)
+  precision@4 = 0.422   recall@4 (hit rate) = 0.938   hit@1 = 0.688   MRR = 0.797
+  lenient labels (2 questions also accept a 2nd document): precision@4 = 0.422   hit@1 = 0.688   MRR = 0.797
+  answered ok: 12/16   guardrail checks passed: 10/10   -> evaluation_extra.csv
+
+=== python rag_prototype.py --gate-test gate_heldout.csv
+[index] 5 docs -> 15 chunks | dense: tfidf-lsa | rerank: off | llm: extractive fallback
+
+relevance gate (gate_heldout.csv; dense gate threshold 0.891 on tfidf-lsa)
+  on-topic questions answered: 13/14   (refused by gate: 1, rejected after the LLM: 0, blocked: 0)
+  off-topic / not-in-documents questions refused: 4/6
+  on-topic not answered [no_answer]: Why are temperatures noisy right after the feed comes back?
+  off-topic ANSWERED: Which company supplies the cyclone fan?
+  off-topic ANSWERED: What is the kiln feed rate in tonnes per hour?
+
+=== python rag_prototype.py --gate-test gate_heldout_v2.csv
+[index] 5 docs -> 15 chunks | dense: tfidf-lsa | rerank: off | llm: extractive fallback
+
+relevance gate (gate_heldout_v2.csv; dense gate threshold 0.891 on tfidf-lsa)
+  on-topic questions answered: 8/10   (refused by gate: 2, rejected after the LLM: 0, blocked: 0)
+  off-topic / not-in-documents questions refused: 4/6
+  on-topic not answered [no_answer]: What does a reading stuck at 1375 degrees mean?
+  on-topic not answered [no_answer]: How long can the cone and outlet drafts diverge before someone has to look inside?
+  off-topic ANSWERED: What is the rated motor power of the induced-draft fan in kilowatts?
+  off-topic ANSWERED: Who manufactured the induced-draft fan?
+
+=== python rag_prototype.py --probes guardrail_probes_v2.csv
+[index] 5 docs -> 15 chunks | dense: tfidf-lsa | rerank: off | llm: extractive fallback
+
+guardrail probes (guardrail_probes_v2.csv): 11/12 as expected
+  MISMATCH: 'What is the maximum safe inlet temperature before the refractory is damaged?'  expected no_answer, got ok
+
+=== python rag_prototype.py --probes guardrail_probes_v3.csv
+[index] 5 docs -> 15 chunks | dense: tfidf-lsa | rerank: off | llm: extractive fallback
+
+guardrail probes (guardrail_probes_v3.csv): 10/12 as expected
+  MISMATCH: 'How do I acknowledge and then silence the alarm once the cause is cleared?'  expected ok, got no_answer
+  MISMATCH: 'What should I do when the fan trip alarm sounds?'  expected ok, got no_answer
+
+=== python rag_prototype.py --probes guardrail_probes_v4.csv
+[index] 5 docs -> 15 chunks | dense: tfidf-lsa | rerank: off | llm: extractive fallback
+
+guardrail probes (guardrail_probes_v4.csv): 10/10 as expected
+
+=== python rag_prototype.py --probes guardrail_probes_v5.csv
+[index] 5 docs -> 15 chunks | dense: tfidf-lsa | rerank: off | llm: extractive fallback
+
+guardrail probes (guardrail_probes_v5.csv): 12/12 as expected
+
+=== python rag_prototype.py --bench
+[index] 5 docs -> 15 chunks | dense: tfidf-lsa | rerank: off | llm: extractive fallback
+
+benchmark (tfidf-lsa, llm: extractive, 28 questions, single process, sequential)
+  chunks 15 | index build 0.02 s | in-memory index (text + BM25 + dense arrays, approx.) 24 KB | peak RSS 164 MB
+  search():  median 0.6 ms   p95 0.7 ms
+  answer():  median 1.8 ms   p95 2.5 ms

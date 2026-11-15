@@ -1,0 +1,6 @@
+id,signature,duration_min,share_points_beyond_chi2_99,median_robust_distance,agrees
+1,material_flatline,200.0,1.0,46.0,True
+2,material_dropout,165.0,1.0,42.4,True
+3,draft_collapse,115.0,1.0,7.6,True
+4,outlet_collapse,80.0,1.0,8.5,True
+5,oscillation,110.0,1.0,6.2,True

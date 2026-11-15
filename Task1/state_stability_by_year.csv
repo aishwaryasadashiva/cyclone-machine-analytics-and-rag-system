@@ -1,0 +1,5 @@
+year,active_points,ari_year_refit_vs_global_model,"share_%_Unstable / Upset (ramp-up, high volatility)",share_%_Degraded heat recovery (low outlet T),share_%_Low-load (cool),share_%_Normal,share_%_High-load (hot),"inletT_mean_Unstable / Upset (ramp-up, high volatility)",inletT_mean_Degraded heat recovery (low outlet T),inletT_mean_Low-load (cool),inletT_mean_Normal,inletT_mean_High-load (hot)
+2017,86145,0.256,3.2,0.0,71.4,9.8,15.5,901.9,,881.0,889.0,901.3
+2018,87854,0.465,3.6,9.0,21.7,47.7,18.0,892.8,898.1,878.1,895.9,908.1
+2019,69415,0.362,3.0,7.3,47.0,14.9,27.9,887.8,874.8,880.6,888.4,907.3
+2020,50969,0.092,0.9,0.0,11.1,80.1,8.0,891.3,,892.7,901.8,915.0

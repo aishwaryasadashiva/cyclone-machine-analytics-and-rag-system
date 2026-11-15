@@ -1,0 +1,5 @@
+
+benchmark (tfidf-lsa, llm: extractive, 28 questions, single process, sequential)
+  chunks 860 | index build 3.37 s | in-memory index (text + BM25 + dense arrays, approx.) 1703 KB | peak RSS 251 MB
+  search():  median 6.3 ms   p95 8.0 ms
+  answer():  median 8.9 ms   p95 12.5 ms

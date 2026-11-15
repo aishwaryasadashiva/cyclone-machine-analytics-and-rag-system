@@ -1,0 +1,11 @@
+# core (offline mode), minimum versions; evaluation.csv was produced with Python 3.12, pypdf 5.9.0, numpy 2.5.4, scikit-learn 1.9.1, reportlab 5.0.1
+pypdf>=4.0
+cryptography>=3.1   # needed to read AES-encrypted PDFs; one of the assignment PDFs (172-65231ma.pdf) is encrypted
+fonttools         # lets pypdf decode some embedded fonts (otherwise it prints warnings and may garble text)
+numpy>=1.26
+scikit-learn>=1.4
+reportlab>=4.0
+# optional open-model path (sentence-transformers, faiss-cpu, transformers, torch): see README section 2; no versions pinned
+# optional, only for the --ocr option (also needs the tesseract program):
+# pymupdf
+# pytesseract

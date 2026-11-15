@@ -1,0 +1,6 @@
+[index] 5 docs -> 15 chunks | dense: tfidf-lsa | rerank: off | llm: extractive fallback
+
+benchmark (tfidf-lsa, llm: extractive, 28 questions, single process, sequential)
+  chunks 15 | index build 0.03 s | in-memory index (text + BM25 + dense arrays, approx.) 24 KB | peak RSS 164 MB
+  search():  median 0.7 ms   p95 0.8 ms
+  answer():  median 2.0 ms   p95 3.0 ms

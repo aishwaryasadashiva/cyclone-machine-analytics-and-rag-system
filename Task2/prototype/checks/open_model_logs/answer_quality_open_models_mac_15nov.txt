@@ -1,0 +1,36 @@
+# Open-model gate tests (bash run_answer_quality.sh real_docs), MacBook Air, 15 Nov 2026, all 11 PDFs read, fresh folder.
+# Result lines copied from the terminal output; library warning lines removed. "Answered" means an answer was shown, NOT that it was correct (grading of the answer text is still to do).
+
+=== A. real PDFs, MiniLM + flan-t5-small, no reranker, no fallback (same as the earlier run)
+[index] 11 docs -> 857 chunks | dense: sentence-transformers/all-MiniLM-L6-v2+FAISS | rerank: off | llm: google/flan-t5-small
+relevance gate (gate_real.csv; dense gate threshold 0.375 on sentence-transformers/all-MiniLM-L6-v2+FAISS)
+  on-topic questions answered: 15/20   (refused by gate: 0, rejected after the LLM: 5, blocked: 0)
+  off-topic / not-in-documents questions refused: 6/8
+  on-topic not answered [ungrounded_rejected]: How far from level may the TLV separator be installed?
+  on-topic not answered [ungrounded_rejected]: What must I do before cleaning the separator?
+  on-topic not answered [ungrounded_rejected]: Does the cyclone have to be grounded?
+  on-topic not answered [ungrounded_rejected]: In what order should the equipment be started up?
+  on-topic not answered [ungrounded_rejected]: How does the cyclone pressure drop get calculated in the design project?
+  off-topic ANSWERED: What is the price of the TLV DC7 separator?
+  off-topic ANSWERED: What is the warranty on a Tesla battery?
+
+=== B. real PDFs, with --rerank --extract-fallback --ce-sentences
+[index] 11 docs -> 857 chunks | dense: sentence-transformers/all-MiniLM-L6-v2+FAISS | rerank: cross-encoder/ms-marco-MiniLM-L-6-v2 | llm: google/flan-t5-small
+relevance gate (gate_real.csv; dense gate threshold 0.375 on sentence-transformers/all-MiniLM-L6-v2+FAISS)
+  on-topic questions answered: 19/20   (refused by gate: 0, rejected after the LLM: 1, blocked: 0)
+  off-topic / not-in-documents questions refused: 7/8
+  on-topic not answered [ungrounded_rejected]: What is a hydrocyclone used for in milling?
+  off-topic ANSWERED: How many staff does Kice Industries employ?
+
+=== C. synthetic documents, same options (--rerank --extract-fallback --ce-sentences)
+relevance gate (gate_heldout.csv; dense gate threshold 0.247 on sentence-transformers/all-MiniLM-L6-v2+FAISS)
+  on-topic questions answered: 13/14   (refused by gate: 0, rejected after the LLM: 1, blocked: 0)
+  off-topic / not-in-documents questions refused: 4/6
+  on-topic not answered [ungrounded_rejected]: Why are temperatures noisy right after the feed comes back?
+  off-topic ANSWERED: What is the maximum safe refractory lining temperature?
+  off-topic ANSWERED: Which company supplies the cyclone fan?
+relevance gate (gate_heldout_v2.csv; dense gate threshold 0.247 on sentence-transformers/all-MiniLM-L6-v2+FAISS)
+  on-topic questions answered: 10/10   (refused by gate: 0, rejected after the LLM: 0, blocked: 0)
+  off-topic / not-in-documents questions refused: 4/6
+  off-topic ANSWERED: What is the annual maintenance cost of the cyclone?
+  off-topic ANSWERED: Which refractory brick type is used in the preheater?

@@ -1,0 +1,400 @@
+{
+ "text_error_cells": 8195,
+ "text_error_types": {
+  "Not Connect": 4338,
+  "I/O Timeout": 2820,
+  "Configure": 648,
+  "Scan Timeout": 102,
+  "Comm Fail": 12,
+  "Unit Down": 275
+ },
+ "rows_raw": 377719,
+ "rows_indexed": 378580,
+ "missing_timestamps": 861,
+ "start": "2017-01-01 00:00:00",
+ "end": "2020-08-07 12:15:00",
+ "sentinel_values_nulled": 519,
+ "isolated_spikes_removed": 1238,
+ "rows_with_nan_before_interp": 4005,
+ "rows_with_nan_after_interp": 2188,
+ "n_shutdowns": 148,
+ "total_downtime_h": 6876.7,
+ "total_downtime_days": 286.5,
+ "downtime_pct": 21.8,
+ "median_shutdown_h": 2.29,
+ "longest_shutdown_h": 964.42,
+ "types": {
+  "short_stop(<2h)": 72,
+  "idle(2-12h)": 41,
+  "extended_outage(>48h)": 18,
+  "shutdown(12-48h)": 17
+ },
+ "shutdowns_inlet_above_700C_most_of_length": 87,
+ "samples_between_-100_and_-40_pct": 0.86,
+ "shutdown_type_counts": {
+  "short_stop(<2h)": 72,
+  "idle(2-12h)": 41,
+  "extended_outage(>48h)": 18,
+  "shutdown(12-48h)": 17
+ },
+ "longest_shutdown_days": 40.2,
+ "k_stability": {
+  "ari_other_seeds_mean": 0.957,
+  "ari_other_seeds_min": 0.949,
+  "ari_first_half_model_vs_full_model": 0.356,
+  "ari_second_half_model_vs_full_model": 0.439,
+  "ari_first_vs_second_half_models_on_second_half": 0.444
+ },
+ "label_changes_after_smoothing_pct": 9.92,
+ "silhouette": {
+  "3": 0.222,
+  "4": 0.184,
+  "5": 0.197,
+  "6": 0.165,
+  "7": 0.168
+ },
+ "K": 5,
+ "n_anomaly_events": 550,
+ "n_flagged_points": 2947,
+ "anomaly_rate_by_state": {
+  "Low-load (cool)": 1.0,
+  "Normal": 1.0,
+  "High-load (hot)": 1.0,
+  "Degraded heat recovery (low outlet T)": 1.0,
+  "Unstable / Upset (ramp-up, high volatility)": 1.01
+ },
+ "events_by_state": {
+  "Degraded heat recovery (low outlet T)": 11,
+  "High-load (hot)": 111,
+  "Low-load (cool)": 222,
+  "Normal": 195,
+  "Unstable / Upset (ramp-up, high volatility)": 11
+ },
+ "events_within_30m_before_shutdown": 39,
+ "events_in_operation": 544,
+ "events_within_1h_before_shutdown": 40,
+ "events_within_1h_before_shutdown_pct": 7.4,
+ "events_within_1h_ci95_pct": [
+  5.4,
+  9.9
+ ],
+ "baseline_pct_within_1h_before_shutdown": 0.59,
+ "enrichment_x": 12.5,
+ "enrichment_x_ci95": [
+  9.2,
+  16.7
+ ],
+ "events_inside_outages": 6,
+ "anomaly_events_per_100h_by_state": {
+  "Degraded heat recovery (low outlet T)": 0.83,
+  "High-load (hot)": 2.53,
+  "Low-load (cool)": 2.21,
+  "Normal": 2.31,
+  "Unstable / Upset (ramp-up, high volatility)": 1.42
+ },
+ "anomaly_mean_event_min_by_state": {
+  "Degraded heat recovery (low outlet T)": 73.2,
+  "High-load (hot)": 19.5,
+  "Low-load (cool)": 26.4,
+  "Normal": 23.2,
+  "Unstable / Upset (ramp-up, high volatility)": 27.7
+ },
+ "early_warning_rule": {
+  "rule": "inlet-draft rise > 40 toward zero AND inlet T fall > 30 C, both over 15 min, machine active",
+  "shutdowns_total": 148,
+  "shutdowns_with_alert_in_prior_hour": 67,
+  "hit_rate_pct": 45.3,
+  "median_lead_min": 5.0,
+  "alerts_total": 348,
+  "alerts_followed_by_shutdown_within_1h": 67,
+  "alert_precision_pct": 19.3,
+  "false_alerts_per_100_operating_h": 1.14,
+  "operating_hours": 24560
+ },
+ "forecast_train_rows": 299862,
+ "forecast_test_rows": 74969,
+ "test_start": "2019-11-19 14:50:00",
+ "test_end": "2020-08-07 11:15:00",
+ "forecast_metrics": {
+  "all": {
+   "hist_gradient_boosting": 15.28,
+   "moving_avg_6": 16.96,
+   "persistence": 19.37,
+   "ridge_AR": 16.79
+  },
+  "inside_shutdown": {
+   "hist_gradient_boosting": 7.97,
+   "moving_avg_6": 11.01,
+   "persistence": 9.06,
+   "ridge_AR": 10.34
+  },
+  "shutdown_transition": {
+   "hist_gradient_boosting": 73.02,
+   "moving_avg_6": 93.06,
+   "persistence": 87.7,
+   "ridge_AR": 86.16
+  },
+  "steady_operation": {
+   "hist_gradient_boosting": 15.57,
+   "moving_avg_6": 16.22,
+   "persistence": 20.14,
+   "ridge_AR": 16.5
+  }
+ },
+ "forecast_60min": {
+  "persistence": {
+   "RMSE": 21.418,
+   "MAE": 12.355
+  },
+  "moving_avg_6": {
+   "RMSE": 19.345,
+   "MAE": 10.552
+  },
+  "ridge_AR": {
+   "RMSE": 19.101,
+   "MAE": 11.204
+  },
+  "hist_gradient_boosting": {
+   "RMSE": 17.169,
+   "MAE": 9.74
+  }
+ },
+ "forecast_5min": {
+  "persistence": {
+   "RMSE": 16.758,
+   "MAE": 10.086
+  },
+  "moving_avg_6": {
+   "RMSE": 14.183,
+   "MAE": 8.383
+  },
+  "ridge_AR": {
+   "RMSE": 14.005,
+   "MAE": 8.716
+  },
+  "hist_gradient_boosting": {
+   "RMSE": 12.984,
+   "MAE": 7.787
+  }
+ },
+ "ma6_share_of_hgb_gain_rmse_pct": {
+  "avg_5_60min": 59.0,
+  "at_60min": 49.0
+ },
+ "forecast_mae_all": {
+  "persistence": 11.311,
+  "moving_avg_6": 9.561,
+  "ridge_AR": 10.056,
+  "hist_gradient_boosting": 8.853
+ },
+ "forecast_rmse_all": {
+  "persistence": 19.372,
+  "moving_avg_6": 16.963,
+  "ridge_AR": 16.791,
+  "hist_gradient_boosting": 15.277
+ },
+ "yearly_drift": [
+  {
+   "year": 2017,
+   "operating_hours": 7188,
+   "inlet_T_mean": 885.7,
+   "inlet_T_std": 24.2,
+   "inlet_T_p05": 855.5,
+   "inlet_T_p95": 927.3,
+   "downtime_h": 1537,
+   "draft_in_mean": -160.6,
+   "test_origins": NaN,
+   "rmse_persistence": NaN,
+   "rmse_moving_avg_6": NaN,
+   "rmse_ridge_AR": NaN,
+   "rmse_hist_gradient_boosting": NaN
+  },
+  {
+   "year": 2018,
+   "operating_hours": 7332,
+   "inlet_T_mean": 894.6,
+   "inlet_T_std": 34.3,
+   "inlet_T_p05": 855.8,
+   "inlet_T_p95": 947.6,
+   "downtime_h": 1384,
+   "draft_in_mean": -187.1,
+   "test_origins": NaN,
+   "rmse_persistence": NaN,
+   "rmse_moving_avg_6": NaN,
+   "rmse_ridge_AR": NaN,
+   "rmse_hist_gradient_boosting": NaN
+  },
+  {
+   "year": 2019,
+   "operating_hours": 5791,
+   "inlet_T_mean": 889.1,
+   "inlet_T_std": 58.0,
+   "inlet_T_p05": 856.0,
+   "inlet_T_p95": 942.4,
+   "downtime_h": 2939,
+   "draft_in_mean": -174.8,
+   "test_origins": 11860.0,
+   "rmse_persistence": 19.77,
+   "rmse_moving_avg_6": 17.86,
+   "rmse_ridge_AR": 17.46,
+   "rmse_hist_gradient_boosting": 16.71
+  },
+  {
+   "year": 2020,
+   "operating_hours": 4250,
+   "inlet_T_mean": 901.8,
+   "inlet_T_std": 17.8,
+   "inlet_T_p05": 877.4,
+   "inlet_T_p95": 932.1,
+   "downtime_h": 1017,
+   "draft_in_mean": -207.0,
+   "test_origins": 63109.0,
+   "rmse_persistence": 19.3,
+   "rmse_moving_avg_6": 16.79,
+   "rmse_ridge_AR": 16.66,
+   "rmse_hist_gradient_boosting": 14.99
+  }
+ ],
+ "forecast_interval_coverage_60min": {
+  "all": {
+   "coverage": 0.915,
+   "width": 42.0
+  },
+  "steady_operation": {
+   "coverage": 0.921,
+   "width": 51.3
+  },
+  "shutdown_transition": {
+   "coverage": 0.526,
+   "width": 143.2
+  },
+  "inside_shutdown": {
+   "coverage": 0.908,
+   "width": 12.8
+  }
+ },
+ "state_share_by_year_pct": {
+  "2017": {
+   "Degraded heat recovery (low outlet T)": 0.0,
+   "High-load (hot)": 15.5,
+   "Low-load (cool)": 71.4,
+   "Normal": 9.8,
+   "Unstable / Upset (ramp-up, high volatility)": 3.2
+  },
+  "2018": {
+   "Degraded heat recovery (low outlet T)": 9.0,
+   "High-load (hot)": 18.0,
+   "Low-load (cool)": 21.7,
+   "Normal": 47.7,
+   "Unstable / Upset (ramp-up, high volatility)": 3.6
+  },
+  "2019": {
+   "Degraded heat recovery (low outlet T)": 7.3,
+   "High-load (hot)": 27.9,
+   "Low-load (cool)": 47.0,
+   "Normal": 14.9,
+   "Unstable / Upset (ramp-up, high volatility)": 3.0
+  },
+  "2020": {
+   "Degraded heat recovery (low outlet T)": 0.0,
+   "High-load (hot)": 8.0,
+   "Low-load (cool)": 11.1,
+   "Normal": 80.1,
+   "Unstable / Upset (ramp-up, high volatility)": 0.9
+  }
+ },
+ "ari_year_refit_vs_global": {
+  "2017": 0.256,
+  "2018": 0.465,
+  "2019": 0.362,
+  "2020": 0.092
+ },
+ "mahalanobis_crosscheck": {
+  "random_window_agreement_pct": 12.0,
+  "cutoff_chi2_99": 21.7,
+  "baseline_share_points_beyond_cutoff": 11.24,
+  "events_evaluated": 544,
+  "events_agreeing_pct": 100.0,
+  "selected5": [
+   {
+    "id": 1,
+    "signature": "material_flatline",
+    "duration_min": 200.0,
+    "share_points_beyond_chi2_99": 1.0,
+    "median_robust_distance": 46.0,
+    "agrees": true
+   },
+   {
+    "id": 2,
+    "signature": "material_dropout",
+    "duration_min": 165.0,
+    "share_points_beyond_chi2_99": 1.0,
+    "median_robust_distance": 42.4,
+    "agrees": true
+   },
+   {
+    "id": 3,
+    "signature": "draft_collapse",
+    "duration_min": 115.0,
+    "share_points_beyond_chi2_99": 1.0,
+    "median_robust_distance": 7.6,
+    "agrees": true
+   },
+   {
+    "id": 4,
+    "signature": "outlet_collapse",
+    "duration_min": 80.0,
+    "share_points_beyond_chi2_99": 1.0,
+    "median_robust_distance": 8.5,
+    "agrees": true
+   },
+   {
+    "id": 5,
+    "signature": "oscillation",
+    "duration_min": 110.0,
+    "share_points_beyond_chi2_99": 1.0,
+    "median_robust_distance": 6.2,
+    "agrees": true
+   }
+  ]
+ },
+ "shutdowns_per_year": {
+  "2017": 43,
+  "2018": 54,
+  "2019": 41,
+  "2020": 10
+ },
+ "downtime_h_per_year": {
+  "2017": 1536.9,
+  "2018": 1383.8,
+  "2019": 2939.0,
+  "2020": 1017.0
+ },
+ "cluster_state_pct": {
+  "Degraded heat recovery (low outlet T)": 4.4,
+  "Normal": 34.48,
+  "Unstable / Upset (ramp-up, high volatility)": 2.87,
+  "Low-load (cool)": 40.36,
+  "High-load (hot)": 17.88
+ },
+ "cluster_episode_median_min": {
+  "Degraded heat recovery (low outlet T)": 105.0,
+  "Normal": 75.0,
+  "Unstable / Upset (ramp-up, high volatility)": 80.0,
+  "Low-load (cool)": 80.0,
+  "High-load (hot)": 55.0
+ },
+ "state_before_shutdown_pct": {
+  "Low-load (cool)": 33.8,
+  "Normal": 23.3,
+  "Unstable / Upset (ramp-up, high volatility)": 19.5,
+  "High-load (hot)": 17.3,
+  "Degraded heat recovery (low outlet T)": 6.1
+ },
+ "state_first_hour_after_restart_pct": {
+  "Unstable / Upset (ramp-up, high volatility)": 97.0,
+  "Low-load (cool)": 2.9,
+  "Degraded heat recovery (low outlet T)": 0.1
+ },
+ "runtime_s": 115
+}

@@ -1,0 +1,33 @@
+model,regime,horizon,n,RMSE,MAE
+persistence,all,1-12 avg,74969,19.372,11.311
+persistence,all,h=1 (5 min),74969,16.758,10.086
+persistence,all,h=3 (15 min),74969,17.683,10.378
+persistence,all,h=6 (30 min),74969,19.358,11.312
+persistence,all,h=12 (60 min),74969,21.418,12.355
+persistence,steady_operation,1-12 avg,55063,20.137,14.025
+persistence,shutdown_transition,1-12 avg,548,87.703,66.109
+persistence,inside_shutdown,1-12 avg,19358,9.061,2.04
+moving_avg_6,all,1-12 avg,74969,16.963,9.561
+moving_avg_6,all,h=1 (5 min),74969,14.183,8.383
+moving_avg_6,all,h=3 (15 min),74969,15.327,8.856
+moving_avg_6,all,h=6 (30 min),74969,16.732,9.54
+moving_avg_6,all,h=12 (60 min),74969,19.345,10.552
+moving_avg_6,steady_operation,1-12 avg,55063,16.217,11.337
+moving_avg_6,shutdown_transition,1-12 avg,548,93.064,73.106
+moving_avg_6,inside_shutdown,1-12 avg,19358,11.007,2.708
+ridge_AR,all,1-12 avg,74969,16.791,10.056
+ridge_AR,all,h=1 (5 min),74969,14.005,8.716
+ridge_AR,all,h=3 (15 min),74969,15.05,9.163
+ridge_AR,all,h=6 (30 min),74969,16.644,10.042
+ridge_AR,all,h=12 (60 min),74969,19.101,11.204
+ridge_AR,steady_operation,1-12 avg,55063,16.505,11.546
+ridge_AR,shutdown_transition,1-12 avg,548,86.159,66.798
+ridge_AR,inside_shutdown,1-12 avg,19358,10.336,4.213
+hist_gradient_boosting,all,1-12 avg,74969,15.277,8.853
+hist_gradient_boosting,all,h=1 (5 min),74969,12.984,7.787
+hist_gradient_boosting,all,h=3 (15 min),74969,13.861,8.19
+hist_gradient_boosting,all,h=6 (30 min),74969,15.115,8.822
+hist_gradient_boosting,all,h=12 (60 min),74969,17.169,9.74
+hist_gradient_boosting,steady_operation,1-12 avg,55063,15.568,10.865
+hist_gradient_boosting,shutdown_transition,1-12 avg,548,73.02,53.244
+hist_gradient_boosting,inside_shutdown,1-12 avg,19358,7.97,1.874

@@ -1,0 +1,551 @@
+start,end,duration_min,n_flagged_points,state,peak_score,mean_score,top_variables,minutes_to_next_shutdown,severity,context
+2017-01-04 05:30:00,2017-01-04 05:40:00,15.0,3,Low-load (cool),0.715,0.684,dDraft_15m(+13.6σ); Cyclone_Inlet_Draft(+6.4σ); Cyclone_Outlet_Gas_draft(+4.4σ),27125.0,0.9482253430060053,in operation
+2017-01-08 05:10:00,2017-01-08 05:25:00,20.0,4,Low-load (cool),0.723,0.662,dDraft_15m(+8.7σ); dT_in_15m(+0.7σ); Cyclone_Inlet_Draft(+4.0σ),21380.0,1.0654478980313744,in operation
+2017-01-18 04:00:00,2017-01-18 04:05:00,10.0,2,Low-load (cool),0.731,0.7,Cyclone_Inlet_Gas_Temp(+10.3σ); dT_in_15m(+10.1σ); std_T_1h(+9.8σ),7060.0,0.7690286020676768,in operation
+2017-01-19 08:55:00,2017-01-19 09:05:00,15.0,3,Low-load (cool),0.716,0.706,dDraft_15m(+14.8σ); Cyclone_Inlet_Draft(+7.3σ); Cyclone_Outlet_Gas_draft(+4.9σ),5320.0,0.9787238189506426,in operation
+2017-01-20 04:40:00,2017-01-20 04:50:00,15.0,3,Low-load (cool),0.714,0.685,dDraft_15m(+8.9σ); Cyclone_Inlet_Draft(+5.0σ); dT_in_15m(+0.0σ),4135.0,0.9496116373671251,in operation
+2017-01-22 23:25:00,2017-01-22 23:35:00,15.0,3,Low-load (cool),0.733,0.731,dDraft_15m(-3.4σ); std_T_1h(+9.0σ); Cyclone_Inlet_Gas_Temp(+8.8σ),130.0,1.01338117797864,in operation
+2017-01-25 01:00:00,2017-01-25 01:05:00,10.0,2,Low-load (cool),0.702,0.682,dT_in_15m(+10.3σ); Cyclone_Inlet_Gas_Temp(+10.0σ); std_T_1h(+9.3σ),920.0,0.749253580871651,in operation
+2017-01-26 09:05:00,2017-01-26 09:20:00,20.0,3,Low-load (cool),0.695,0.656,dDraft_15m(+7.4σ); Cyclone_Inlet_Gas_Temp(+4.8σ); dT_in_15m(+3.9σ),5.0,0.9094091008946482,in operation
+2017-01-28 16:45:00,2017-01-28 16:50:00,10.0,2,High-load (hot),0.68,0.677,dDraft_15m(+14.8σ); Cyclone_Inlet_Draft(+5.3σ); Cyclone_Outlet_Gas_draft(+4.4σ),46735.0,0.7437605194283103,in operation
+2017-01-31 05:20:00,2017-01-31 05:30:00,15.0,2,High-load (hot),0.667,0.654,Cyclone_Inlet_Gas_Temp(+1.6σ); dT_in_15m(+1.5σ); Cyclone_Outlet_Gas_draft(+3.0σ),43095.0,0.7184924367889438,in operation
+2017-02-01 12:55:00,2017-02-01 13:05:00,15.0,3,Low-load (cool),0.731,0.691,dDraft_15m(+9.5σ); dT_in_15m(+3.9σ); Cyclone_Inlet_Gas_Temp(+4.4σ),41200.0,0.9579294035338443,in operation
+2017-02-01 15:20:00,2017-02-01 15:35:00,20.0,4,Low-load (cool),0.722,0.7,dDraft_15m(+8.8σ); Cyclone_Inlet_Draft(+5.2σ); std_T_1h(+4.7σ),41050.0,1.1266065387038702,in operation
+2017-02-08 07:10:00,2017-02-08 07:20:00,15.0,3,Low-load (cool),0.727,0.697,dT_in_15m(+8.8σ); Cyclone_Inlet_Gas_Temp(+7.4σ); std_T_1h(+7.3σ),31465.0,0.9662471697005637,in operation
+2017-02-11 08:30:00,2017-02-11 08:40:00,15.0,2,Low-load (cool),0.658,0.632,std_T_1h(+4.9σ); Cyclone_Inlet_Gas_Temp(+4.8σ); dT_in_15m(+4.0σ),27065.0,0.6943229664382454,in operation
+2017-02-16 13:00:00,2017-02-16 13:10:00,15.0,3,Low-load (cool),0.733,0.685,dDraft_15m(+7.9σ); std_T_1h(+4.7σ); dT_in_15m(+0.7σ),19595.0,0.9496116373671251,in operation
+2017-02-20 11:35:00,2017-02-20 11:40:00,10.0,2,Low-load (cool),0.631,0.619,dT_in_15m(+5.7σ); dDraft_15m(+3.7σ); Cyclone_Inlet_Gas_Temp(+3.5σ),13925.0,0.68004100668556,in operation
+2017-02-22 12:35:00,2017-02-22 12:50:00,20.0,4,Low-load (cool),0.725,0.694,dDraft_15m(+5.5σ); dT_in_15m(+5.6σ); std_T_1h(+6.3σ),10975.0,1.1169499112292656,in operation
+2017-02-25 15:15:00,2017-02-25 15:30:00,20.0,3,Low-load (cool),0.677,0.651,dDraft_15m(+3.6σ); dT_in_15m(+3.1σ); Cyclone_Inlet_Gas_Temp(+0.7σ),6495.0,0.9024776290890488,in operation
+2017-02-25 21:15:00,2017-02-25 21:20:00,10.0,2,Low-load (cool),0.675,0.669,dDraft_15m(+13.2σ); Cyclone_Inlet_Draft(+4.6σ); Cyclone_Inlet_Gas_Temp(-4.5σ),6145.0,0.7349716211189655,in operation
+2017-02-27 01:50:00,2017-02-27 02:05:00,20.0,4,Low-load (cool),0.713,0.696,dDraft_15m(+8.8σ); dT_in_15m(+4.3σ); std_T_1h(+4.6σ),4420.0,1.1201687870541337,in operation
+2017-03-02 01:50:00,2017-03-02 02:15:00,30.0,4,Low-load (cool),0.652,0.621,dDraft_15m(+12.7σ); Cyclone_Inlet_Draft(+4.4σ); Tmat_minus_in(+3.7σ),90.0,0.9994609436215762,in operation
+2017-03-07 20:40:00,2017-03-07 20:55:00,20.0,4,Low-load (cool),0.712,0.677,dDraft_15m(+9.5σ); Cyclone_Inlet_Draft(+5.0σ); dT_in_15m(+1.7σ),6165.0,1.089589466717886,in operation
+2017-03-07 22:10:00,2017-03-07 22:55:00,50.0,10,Low-load (cool),0.741,0.681,Cyclone_Inlet_Draft(+7.0σ); Cyclone_Inlet_Gas_Temp(-3.3σ); std_T_1h(+2.9σ),6045.0,1.6329666807756906,in operation
+2017-03-08 02:00:00,2017-03-08 02:15:00,20.0,4,High-load (hot),0.677,0.669,dDraft_15m(+8.8σ); Cyclone_Inlet_Draft(+5.6σ); Cyclone_Outlet_Gas_draft(+5.2σ),5845.0,1.076713963418413,in operation
+2017-03-14 10:55:00,2017-03-14 11:05:00,15.0,3,Low-load (cool),0.703,0.663,dDraft_15m(+4.6σ); std_T_1h(+6.6σ); dT_in_15m(+0.6σ),9605.0,0.9191131614224874,in operation
+2017-03-16 18:20:00,2017-03-16 18:25:00,10.0,2,Low-load (cool),0.721,0.713,dT_in_15m(+12.9σ); Cyclone_Inlet_Gas_Temp(+10.8σ); std_T_1h(+10.2σ),6285.0,0.7833105618203622,in operation
+2017-03-16 22:40:00,2017-03-16 22:50:00,15.0,3,Low-load (cool),0.685,0.675,dDraft_15m(+8.9σ); Cyclone_Inlet_Draft(+4.5σ); Cyclone_Inlet_Gas_Temp(-2.2σ),6020.0,0.9357486937559262,in operation
+2017-03-20 22:10:00,2017-03-20 22:25:00,20.0,4,Low-load (cool),0.723,0.668,dT_in_15m(+5.3σ); std_T_1h(+6.8σ); Cyclone_Inlet_Gas_Temp(+4.8σ),285.0,1.075104525505979,in operation
+2017-03-25 05:55:00,2017-03-25 06:35:00,45.0,8,Low-load (cool),0.67,0.647,Cyclone_Inlet_Draft(+5.7σ); Cyclone_Outlet_Gas_draft(+4.2σ); Cyclone_Inlet_Gas_Temp(+4.2σ),180.0,1.421604301536534,in operation
+2017-03-26 01:20:00,2017-03-26 01:30:00,15.0,3,Low-load (cool),0.746,0.727,dDraft_15m(+12.8σ); dT_in_15m(+3.7σ); Cyclone_Inlet_Draft(+6.0σ),5535.0,1.0078360005341604,in operation
+2017-03-26 21:25:00,2017-03-26 21:40:00,20.0,4,Low-load (cool),0.666,0.645,dDraft_15m(+5.4σ); dT_in_15m(+2.2σ); Cyclone_Inlet_Draft(+3.8σ),4325.0,1.0380874535199947,in operation
+2017-03-27 12:05:00,2017-03-27 12:20:00,20.0,4,High-load (hot),0.678,0.635,dDraft_15m(+5.1σ); Cyclone_Inlet_Draft(+3.9σ); Cyclone_Outlet_Gas_draft(+3.6σ),3445.0,1.0219930743956538,in operation
+2017-04-03 14:40:00,2017-04-03 14:50:00,15.0,3,Normal,0.742,0.711,dDraft_15m(+10.1σ); std_T_1h(+8.3σ); dT_in_15m(+7.2σ),2085.0,0.9856552907562421,in operation
+2017-04-04 17:15:00,2017-04-04 17:25:00,15.0,3,Normal,0.724,0.682,dDraft_15m(+19.8σ); Cyclone_Outlet_Gas_draft(+10.8σ); Cyclone_Inlet_Draft(+9.3σ),490.0,0.9454527542837654,in operation
+2017-04-07 21:00:00,2017-04-07 21:05:00,10.0,2,Low-load (cool),0.712,0.694,dDraft_15m(+13.2σ); Cyclone_Inlet_Draft(+5.5σ); dT_in_15m(-4.9σ),59275.0,0.7624369283356681,in operation
+2017-04-17 19:05:00,2017-04-17 19:20:00,20.0,4,High-load (hot),0.717,0.674,dDraft_15m(+5.8σ); Cyclone_Inlet_Draft(+3.9σ); Cyclone_Inlet_Gas_Temp(+3.9σ),44980.0,1.0847611529805836,in operation
+2017-04-18 00:30:00,2017-04-18 00:45:00,20.0,4,Low-load (cool),0.695,0.665,dDraft_15m(+7.3σ); Cyclone_Inlet_Draft(+4.9σ); Cyclone_cone_draft(+3.4σ),44655.0,1.0702762117686768,in operation
+2017-04-18 09:40:00,2017-04-18 09:55:00,20.0,4,Low-load (cool),0.693,0.672,std_T_1h(+8.0σ); dT_in_15m(+4.3σ); Cyclone_Inlet_Gas_Temp(+6.3σ),44105.0,1.0815422771557155,in operation
+2017-04-19 20:30:00,2017-04-19 20:40:00,15.0,3,Low-load (cool),0.723,0.722,dDraft_15m(+13.4σ); dT_in_15m(-7.3σ); Cyclone_Inlet_Gas_Temp(-7.3σ),42020.0,1.000904528728561,in operation
+2017-04-19 23:30:00,2017-04-20 00:00:00,35.0,7,High-load (hot),0.682,0.621,Cyclone_Inlet_Gas_Temp(+3.6σ); std_T_1h(+2.9σ); dDraft_15m(-1.5σ),41820.0,1.291333197383178,in operation
+2017-04-20 02:00:00,2017-04-20 02:10:00,15.0,2,High-load (hot),0.612,0.61,Cyclone_Inlet_Gas_Temp(+4.2σ); dT_in_15m(+3.4σ); Cyclone_Material_Temp(+3.3σ),41690.0,0.6701534960875469,in operation
+2017-04-21 04:30:00,2017-04-21 04:35:00,10.0,2,High-load (hot),0.66,0.641,dDraft_15m(+9.6σ); Cyclone_Inlet_Draft(+4.2σ); Cyclone_Outlet_Gas_draft(+3.7σ),40105.0,0.7042104770362584,in operation
+2017-04-22 19:15:00,2017-04-22 19:25:00,15.0,3,High-load (hot),0.658,0.637,dDraft_15m(+12.5σ); Cyclone_Inlet_Draft(+4.8σ); Cyclone_Outlet_Gas_draft(+4.2σ),37775.0,0.8830695080333703,in operation
+2017-04-29 00:35:00,2017-04-29 00:45:00,15.0,3,Low-load (cool),0.735,0.714,dDraft_15m(+16.8σ); Cyclone_Inlet_Draft(+8.6σ); Cyclone_cone_draft(+7.3σ),28815.0,0.9898141738396018,in operation
+2017-04-29 14:00:00,2017-04-29 14:10:00,15.0,3,High-load (hot),0.694,0.653,dDraft_15m(+11.3σ); Cyclone_Inlet_Draft(+5.3σ); Cyclone_Outlet_Gas_draft(+4.6σ),28010.0,0.9052502178112886,in operation
+2017-05-01 08:50:00,2017-05-01 08:55:00,10.0,2,Low-load (cool),0.646,0.625,dT_in_15m(+6.4σ); std_T_1h(+5.8σ); Cyclone_Inlet_Gas_Temp(+4.9σ),25445.0,0.6866326804175686,in operation
+2017-05-01 13:05:00,2017-05-01 13:10:00,10.0,2,Low-load (cool),0.644,0.634,dT_in_15m(+7.3σ); Cyclone_Inlet_Gas_Temp(+7.0σ); std_T_1h(+5.5σ),25190.0,0.6965201910155816,in operation
+2017-05-06 03:40:00,2017-05-06 03:50:00,15.0,3,High-load (hot),0.671,0.664,dDraft_15m(+13.2σ); Cyclone_Inlet_Draft(+3.8σ); Cyclone_Outlet_Gas_draft(+3.5σ),18550.0,0.9204994557836074,in operation
+2017-05-09 12:10:00,2017-05-09 12:25:00,20.0,4,Low-load (cool),0.706,0.674,dT_in_15m(+0.3σ); std_T_1h(+5.4σ); dDraft_15m(+4.9σ),13715.0,1.0847611529805836,in operation
+2017-05-11 18:50:00,2017-05-11 19:05:00,20.0,4,Low-load (cool),0.731,0.677,dT_in_15m(+4.6σ); std_T_1h(+6.7σ); dDraft_15m(+6.1σ),10435.0,1.089589466717886,in operation
+2017-05-15 13:40:00,2017-05-15 13:45:00,10.0,2,Low-load (cool),0.675,0.648,dDraft_15m(+7.6σ); Cyclone_Inlet_Draft(+5.4σ); Cyclone_Outlet_Gas_draft(+3.4σ),4995.0,0.7119007630569352,in operation
+2017-05-31 00:05:00,2017-05-31 00:10:00,10.0,2,Low-load (cool),0.675,0.656,dT_in_15m(+6.4σ); Cyclone_Inlet_Gas_Temp(+6.3σ); std_T_1h(+6.3σ),1055.0,0.7206896613662801,in operation
+2017-05-31 01:00:00,2017-05-31 01:10:00,15.0,3,High-load (hot),0.692,0.681,dT_in_15m(+6.6σ); Cyclone_Inlet_Gas_Temp(+5.8σ); std_T_1h(+5.5σ),995.0,0.9440664599226456,in operation
+2017-06-01 01:50:00,2017-06-01 02:15:00,30.0,5,High-load (hot),0.699,0.624,std_T_1h(+4.8σ); dT_in_15m(+1.3σ); Cyclone_Inlet_Draft(+3.0σ),365.0,1.1180579087983062,in operation
+2017-06-04 16:00:00,2017-06-04 16:10:00,15.0,3,High-load (hot),0.712,0.704,dDraft_15m(+17.7σ); Cyclone_Inlet_Draft(+7.4σ); Cyclone_Outlet_Gas_draft(+6.5σ),5785.0,0.9759512302284029,in operation
+2017-06-05 00:10:00,2017-06-05 00:20:00,15.0,3,High-load (hot),0.711,0.701,Cyclone_Inlet_Gas_Temp(+7.3σ); dDraft_15m(+6.6σ); dT_in_15m(+6.4σ),5295.0,0.9717923471450433,in operation
+2017-06-05 13:50:00,2017-06-05 13:55:00,10.0,2,High-load (hot),0.623,0.619,dDraft_15m(-5.1σ); Cyclone_Gas_Outlet_Temp(+3.9σ); Cyclone_Inlet_Gas_Temp(+3.5σ),4480.0,0.68004100668556,in operation
+2017-06-06 14:20:00,2017-06-06 14:30:00,15.0,3,Low-load (cool),0.738,0.735,dDraft_15m(+15.4σ); Cyclone_Inlet_Draft(+6.7σ); dT_in_15m(-6.5σ),3005.0,1.0189263554231196,in operation
+2017-06-09 02:20:00,2017-06-09 02:50:00,35.0,7,"Unstable / Upset (ramp-up, high volatility)",0.649,0.623,Tmat_minus_in(-23.0σ); Cyclone_Material_Temp(-15.4σ); std_T_1h(+2.3σ),4905.0,1.2954920804665377,in operation
+2017-06-14 11:30:00,2017-06-14 11:40:00,15.0,3,Low-load (cool),0.757,0.748,dDraft_15m(+23.1σ); Cyclone_Inlet_Draft(+10.1σ); dT_in_15m(-8.0σ),3365.0,1.0369481821176783,in operation
+2017-06-16 19:25:00,2017-06-16 19:35:00,15.0,3,Low-load (cool),0.726,0.708,dDraft_15m(+12.4σ); Cyclone_Inlet_Draft(+5.9σ); dT_in_15m(-0.6σ),10.0,0.9814964076728825,in operation
+2017-06-22 06:00:00,2017-06-22 06:20:00,25.0,5,High-load (hot),0.702,0.658,dDraft_15m(+4.7σ); Cyclone_Inlet_Gas_Temp(-4.6σ); std_T_1h(+4.4σ),40490.0,1.1789777307520601,in operation
+2017-06-24 20:25:00,2017-06-24 20:35:00,15.0,3,High-load (hot),0.719,0.703,dDraft_15m(+12.2σ); Cyclone_Inlet_Draft(+5.6σ); Cyclone_Outlet_Gas_draft(+5.3σ),36755.0,0.974564935867283,in operation
+2017-06-25 09:05:00,2017-06-25 09:15:00,15.0,3,Low-load (cool),0.73,0.723,dDraft_15m(+19.8σ); Cyclone_Inlet_Draft(+8.2σ); Tmat_minus_in(+7.5σ),35995.0,1.0022908230896808,in operation
+2017-06-26 10:15:00,2017-06-26 10:20:00,10.0,2,High-load (hot),0.709,0.699,dDraft_15m(+8.9σ); Cyclone_Inlet_Draft(+5.5σ); Cyclone_Outlet_Gas_draft(+4.9σ),34490.0,0.7679299897790087,in operation
+2017-06-26 11:00:00,2017-06-26 11:05:00,10.0,2,"Unstable / Upset (ramp-up, high volatility)",0.608,0.603,dDraft_15m(+5.3σ); dT_in_15m(-3.8σ); Tmat_minus_in(+3.6σ),34445.0,0.6624632100668701,in operation
+2017-06-28 13:05:00,2017-06-28 13:15:00,15.0,3,Low-load (cool),0.681,0.676,dDraft_15m(+7.1σ); std_T_1h(+5.3σ); Cyclone_Inlet_Draft(+4.3σ),31435.0,0.9371349881170461,in operation
+2017-06-30 16:20:00,2017-06-30 16:30:00,15.0,3,High-load (hot),0.696,0.675,dDraft_15m(+12.2σ); Cyclone_Inlet_Draft(+5.5σ); Cyclone_Outlet_Gas_draft(+5.2σ),28360.0,0.9357486937559262,in operation
+2017-06-30 18:45:00,2017-06-30 18:55:00,15.0,3,Low-load (cool),0.701,0.672,dDraft_15m(+9.0σ); std_T_1h(+4.7σ); dT_in_15m(+4.2σ),28215.0,0.9315898106725665,in operation
+2017-07-10 12:05:00,2017-07-10 12:15:00,15.0,3,Normal,0.636,0.629,Tmat_minus_in(-39.5σ); Cyclone_Material_Temp(-28.4σ); Cyclone_Outlet_Gas_draft(+3.0σ),14215.0,0.8719791531444112,in operation
+2017-07-23 03:30:00,2017-07-23 03:40:00,15.0,3,Low-load (cool),0.631,0.612,Tmat_minus_in(-38.9σ); Cyclone_Material_Temp(-24.6σ); dT_in_15m(+0.6σ),11575.0,0.848412149005373,in operation
+2017-07-28 01:05:00,2017-07-28 01:20:00,20.0,4,Normal,0.723,0.683,dDraft_15m(+13.3σ); Cyclone_Outlet_Gas_draft(+10.8σ); Cyclone_Inlet_Draft(+9.6σ),4515.0,1.0992460941924906,in operation
+2017-07-28 23:15:00,2017-07-28 23:20:00,10.0,2,High-load (hot),0.655,0.628,Cyclone_Inlet_Gas_Temp(+4.9σ); dT_in_15m(+3.9σ); std_T_1h(+3.7σ),3195.0,0.689928517283573,in operation
+2017-07-29 04:20:00,2017-07-29 04:30:00,15.0,3,High-load (hot),0.679,0.647,dDraft_15m(+10.9σ); Cyclone_Inlet_Draft(+4.7σ); Cyclone_Outlet_Gas_draft(+4.1σ),2885.0,0.8969324516445693,in operation
+2017-07-30 15:00:00,2017-07-30 15:05:00,10.0,2,Low-load (cool),0.642,0.627,dDraft_15m(-4.9σ); Cyclone_Inlet_Gas_Temp(+4.6σ); dT_in_15m(+4.2σ),810.0,0.6888299049949048,in operation
+2017-08-02 02:25:00,2017-08-02 02:40:00,20.0,3,Low-load (cool),0.625,0.622,Tmat_minus_in(-40.4σ); Cyclone_Material_Temp(-25.8σ); Cyclone_cone_draft(-2.1σ),4440.0,0.862275092616572,in operation
+2017-08-02 08:35:00,2017-08-02 08:40:00,10.0,2,Low-load (cool),0.719,0.664,Tmat_minus_in(-41.9σ); Cyclone_Material_Temp(-25.8σ); dDraft_15m(-3.4σ),4080.0,0.7294785596756249,in operation
+2017-08-02 09:05:00,2017-08-02 09:40:00,40.0,6,Normal,0.642,0.611,Tmat_minus_in(-6.0σ); Cyclone_Material_Temp(-4.1σ); std_T_1h(+4.1σ),4020.0,1.1889511010727964,in operation
+2017-08-05 03:20:00,2017-08-05 03:35:00,20.0,4,Low-load (cool),0.734,0.687,dDraft_15m(+16.9σ); Cyclone_Inlet_Draft(+6.1σ); Cyclone_Inlet_Gas_Temp(-4.4σ),65.0,1.105683845842227,in operation
+2017-08-09 14:50:00,2017-08-09 15:00:00,15.0,3,High-load (hot),0.668,0.656,dDraft_15m(+7.6σ); Cyclone_Inlet_Draft(+5.1σ); Cyclone_Outlet_Gas_draft(+4.3σ),44035.0,0.9094091008946482,in operation
+2017-08-13 11:15:00,2017-08-13 11:25:00,15.0,3,Low-load (cool),0.675,0.666,dDraft_15m(+12.0σ); dT_in_15m(-0.6σ); Cyclone_Inlet_Gas_Temp(-0.0σ),38490.0,0.9232720445058472,in operation
+2017-08-20 00:15:00,2017-08-20 00:20:00,10.0,2,High-load (hot),0.713,0.685,dDraft_15m(+9.9σ); Cyclone_Inlet_Draft(+5.2σ); Cyclone_Outlet_Gas_draft(+4.8σ),29075.0,0.7525494177376553,in operation
+2017-08-20 21:55:00,2017-08-20 22:10:00,20.0,4,Low-load (cool),0.702,0.686,dDraft_15m(+7.0σ); Cyclone_Inlet_Draft(+4.9σ); std_T_1h(+4.1σ),27765.0,1.1040744079297928,in operation
+2017-08-22 20:05:00,2017-08-22 20:20:00,20.0,4,Low-load (cool),0.718,0.698,dDraft_15m(+10.7σ); Cyclone_Inlet_Draft(+5.8σ); dT_in_15m(+2.1σ),24995.0,1.1233876628790018,in operation
+2017-08-28 13:55:00,2017-08-28 14:05:00,15.0,3,Low-load (cool),0.729,0.714,dDraft_15m(+15.3σ); Cyclone_Inlet_Draft(+6.4σ); std_T_1h(+4.2σ),16730.0,0.9898141738396018,in operation
+2017-09-10 06:35:00,2017-09-10 06:40:00,10.0,2,Low-load (cool),0.615,0.609,dT_in_15m(+7.8σ); std_T_1h(+6.2σ); Cyclone_Inlet_Gas_Temp(+4.8σ),3765.0,0.6690548837988789,in operation
+2017-09-11 07:10:00,2017-09-11 07:15:00,10.0,2,Low-load (cool),0.672,0.649,Tmat_minus_in(-22.4σ); Cyclone_Material_Temp(-12.0σ); dT_in_15m(+5.9σ),2290.0,0.7129993753456033,in operation
+2017-09-12 05:55:00,2017-09-12 06:50:00,60.0,8,Low-load (cool),0.635,0.622,Tmat_minus_in(-38.8σ); Cyclone_Material_Temp(-25.0σ); dT_in_15m(+0.9σ),875.0,1.3666736871031286,in operation
+2017-09-17 16:40:00,2017-09-17 16:45:00,10.0,2,Low-load (cool),0.653,0.636,Cyclone_Inlet_Draft(+4.0σ); Cyclone_Material_Temp(-3.6σ); Cyclone_Inlet_Gas_Temp(-3.4σ),90.0,0.6987174155929178,in operation
+2017-09-18 23:35:00,2017-09-18 23:45:00,15.0,3,Low-load (cool),0.666,0.64,std_T_1h(+8.0σ); dT_in_15m(+7.9σ); Cyclone_Inlet_Gas_Temp(+6.8σ),60.0,0.88722839111673,in operation
+2017-09-19 00:35:00,2017-09-19 00:40:00,10.0,2,High-load (hot),0.685,0.683,dDraft_15m(+8.4σ); Cyclone_Inlet_Draft(+4.7σ); Cyclone_Outlet_Gas_draft(+4.5σ),5.0,0.7503521931603191,in operation
+2017-10-19 09:20:00,2017-10-19 09:35:00,20.0,4,Low-load (cool),0.753,0.73,std_T_1h(+10.5σ); dT_in_15m(+8.7σ); Cyclone_Inlet_Gas_Temp(+8.1σ),1045.0,1.1748896760768932,in operation
+2017-10-19 21:25:00,2017-10-20 00:40:00,200.0,38,Low-load (cool),0.682,0.626,Tmat_minus_in(-40.4σ); Cyclone_Material_Temp(-25.6σ); T_in_minus_out(+2.8σ),140.0,2.2933895904771586,in operation
+2017-10-20 02:50:00,2017-10-20 02:55:00,10.0,2,Low-load (cool),0.724,0.722,dDraft_15m(+13.2σ); Cyclone_Inlet_Draft(+6.9σ); dT_in_15m(-5.7σ),5.0,0.7931980724183753,in operation
+2017-10-21 09:40:00,2017-10-21 09:50:00,15.0,3,Low-load (cool),0.709,0.67,dT_in_15m(+11.3σ); std_T_1h(+10.8σ); Cyclone_Inlet_Gas_Temp(+8.7σ),8650.0,0.9288172219503268,in operation
+2017-10-21 19:00:00,2017-10-21 19:15:00,20.0,4,High-load (hot),0.715,0.681,dDraft_15m(+5.4σ); std_T_1h(+5.2σ); Cyclone_Inlet_Gas_Temp(+5.0σ),8085.0,1.0960272183676223,in operation
+2017-10-23 00:30:00,2017-10-23 00:35:00,10.0,2,Low-load (cool),0.675,0.644,dDraft_15m(-9.1σ); std_T_1h(+6.2σ); dT_in_15m(-2.2σ),6325.0,0.7075063139022627,in operation
+2017-10-23 13:10:00,2017-10-23 13:20:00,15.0,3,High-load (hot),0.676,0.654,dDraft_15m(+9.5σ); Cyclone_Inlet_Draft(+5.2σ); Cyclone_Outlet_Gas_draft(+5.1σ),5560.0,0.9066365121724085,in operation
+2017-10-23 17:55:00,2017-10-23 18:05:00,15.0,3,Low-load (cool),0.68,0.665,dDraft_15m(+14.9σ); Cyclone_Inlet_Draft(+5.8σ); Cyclone_Outlet_Gas_draft(+4.1σ),5275.0,0.9218857501447273,in operation
+2017-10-25 09:45:00,2017-10-25 09:55:00,15.0,2,Low-load (cool),0.679,0.664,dDraft_15m(+11.6σ); Cyclone_Inlet_Draft(+4.2σ); std_T_1h(+3.4σ),2885.0,0.7294785596756249,in operation
+2017-10-26 00:55:00,2017-10-26 01:00:00,10.0,2,High-load (hot),0.616,0.605,Cyclone_Inlet_Gas_Temp(+4.8σ); std_T_1h(+4.4σ); dDraft_15m(-3.6σ),1980.0,0.6646604346442064,in operation
+2017-10-26 10:40:00,2017-10-26 10:55:00,20.0,3,Low-load (cool),0.657,0.626,dDraft_15m(+5.0σ); Cyclone_Inlet_Gas_Temp(+4.7σ); std_T_1h(+4.1σ),1385.0,0.8678202700610514,in operation
+2017-10-27 09:50:00,2017-10-27 09:55:00,10.0,2,Low-load (cool),0.618,0.614,dDraft_15m(+9.3σ); Cyclone_Inlet_Draft(+4.5σ); Cyclone_Outlet_Gas_draft(+3.4σ),5.0,0.6745479452422194,in operation
+2017-10-28 09:00:00,2017-10-28 09:05:00,10.0,2,High-load (hot),0.669,0.656,dDraft_15m(-6.6σ); std_T_1h(+4.5σ); Cyclone_Inlet_Gas_Temp(+3.3σ),5055.0,0.7206896613662801,in operation
+2017-10-31 00:55:00,2017-10-31 01:05:00,15.0,3,Low-load (cool),0.676,0.662,Cyclone_Inlet_Gas_Temp(+6.3σ); dT_in_15m(+6.1σ); std_T_1h(+6.0σ),1215.0,0.9177268670613676,in operation
+2017-10-31 03:05:00,2017-10-31 03:10:00,10.0,2,High-load (hot),0.742,0.669,dDraft_15m(-8.7σ); Cyclone_Inlet_Gas_Temp(+4.7σ); std_T_1h(+6.2σ),1090.0,0.7349716211189655,in operation
+2017-10-31 07:40:00,2017-10-31 08:00:00,25.0,4,High-load (hot),0.668,0.635,dDraft_15m(+4.4σ); dT_in_15m(-1.5σ); std_T_1h(+4.4σ),800.0,1.0219930743956538,in operation
+2017-11-02 16:50:00,2017-11-02 17:05:00,20.0,2,Low-load (cool),0.619,0.613,Tmat_minus_in(-39.5σ); Cyclone_Material_Temp(-24.7σ); Cyclone_Inlet_Gas_Temp(+2.3σ),2415.0,0.6734493329535512,in operation
+2017-11-02 19:05:00,2017-11-02 19:10:00,10.0,2,Low-load (cool),0.69,0.687,dDraft_15m(+9.5σ); Cyclone_Inlet_Gas_Temp(+6.8σ); Tmat_minus_in(-6.1σ),2290.0,0.7547466423149914,in operation
+2017-11-06 10:55:00,2017-11-06 12:15:00,85.0,16,Low-load (cool),0.67,0.636,Tmat_minus_in(-34.7σ); Cyclone_Material_Temp(-22.6σ); std_T_1h(+3.7σ),30740.0,1.8019236868197535,in operation
+2017-11-06 14:50:00,2017-11-06 15:00:00,15.0,2,Low-load (cool),0.619,0.61,Tmat_minus_in(-35.6σ); Cyclone_Material_Temp(-23.1σ); Cyclone_Inlet_Draft(-2.2σ),30575.0,0.6701534960875469,in operation
+2017-11-07 07:50:00,2017-11-07 08:05:00,20.0,4,Normal,0.666,0.638,dDraft_15m(+7.2σ); Cyclone_Outlet_Gas_draft(+6.2σ); Cyclone_Inlet_Draft(+5.1σ),29550.0,1.026821388132956,in operation
+2017-11-14 08:50:00,2017-11-14 08:55:00,10.0,2,High-load (hot),0.635,0.624,dDraft_15m(+16.5σ); Cyclone_Outlet_Gas_draft(+3.5σ); Cyclone_Inlet_Draft(+3.3σ),19420.0,0.6855340681289005,in operation
+2017-11-16 19:15:00,2017-11-16 19:40:00,30.0,6,Normal,0.698,0.671,dDraft_15m(-1.1σ); Cyclone_Inlet_Draft(-3.7σ); std_T_1h(+5.3σ),15895.0,1.3057057100161154,in operation
+2017-11-18 19:05:00,2017-11-18 19:10:00,10.0,2,Normal,0.623,0.622,dT_in_15m(+6.1σ); Cyclone_Inlet_Gas_Temp(+4.7σ); std_T_1h(+3.9σ),13045.0,0.6833368435515643,in operation
+2017-11-19 17:45:00,2017-11-19 18:25:00,45.0,8,Normal,0.642,0.616,T_in_minus_out(-8.7σ); Tmat_minus_in(+7.9σ); std_T_1h(+6.2σ),11650.0,1.3534903396391111,in operation
+2017-11-22 06:25:00,2017-11-22 06:40:00,20.0,4,Low-load (cool),0.729,0.715,dDraft_15m(+7.7σ); dT_in_15m(-1.3σ); Cyclone_Inlet_Draft(+5.5σ),8035.0,1.1507481073903816,in operation
+2017-11-25 12:20:00,2017-11-25 12:30:00,15.0,3,High-load (hot),0.66,0.62,dDraft_15m(+6.5σ); Cyclone_Outlet_Gas_draft(+3.2σ); Cyclone_Inlet_Draft(+3.0σ),3365.0,0.8595025038943321,in operation
+2017-11-27 15:45:00,2017-11-27 15:55:00,15.0,2,Low-load (cool),0.628,0.618,dT_in_15m(+5.9σ); std_T_1h(+5.7σ); Cyclone_Inlet_Gas_Temp(+4.5σ),280.0,0.6789423943968919,in operation
+2017-11-27 18:50:00,2017-11-27 19:05:00,20.0,3,High-load (hot),0.653,0.623,dDraft_15m(-5.2σ); Cyclone_Inlet_Gas_Temp(+4.0σ); std_T_1h(+3.7σ),90.0,0.8636613869776918,in operation
+2017-11-27 20:25:00,2017-11-27 20:30:00,10.0,2,Low-load (cool),0.711,0.684,dDraft_15m(+10.1σ); dT_in_15m(-5.9σ); Cyclone_Inlet_Draft(+5.5σ),5.0,0.7514508054489871,in operation
+2017-12-09 01:00:00,2017-12-09 01:20:00,25.0,4,High-load (hot),0.64,0.623,Cyclone_Outlet_Gas_draft(+3.6σ); Cyclone_Inlet_Draft(+3.4σ); dDraft_15m(+3.4σ),5565.0,1.0026798194464446,in operation
+2017-12-09 02:05:00,2017-12-09 03:00:00,60.0,9,Low-load (cool),0.641,0.626,Cyclone_Inlet_Draft(+3.7σ); std_T_1h(+3.5σ); Cyclone_Outlet_Gas_draft(+3.0σ),5465.0,1.4414182682142727,in operation
+2017-12-09 03:55:00,2017-12-09 04:05:00,15.0,3,Low-load (cool),0.644,0.638,Cyclone_Inlet_Draft(+4.1σ); Cyclone_Outlet_Gas_draft(+3.0σ); dDraft_15m(+2.9σ),5400.0,0.8844558023944902,in operation
+2017-12-09 05:00:00,2017-12-09 05:25:00,30.0,4,Low-load (cool),0.629,0.618,dDraft_15m(+2.2σ); Cyclone_Inlet_Draft(+3.6σ); Cyclone_Outlet_Gas_draft(+2.9σ),5320.0,0.9946326298842739,in operation
+2017-12-09 06:55:00,2017-12-09 07:00:00,10.0,2,Low-load (cool),0.605,0.604,Cyclone_Inlet_Draft(+4.0σ); Cyclone_Outlet_Gas_draft(+3.2σ); Cyclone_Inlet_Gas_Temp(-3.1σ),5225.0,0.6635618223555383,in operation
+2017-12-09 07:25:00,2017-12-09 09:10:00,110.0,14,Low-load (cool),0.658,0.617,Cyclone_Inlet_Draft(+3.8σ); Cyclone_Inlet_Gas_Temp(-2.3σ); Cyclone_Outlet_Gas_draft(+2.8σ),5095.0,1.6708669740800637,in operation
+2017-12-09 10:10:00,2017-12-09 11:15:00,70.0,12,High-load (hot),0.667,0.633,std_T_1h(+7.0σ); Cyclone_Inlet_Draft(+3.5σ); dT_in_15m(+2.0σ),4970.0,1.6236129432731528,in operation
+2017-12-09 13:15:00,2017-12-09 13:20:00,10.0,2,Low-load (cool),0.655,0.629,dT_in_15m(+5.9σ); std_T_1h(+5.6σ); Cyclone_Inlet_Gas_Temp(+4.2σ),4845.0,0.6910271295722411,in operation
+2017-12-09 14:30:00,2017-12-09 14:35:00,10.0,2,Low-load (cool),0.648,0.648,dT_in_15m(+5.9σ); std_T_1h(+5.2σ); Cyclone_Inlet_Gas_Temp(+4.8σ),4770.0,0.7119007630569352,in operation
+2017-12-09 15:30:00,2017-12-09 15:45:00,20.0,4,Low-load (cool),0.68,0.653,std_T_1h(+5.3σ); dT_in_15m(+4.3σ); Cyclone_Inlet_Gas_Temp(+4.3σ),4700.0,1.0509629568194676,in operation
+2017-12-12 11:00:00,2017-12-12 11:15:00,20.0,4,Low-load (cool),0.717,0.702,dDraft_15m(+11.5σ); dT_in_15m(-2.6σ); std_T_1h(+5.0σ),650.0,1.1298254145287383,in operation
+2017-12-12 16:45:00,2017-12-12 17:00:00,20.0,4,Normal,0.636,0.629,dDraft_15m(+7.0σ); Cyclone_Outlet_Gas_draft(+6.6σ); Cyclone_Inlet_Draft(+5.9σ),305.0,1.0123364469210492,in operation
+2017-12-12 18:55:00,2017-12-12 19:10:00,20.0,4,Normal,0.629,0.6,Tmat_minus_in(-36.3σ); Cyclone_Material_Temp(-25.3σ); T_in_minus_out(+2.0σ),175.0,0.9656627474604601,in operation
+2017-12-12 21:45:00,2017-12-12 22:00:00,20.0,4,Low-load (cool),0.682,0.643,Tmat_minus_in(-37.3σ); Cyclone_Material_Temp(-25.4σ); dDraft_15m(+0.9σ),5.0,1.0348685776951265,in operation
+2017-12-14 12:05:00,2017-12-14 12:15:00,15.0,3,Low-load (cool),0.714,0.689,dDraft_15m(+14.5σ); Cyclone_Inlet_Draft(+5.6σ); Cyclone_Outlet_Gas_draft(+3.9σ),15490.0,0.9551568148116045,in operation
+2017-12-14 16:45:00,2017-12-14 16:55:00,15.0,2,Low-load (cool),0.653,0.629,dT_in_15m(+6.6σ); dDraft_15m(+6.2σ); std_T_1h(+4.7σ),15210.0,0.6910271295722411,in operation
+2017-12-16 21:10:00,2017-12-16 21:25:00,20.0,3,Low-load (cool),0.684,0.664,std_T_1h(+8.1σ); Cyclone_Inlet_Gas_Temp(+7.2σ); dT_in_15m(+5.5σ),12060.0,0.9204994557836074,in operation
+2017-12-20 19:30:00,2017-12-20 19:35:00,10.0,2,Normal,0.594,0.588,dT_in_15m(+5.0σ); Cyclone_Inlet_Gas_Temp(+4.9σ); std_T_1h(+4.4σ),6410.0,0.6459840257368485,in operation
+2017-12-20 21:15:00,2017-12-20 21:25:00,15.0,3,Normal,0.623,0.602,dT_in_15m(+2.5σ); Cyclone_Inlet_Gas_Temp(+3.3σ); std_T_1h(+4.1σ),6300.0,0.8345492053941741,in operation
+2017-12-25 06:10:00,2017-12-25 06:20:00,15.0,3,Normal,0.731,0.677,dDraft_15m(+11.2σ); Cyclone_Inlet_Draft(+6.8σ); Cyclone_Outlet_Gas_draft(+6.7σ),5.0,0.938521282478166,in operation
+2017-12-25 14:00:00,2017-12-25 14:25:00,30.0,5,Normal,0.661,0.61,dDraft_15m(-1.9σ); std_T_1h(+4.3σ); Cyclone_Inlet_Gas_Temp(+1.5σ),3080.0,1.0929732762291136,in operation
+2017-12-26 15:50:00,2017-12-26 16:05:00,20.0,2,Low-load (cool),0.666,0.627,dDraft_15m(-1.3σ); dT_in_15m(+0.5σ); Cyclone_Inlet_Draft(-1.6σ),1540.0,0.6888299049949048,in operation
+2017-12-27 10:00:00,2017-12-27 10:05:00,10.0,2,Low-load (cool),0.689,0.662,dT_in_15m(+11.0σ); std_T_1h(+8.4σ); Cyclone_Inlet_Gas_Temp(+8.4σ),460.0,0.7272813350982887,in operation
+2017-12-27 12:20:00,2017-12-27 12:25:00,10.0,2,High-load (hot),0.715,0.675,dDraft_15m(+9.5σ); Cyclone_Inlet_Draft(+4.7σ); Cyclone_Outlet_Gas_draft(+3.9σ),320.0,0.7415632948509742,in operation
+2017-12-27 17:35:00,2017-12-27 17:40:00,10.0,2,Low-load (cool),0.712,0.702,dDraft_15m(+13.3σ); std_T_1h(+7.5σ); dT_in_15m(+6.5σ),5.0,0.771225826645013,in operation
+2017-12-27 20:20:00,2017-12-27 20:30:00,15.0,3,High-load (hot),0.723,0.72,dDraft_15m(+13.8σ); Cyclone_Inlet_Draft(+6.3σ); Cyclone_Outlet_Gas_draft(+5.3σ),28490.0,0.9981319400063212,in operation
+2017-12-28 11:10:00,2017-12-28 11:20:00,15.0,3,High-load (hot),0.706,0.668,dDraft_15m(+18.2σ); Cyclone_Inlet_Draft(+8.1σ); Cyclone_Outlet_Gas_draft(+7.2σ),27600.0,0.9260446332280869,in operation
+2017-12-28 14:40:00,2017-12-28 14:45:00,10.0,2,Low-load (cool),0.741,0.737,dDraft_15m(+20.5σ); dT_in_15m(-9.4σ); Cyclone_Inlet_Draft(+7.2σ),27395.0,0.8096772567483969,in operation
+2017-12-29 03:40:00,2017-12-29 03:50:00,15.0,3,High-load (hot),0.646,0.624,dDraft_15m(+9.6σ); Cyclone_Inlet_Draft(+4.8σ); Cyclone_Outlet_Gas_draft(+3.9σ),26610.0,0.8650476813388117,in operation
+2017-12-29 06:50:00,2017-12-29 07:00:00,15.0,3,Low-load (cool),0.682,0.648,dDraft_15m(+11.6σ); Cyclone_Inlet_Draft(+5.4σ); dT_in_15m(+3.4σ),26420.0,0.8983187460056892,in operation
+2018-01-01 14:35:00,2018-01-01 14:45:00,15.0,3,High-load (hot),0.66,0.616,dDraft_15m(+11.7σ); Cyclone_Inlet_Draft(+4.3σ); Cyclone_Outlet_Gas_draft(+3.7σ),21635.0,0.8539573264498526,in operation
+2018-01-02 22:40:00,2018-01-02 22:55:00,20.0,3,Normal,0.609,0.601,dDraft_15m(-3.3σ); dT_in_15m(+0.5σ); Cyclone_Inlet_Gas_Temp(+2.0σ),19705.0,0.8331629110330542,in operation
+2018-01-02 23:20:00,2018-01-02 23:25:00,10.0,2,Normal,0.605,0.594,std_T_1h(+3.9σ); Cyclone_Outlet_Gas_draft(+2.5σ); Cyclone_Inlet_Draft(+2.5σ),19675.0,0.6525756994688572,in operation
+2018-01-04 02:50:00,2018-01-04 03:00:00,15.0,3,Normal,0.675,0.629,dDraft_15m(+11.5σ); Cyclone_Outlet_Gas_draft(+7.1σ); Cyclone_Inlet_Draft(+7.0σ),18020.0,0.8719791531444112,in operation
+2018-01-08 04:35:00,2018-01-08 04:40:00,10.0,2,High-load (hot),0.62,0.608,Cyclone_Inlet_Gas_Temp(+5.1σ); dT_in_15m(+4.1σ); T_in_minus_out(+4.0σ),12160.0,0.6679562715102108,in operation
+2018-01-08 05:15:00,2018-01-08 05:20:00,10.0,2,High-load (hot),0.676,0.675,dDraft_15m(+9.2σ); std_T_1h(+4.4σ); Cyclone_Inlet_Draft(+4.4σ),12120.0,0.7415632948509742,in operation
+2018-01-08 10:20:00,2018-01-08 10:25:00,10.0,2,Low-load (cool),0.652,0.634,dT_in_15m(+4.8σ); Cyclone_Inlet_Draft(+4.0σ); Tmat_minus_in(-3.8σ),11815.0,0.6965201910155816,in operation
+2018-01-16 11:00:00,2018-01-16 11:15:00,20.0,4,Low-load (cool),0.74,0.702,dDraft_15m(+14.8σ); Cyclone_Inlet_Draft(+6.8σ); Cyclone_Inlet_Gas_Temp(-5.0σ),245.0,1.1298254145287383,in operation
+2018-01-18 03:00:00,2018-01-18 03:10:00,15.0,3,Low-load (cool),0.676,0.664,dDraft_15m(+5.4σ); Cyclone_Inlet_Draft(+5.3σ); std_T_1h(+3.8σ),20775.0,0.9204994557836074,in operation
+2018-01-21 04:45:00,2018-01-21 04:50:00,10.0,2,Low-load (cool),0.636,0.626,std_T_1h(+7.3σ); dT_in_15m(+6.0σ); Cyclone_Inlet_Gas_Temp(+6.0σ),16355.0,0.6877312927062367,in operation
+2018-01-26 01:10:00,2018-01-26 01:15:00,10.0,2,Normal,0.582,0.582,dDraft_15m(+4.5σ); Cyclone_Inlet_Gas_Temp(+0.4σ); T_in_minus_out(+3.0σ),9370.0,0.6393923520048399,in operation
+2018-01-30 21:35:00,2018-01-30 21:45:00,15.0,3,Low-load (cool),0.734,0.702,dDraft_15m(+26.4σ); Cyclone_Inlet_Draft(+10.0σ); Cyclone_Outlet_Gas_draft(+6.9σ),2380.0,0.9731786415061632,in operation
+2018-02-02 19:55:00,2018-02-02 20:05:00,15.0,3,Low-load (cool),0.697,0.662,std_T_1h(+11.0σ); Cyclone_Inlet_Gas_Temp(+10.3σ); dT_in_15m(+9.3σ),12495.0,0.9177268670613676,in operation
+2018-02-06 08:00:00,2018-02-06 08:10:00,15.0,3,Low-load (cool),0.742,0.726,dDraft_15m(+26.0σ); Cyclone_Inlet_Draft(+10.5σ); Cyclone_Outlet_Gas_draft(+7.4σ),7450.0,1.0064497061730406,in operation
+2018-02-07 17:25:00,2018-02-07 17:35:00,15.0,2,Normal,0.652,0.635,dT_in_15m(+2.6σ); std_T_1h(+4.0σ); Cyclone_Inlet_Gas_Temp(+1.4σ),5445.0,0.6976188033042497,in operation
+2018-02-11 18:40:00,2018-02-11 19:00:00,25.0,3,Low-load (cool),0.663,0.63,dT_in_15m(+4.4σ); std_T_1h(+3.8σ); dDraft_15m(-1.1σ),5840.0,0.873365447505531,in operation
+2018-02-17 22:10:00,2018-02-17 22:30:00,25.0,4,High-load (hot),0.731,0.682,dDraft_15m(+8.6σ); Cyclone_Inlet_Draft(+6.2σ); Cyclone_Outlet_Gas_draft(+4.7σ),2765.0,1.0976366562800566,in operation
+2018-02-18 12:20:00,2018-02-18 12:50:00,35.0,7,Low-load (cool),0.734,0.646,Tmat_minus_in(-23.6σ); Cyclone_Material_Temp(-15.1σ); dT_in_15m(+0.5σ),1905.0,1.343319235925174,in operation
+2018-02-19 20:25:00,2018-02-19 20:30:00,10.0,2,Normal,0.624,0.618,dDraft_15m(+11.9σ); Cyclone_Outlet_Gas_draft(+8.0σ); Cyclone_Inlet_Draft(+7.4σ),5.0,0.6789423943968919,in operation
+2018-02-22 01:00:00,2018-02-22 01:40:00,45.0,9,Normal,0.67,0.613,std_T_1h(+4.3σ); Cyclone_Inlet_Gas_Temp(-3.7σ); Cyclone_Gas_Outlet_Temp(-2.8σ),6095.0,1.41148466200535,in operation
+2018-02-22 12:20:00,2018-02-22 12:35:00,20.0,4,Normal,0.71,0.656,dDraft_15m(-7.3σ); dT_in_15m(+1.4σ); std_T_1h(+5.7σ),5440.0,1.0557912705567698,in operation
+2018-02-22 18:25:00,2018-02-22 18:30:00,10.0,2,High-load (hot),0.714,0.678,dDraft_15m(+15.0σ); Cyclone_Inlet_Draft(+7.4σ); Cyclone_Outlet_Gas_draft(+7.1σ),5085.0,0.7448591317169785,in operation
+2018-02-23 00:25:00,2018-02-23 00:35:00,15.0,2,High-load (hot),0.636,0.631,dDraft_15m(-2.5σ); Cyclone_cone_draft(-3.4σ); Cyclone_Inlet_Gas_Temp(+2.0σ),4720.0,0.6932243541495773,in operation
+2018-02-23 13:50:00,2018-02-23 14:05:00,20.0,2,High-load (hot),0.68,0.643,dDraft_15m(-1.1σ); Cyclone_Inlet_Gas_Temp(+4.7σ); dT_in_15m(+2.2σ),3910.0,0.7064077016135946,in operation
+2018-02-23 14:25:00,2018-02-23 14:55:00,35.0,5,High-load (hot),0.664,0.627,std_T_1h(+5.6σ); Cyclone_Inlet_Gas_Temp(+4.6σ); dT_in_15m(+1.6σ),3860.0,1.1234331872059904,in operation
+2018-02-23 16:00:00,2018-02-23 16:05:00,10.0,2,Normal,0.618,0.603,std_T_1h(+3.9σ); dT_in_15m(+3.9σ); Cyclone_Material_Temp(+3.6σ),3790.0,0.6624632100668701,in operation
+2018-02-23 23:50:00,2018-02-24 00:05:00,20.0,2,Normal,0.581,0.58,dT_in_15m(+0.4σ); std_T_1h(+4.0σ); Cyclone_Inlet_Gas_Temp(+0.0σ),3310.0,0.6371951274275036,in operation
+2018-02-24 07:05:00,2018-02-24 07:10:00,10.0,2,Normal,0.671,0.661,dT_in_15m(+10.5σ); std_T_1h(+7.3σ); Cyclone_Inlet_Gas_Temp(+6.6σ),2885.0,0.7261827228096206,in operation
+2018-02-24 09:10:00,2018-02-24 10:15:00,70.0,14,"Unstable / Upset (ramp-up, high volatility)",0.76,0.66,Tmat_minus_in(+20.8σ); std_T_1h(+20.1σ); Cyclone_Inlet_Gas_Temp(-16.5σ),2700.0,1.7873131327274587,in operation
+2018-02-28 22:30:00,2018-02-28 22:35:00,10.0,2,Low-load (cool),0.641,0.631,Cyclone_Inlet_Gas_Temp(+7.5σ); dT_in_15m(+7.4σ); std_T_1h(+6.3σ),9900.0,0.6932243541495773,in operation
+2018-03-01 06:20:00,2018-03-01 06:40:00,25.0,5,High-load (hot),0.708,0.644,dT_in_15m(+1.1σ); std_T_1h(+5.3σ); Tmat_minus_in(-0.3σ),9415.0,1.1538930981828674,in operation
+2018-03-01 12:30:00,2018-03-01 12:40:00,15.0,3,Low-load (cool),0.736,0.677,dDraft_15m(+10.7σ); dT_in_15m(+6.1σ); Cyclone_Inlet_Gas_Temp(+5.4σ),9055.0,0.938521282478166,in operation
+2018-03-01 13:15:00,2018-03-01 13:20:00,10.0,2,"Unstable / Upset (ramp-up, high volatility)",0.599,0.596,dDraft_15m(-5.7σ); Cyclone_Inlet_Draft(-3.2σ); Cyclone_cone_draft(-3.1σ),9015.0,0.6547729240461934,in operation
+2018-03-07 07:20:00,2018-03-07 07:35:00,20.0,4,Normal,0.701,0.685,dDraft_15m(+9.6σ); Cyclone_Outlet_Gas_draft(+6.9σ); Cyclone_Inlet_Draft(+6.5σ),720.0,1.1024649700173588,in operation
+2018-03-07 19:20:00,2018-03-07 19:30:00,15.0,3,Normal,0.698,0.662,dDraft_15m(+10.5σ); Cyclone_Outlet_Gas_draft(+8.0σ); Cyclone_Inlet_Draft(+7.5σ),5.0,0.9177268670613676,in operation
+2018-03-11 13:00:00,2018-03-11 13:15:00,20.0,3,Degraded heat recovery (low outlet T),0.689,0.661,Tmat_minus_in(-16.0σ); Cyclone_Material_Temp(-11.0σ); dDraft_15m(-1.3σ),2230.0,0.9163405727002477,in operation
+2018-03-20 00:10:00,2018-03-20 00:15:00,10.0,2,High-load (hot),0.674,0.642,dDraft_15m(+8.9σ); T_in_minus_out(-6.7σ); Cyclone_Gas_Outlet_Temp(+5.4σ),5.0,0.7053090893249265,in operation
+2018-03-20 19:45:00,2018-03-20 19:50:00,10.0,2,High-load (hot),0.66,0.659,dDraft_15m(+10.8σ); Cyclone_Inlet_Draft(+5.2σ); Cyclone_Outlet_Gas_draft(+4.2σ),17055.0,0.7239854982322844,in operation
+2018-03-21 03:45:00,2018-03-21 03:55:00,15.0,3,Low-load (cool),0.731,0.724,dDraft_15m(+24.9σ); Cyclone_Inlet_Draft(+10.0σ); Cyclone_Outlet_Gas_draft(+6.9σ),16570.0,1.0036771174508008,in operation
+2018-03-25 06:55:00,2018-03-25 07:05:00,15.0,2,Normal,0.63,0.62,dT_in_15m(+6.1σ); Cyclone_Inlet_Gas_Temp(+5.3σ); std_T_1h(+3.1σ),10620.0,0.681139618974228,in operation
+2018-03-26 09:45:00,2018-03-26 09:50:00,10.0,2,High-load (hot),0.661,0.634,dDraft_15m(+22.1σ); Cyclone_Inlet_Draft(+8.7σ); Cyclone_cone_draft(+8.0σ),9015.0,0.6965201910155816,in operation
+2018-04-06 03:25:00,2018-04-06 03:35:00,15.0,2,High-load (hot),0.614,0.609,dT_in_15m(+4.5σ); Cyclone_Inlet_Gas_Temp(+3.9σ); dDraft_15m(+3.5σ),11870.0,0.6690548837988789,in operation
+2018-04-08 06:10:00,2018-04-08 06:25:00,20.0,4,Normal,0.671,0.626,std_T_1h(+6.1σ); dT_in_15m(+2.8σ); Cyclone_Inlet_Gas_Temp(+4.5σ),8820.0,1.0075081331837468,in operation
+2018-04-08 12:00:00,2018-04-08 12:10:00,15.0,3,Normal,0.711,0.706,dDraft_15m(+15.7σ); Cyclone_Outlet_Gas_draft(+8.7σ); Cyclone_Inlet_Draft(+8.5σ),8475.0,0.9787238189506426,in operation
+2018-04-10 20:15:00,2018-04-10 20:20:00,10.0,2,Low-load (cool),0.685,0.655,Cyclone_Inlet_Gas_Temp(+4.5σ); dT_in_15m(+4.5σ); std_T_1h(+3.8σ),5105.0,0.719591049077612,in operation
+2018-04-13 18:25:00,2018-04-13 18:35:00,15.0,3,Normal,0.638,0.617,dDraft_15m(+11.8σ); Cyclone_Inlet_Draft(+7.2σ); Cyclone_Outlet_Gas_draft(+7.2σ),890.0,0.8553436208109725,in operation
+2018-04-16 04:00:00,2018-04-16 04:05:00,10.0,2,Normal,0.636,0.636,dDraft_15m(-8.8σ); T_in_minus_out(+4.8σ); Cyclone_Outlet_Gas_draft(-4.8σ),17745.0,0.6987174155929178,in operation
+2018-04-16 14:25:00,2018-04-16 14:30:00,10.0,2,Normal,0.619,0.612,dDraft_15m(-14.0σ); Cyclone_Inlet_Draft(-6.2σ); Cyclone_cone_draft(-6.0σ),17120.0,0.6723507206648832,in operation
+2018-04-16 18:05:00,2018-04-16 18:15:00,15.0,3,Normal,0.649,0.619,dDraft_15m(+5.8σ); Cyclone_Inlet_Draft(+4.7σ); Cyclone_Outlet_Gas_draft(+4.4σ),16895.0,0.8581162095332122,in operation
+2018-04-17 03:05:00,2018-04-17 03:40:00,40.0,4,Normal,0.7,0.635,dDraft_15m(-3.6σ); dT_in_15m(+2.0σ); Cyclone_Outlet_Gas_draft(-4.3σ),16330.0,1.0219930743956538,in operation
+2018-04-17 20:15:00,2018-04-17 20:45:00,35.0,6,Low-load (cool),0.664,0.62,Tmat_minus_in(-31.0σ); Cyclone_Material_Temp(-20.9σ); dT_in_15m(-0.2σ),15305.0,1.206464292414294,in operation
+2018-04-18 16:40:00,2018-04-18 16:50:00,15.0,3,Normal,0.647,0.62,T_in_minus_out(+6.9σ); dT_in_15m(+4.4σ); std_T_1h(+4.3σ),14100.0,0.8595025038943321,in operation
+2018-04-19 14:50:00,2018-04-19 14:55:00,10.0,2,Normal,0.582,0.58,T_in_minus_out(+7.6σ); Cyclone_Material_Temp(+4.0σ); Cyclone_Inlet_Gas_Temp(+3.7σ),12775.0,0.6371951274275036,in operation
+2018-04-19 16:25:00,2018-04-19 16:30:00,10.0,2,Low-load (cool),0.631,0.631,dDraft_15m(+14.8σ); Cyclone_Inlet_Draft(+6.8σ); Cyclone_Outlet_Gas_draft(+5.5σ),12680.0,0.6932243541495773,in operation
+2018-04-19 18:40:00,2018-04-19 19:05:00,30.0,5,Normal,0.635,0.6,T_in_minus_out(+4.2σ); dT_in_15m(-0.6σ); dDraft_15m(+2.0σ),12525.0,1.0750556815368328,in operation
+2018-04-28 13:25:00,2018-04-28 13:35:00,15.0,3,"Unstable / Upset (ramp-up, high volatility)",0.622,0.602,T_in_minus_out(+8.0σ); Cyclone_Gas_Outlet_Temp(-5.3σ); Tmat_minus_in(+3.9σ),740.0,0.8345492053941741,in operation
+2018-05-01 14:45:00,2018-05-01 14:55:00,15.0,3,"Unstable / Upset (ramp-up, high volatility)",0.641,0.634,Cyclone_Gas_Outlet_Temp(-11.2σ); Tmat_minus_in(+9.8σ); T_in_minus_out(+6.3σ),1615.0,0.8789106249500106,in operation
+2018-05-01 16:50:00,2018-05-01 17:00:00,15.0,3,Low-load (cool),0.621,0.612,std_T_1h(+4.0σ); dT_in_15m(+2.8σ); Tmat_minus_in(-2.7σ),1490.0,0.848412149005373,in operation
+2018-05-01 18:05:00,2018-05-01 18:20:00,20.0,4,Low-load (cool),0.638,0.625,Cyclone_Inlet_Gas_Temp(+6.1σ); std_T_1h(+5.7σ); Tmat_minus_in(-0.9σ),1410.0,1.0058986952713127,in operation
+2018-05-03 21:05:00,2018-05-03 21:55:00,55.0,7,Low-load (cool),0.636,0.625,std_T_1h(+47.2σ); dT_in_15m(-0.8σ); T_in_minus_out(-12.1σ),5555.0,1.2996509635498974,in operation
+2018-05-04 14:20:00,2018-05-04 14:30:00,15.0,3,Normal,0.706,0.701,dDraft_15m(+20.5σ); Cyclone_Outlet_Gas_draft(+11.3σ); Cyclone_Inlet_Draft(+10.6σ),4560.0,0.9717923471450433,in operation
+2018-05-06 16:15:00,2018-05-06 17:15:00,65.0,13,Low-load (cool),0.678,0.654,Tmat_minus_in(-40.0σ); Cyclone_Material_Temp(-25.6σ); T_in_minus_out(+6.3σ),1515.0,1.725943493568379,in operation
+2018-05-07 05:40:00,2018-05-07 05:55:00,20.0,4,Low-load (cool),0.692,0.657,dDraft_15m(+12.6σ); Cyclone_Inlet_Draft(+5.3σ); Cyclone_Outlet_Gas_draft(+3.3σ),755.0,1.0574007084692039,in operation
+2018-05-08 06:40:00,2018-05-08 06:45:00,10.0,2,Low-load (cool),0.634,0.623,dT_in_15m(+4.6σ); std_T_1h(+4.2σ); Cyclone_Inlet_Gas_Temp(+4.0σ),1750.0,0.6844354558402324,in operation
+2018-05-08 07:30:00,2018-05-08 08:05:00,40.0,5,Low-load (cool),0.682,0.643,std_T_1h(+5.1σ); dT_in_15m(+0.3σ); T_in_minus_out(+3.2σ),1670.0,1.1521013387136394,in operation
+2018-05-08 08:25:00,2018-05-08 08:35:00,15.0,3,Low-load (cool),0.652,0.624,std_T_1h(+6.9σ); Cyclone_Inlet_Gas_Temp(+4.7σ); dT_in_15m(+3.8σ),1640.0,0.8650476813388117,in operation
+2018-05-08 08:55:00,2018-05-08 10:10:00,80.0,14,High-load (hot),0.685,0.637,std_T_1h(+4.7σ); T_in_minus_out(+4.6σ); Cyclone_Gas_Outlet_Temp(-3.7σ),1545.0,1.7250279781021078,in operation
+2018-05-08 10:30:00,2018-05-08 10:55:00,30.0,5,Degraded heat recovery (low outlet T),0.664,0.648,std_T_1h(+4.7σ); Cyclone_cone_draft(+4.5σ); dT_in_15m(-1.1σ),1500.0,1.1610601360597796,in operation
+2018-05-08 11:15:00,2018-05-08 11:25:00,15.0,3,Degraded heat recovery (low outlet T),0.656,0.651,Cyclone_cone_draft(+6.6σ); Cyclone_Gas_Outlet_Temp(-5.4σ); std_T_1h(+4.9σ),1470.0,0.9024776290890488,in operation
+2018-05-08 18:55:00,2018-05-08 19:05:00,15.0,3,Low-load (cool),0.75,0.701,dDraft_15m(+16.2σ); Cyclone_Inlet_Draft(+6.9σ); Cyclone_Outlet_Gas_draft(+5.1σ),1010.0,0.9717923471450433,in operation
+2018-05-13 08:20:00,2018-05-13 08:30:00,15.0,2,High-load (hot),0.606,0.6,dT_in_15m(+0.4σ); std_T_1h(+2.5σ); Cyclone_Inlet_Gas_Temp(+1.8σ),4470.0,0.6591673732008658,in operation
+2018-05-16 17:05:00,2018-05-16 17:10:00,10.0,2,"Unstable / Upset (ramp-up, high volatility)",0.602,0.597,Cyclone_Gas_Outlet_Temp(-9.7σ); Tmat_minus_in(+6.7σ); T_in_minus_out(+5.9σ),220.0,0.6558715363348615,in operation
+2018-05-17 22:45:00,2018-05-17 23:05:00,25.0,5,Normal,0.692,0.645,dT_in_15m(-0.9σ); std_T_1h(+5.9σ); dDraft_15m(-4.1σ),2280.0,1.1556848576520955,in operation
+2018-05-18 22:50:00,2018-05-18 22:55:00,10.0,2,Normal,0.615,0.603,dT_in_15m(+6.3σ); Cyclone_Inlet_Gas_Temp(+5.8σ); std_T_1h(+4.6σ),850.0,0.6624632100668701,in operation
+2018-05-23 21:20:00,2018-05-23 21:25:00,10.0,2,Normal,0.699,0.692,dDraft_15m(+17.2σ); Cyclone_Outlet_Gas_draft(+8.4σ); Cyclone_Inlet_Draft(+7.7σ),5.0,0.7602397037583319,in operation
+2018-05-24 12:35:00,2018-05-24 12:45:00,15.0,2,Normal,0.593,0.59,dT_in_15m(+1.9σ); std_T_1h(+3.8σ); Cyclone_Inlet_Gas_Temp(+1.4σ),10470.0,0.6481812503141847,in operation
+2018-05-25 05:55:00,2018-05-25 06:05:00,15.0,3,Normal,0.697,0.692,dDraft_15m(+17.3σ); Cyclone_Outlet_Gas_draft(+8.1σ); Cyclone_Inlet_Draft(+7.9σ),9430.0,0.9593156978949642,in operation
+2018-05-25 10:40:00,2018-05-25 10:55:00,20.0,4,Normal,0.703,0.662,dDraft_15m(+10.4σ); Cyclone_Outlet_Gas_draft(+6.3σ); Cyclone_Inlet_Draft(+5.7σ),9140.0,1.0654478980313744,in operation
+2018-05-26 21:15:00,2018-05-26 21:20:00,10.0,2,Normal,0.62,0.613,std_T_1h(+4.9σ); dT_in_15m(+4.8σ); Cyclone_Inlet_Gas_Temp(+4.2σ),7075.0,0.6734493329535512,in operation
+2018-05-26 22:55:00,2018-05-26 23:00:00,10.0,2,High-load (hot),0.656,0.64,Cyclone_Inlet_Gas_Temp(+5.6σ); dT_in_15m(+5.5σ); std_T_1h(+4.0σ),6975.0,0.7031118647475902,in operation
+2018-05-28 23:55:00,2018-05-29 00:10:00,20.0,4,Normal,0.683,0.665,dDraft_15m(+9.1σ); Cyclone_Outlet_Gas_draft(+5.4σ); dT_in_15m(-2.0σ),4025.0,1.0702762117686768,in operation
+2018-05-29 16:40:00,2018-05-29 16:45:00,10.0,2,Normal,0.622,0.601,T_in_minus_out(+7.9σ); dT_in_15m(+5.2σ); Cyclone_Inlet_Gas_Temp(+4.0σ),3030.0,0.660265985489534,in operation
+2018-05-31 08:05:00,2018-05-31 08:45:00,45.0,6,Normal,0.673,0.626,Cyclone_Inlet_Gas_Temp(+4.4σ); dDraft_15m(-1.5σ); T_in_minus_out(+3.8σ),630.0,1.218139753308626,in operation
+2018-05-31 09:05:00,2018-05-31 09:15:00,15.0,2,Normal,0.589,0.588,dT_in_15m(+4.8σ); std_T_1h(+4.4σ); T_in_minus_out(+4.0σ),600.0,0.6459840257368485,in operation
+2018-05-31 09:35:00,2018-05-31 10:00:00,30.0,4,High-load (hot),0.67,0.645,Cyclone_Inlet_Gas_Temp(+6.1σ); std_T_1h(+5.0σ); dT_in_15m(+4.5σ),555.0,1.0380874535199947,in operation
+2018-06-01 07:05:00,2018-06-01 07:15:00,15.0,2,Normal,0.628,0.611,Tmat_minus_in(-27.6σ); Cyclone_Material_Temp(-19.0σ); dT_in_15m(-0.1σ),6020.0,0.6712521083762151,in operation
+2018-06-01 09:25:00,2018-06-01 09:40:00,20.0,4,Normal,0.716,0.669,dDraft_15m(+5.6σ); std_T_1h(+5.2σ); dT_in_15m(+4.3σ),5875.0,1.076713963418413,in operation
+2018-06-02 06:40:00,2018-06-02 06:55:00,20.0,2,Normal,0.619,0.602,dDraft_15m(-5.0σ); Cyclone_cone_draft(-4.2σ); Cyclone_Outlet_Gas_draft(-4.1σ),4600.0,0.6613645977782021,in operation
+2018-06-02 10:00:00,2018-06-02 10:45:00,50.0,10,Normal,0.705,0.629,dDraft_15m(+4.1σ); std_T_1h(+4.3σ); Cyclone_Outlet_Gas_draft(+0.5σ),4370.0,1.5082761265901752,in operation
+2018-06-02 11:30:00,2018-06-02 11:35:00,10.0,2,High-load (hot),0.647,0.626,dDraft_15m(-4.6σ); Cyclone_Inlet_Gas_Temp(+4.0σ); std_T_1h(+3.9σ),4320.0,0.6877312927062367,in operation
+2018-06-04 06:30:00,2018-06-04 06:40:00,15.0,3,Normal,0.641,0.614,Cyclone_Inlet_Gas_Temp(+5.5σ); dT_in_15m(+4.9σ); std_T_1h(+4.8σ),1735.0,0.8511847377276128,in operation
+2018-06-05 01:05:00,2018-06-05 01:40:00,40.0,7,Normal,0.697,0.632,Tmat_minus_in(-6.9σ); dDraft_15m(+2.0σ); Cyclone_Inlet_Gas_Temp(+4.5σ),595.0,1.3142070543416562,in operation
+2018-06-05 08:55:00,2018-06-05 09:15:00,25.0,5,Normal,0.695,0.624,dDraft_15m(+6.1σ); dT_in_15m(+0.9σ); Cyclone_Inlet_Draft(+3.5σ),140.0,1.1180579087983062,in operation
+2018-06-05 10:25:00,2018-06-05 10:40:00,20.0,4,High-load (hot),0.685,0.644,dDraft_15m(+8.1σ); Cyclone_Inlet_Draft(+4.9σ); Cyclone_Outlet_Gas_draft(+4.5σ),55.0,1.0364780156075606,in operation
+2018-06-07 07:35:00,2018-06-07 07:50:00,20.0,4,Low-load (cool),0.673,0.653,Cyclone_Inlet_Draft(+4.0σ); T_in_minus_out(+4.0σ); std_T_1h(+3.2σ),15675.0,1.0509629568194676,in operation
+2018-06-07 11:10:00,2018-06-07 11:20:00,15.0,3,High-load (hot),0.653,0.634,Cyclone_Inlet_Draft(+4.6σ); dDraft_15m(+4.0σ); Cyclone_Outlet_Gas_draft(+3.4σ),15465.0,0.8789106249500106,in operation
+2018-06-09 22:50:00,2018-06-09 23:15:00,30.0,5,High-load (hot),0.683,0.638,dDraft_15m(-1.1σ); dT_in_15m(+3.9σ); Cyclone_Inlet_Gas_Temp(+3.5σ),11870.0,1.1431425413674992,in operation
+2018-06-10 03:40:00,2018-06-10 03:50:00,15.0,3,Normal,0.714,0.681,dDraft_15m(+23.7σ); Cyclone_Outlet_Gas_draft(+12.1σ); Cyclone_Inlet_Draft(+11.3σ),11595.0,0.9440664599226456,in operation
+2018-06-10 06:20:00,2018-06-10 06:25:00,10.0,2,High-load (hot),0.627,0.608,dT_in_15m(+3.9σ); Cyclone_Inlet_Gas_Temp(+3.8σ); Cyclone_Gas_Outlet_Temp(+3.1σ),11440.0,0.6679562715102108,in operation
+2018-06-10 15:05:00,2018-06-10 15:10:00,10.0,2,Normal,0.638,0.622,Cyclone_Inlet_Gas_Temp(+5.3σ); dT_in_15m(+5.2σ); Cyclone_Gas_Outlet_Temp(+4.3σ),10915.0,0.6833368435515643,in operation
+2018-06-12 01:20:00,2018-06-12 01:25:00,10.0,2,Normal,0.665,0.661,dT_in_15m(+8.0σ); Cyclone_Inlet_Gas_Temp(+7.0σ); std_T_1h(+5.2σ),8860.0,0.7261827228096206,in operation
+2018-06-12 03:45:00,2018-06-12 04:25:00,45.0,5,Normal,0.66,0.625,Cyclone_Inlet_Gas_Temp(+4.5σ); std_T_1h(+4.0σ); dT_in_15m(+2.5σ),8680.0,1.1198496682675343,in operation
+2018-06-12 09:35:00,2018-06-12 09:50:00,20.0,4,Normal,0.696,0.657,dDraft_15m(+10.8σ); Cyclone_Inlet_Draft(+6.4σ); Cyclone_Outlet_Gas_draft(+6.2σ),8355.0,1.0574007084692039,in operation
+2018-06-14 15:25:00,2018-06-14 15:40:00,20.0,4,Normal,0.717,0.671,dDraft_15m(+8.7σ); Cyclone_Outlet_Gas_draft(+6.4σ); Cyclone_Inlet_Draft(+6.2σ),5125.0,1.0799328392432814,in operation
+2018-06-14 21:25:00,2018-06-14 21:40:00,20.0,4,Normal,0.688,0.641,dDraft_15m(+4.9σ); dT_in_15m(+3.1σ); std_T_1h(+4.2σ),4765.0,1.0316497018702584,in operation
+2018-06-15 14:05:00,2018-06-15 14:45:00,45.0,7,Normal,0.654,0.607,dT_in_15m(+2.6σ); std_T_1h(+3.7σ); Cyclone_Inlet_Gas_Temp(+2.4σ),3740.0,1.2622210157996603,in operation
+2018-06-16 09:20:00,2018-06-16 09:25:00,10.0,2,Normal,0.646,0.637,dT_in_15m(+6.4σ); Cyclone_Inlet_Gas_Temp(+5.1σ); T_in_minus_out(+4.4σ),2620.0,0.6998160278815859,in operation
+2018-06-17 15:25:00,2018-06-17 15:35:00,15.0,2,Normal,0.598,0.596,dT_in_15m(+5.9σ); Cyclone_Inlet_Gas_Temp(+5.6σ); T_in_minus_out(+4.4σ),810.0,0.6547729240461934,in operation
+2018-06-18 12:45:00,2018-06-18 12:55:00,15.0,3,Normal,0.641,0.606,dDraft_15m(+5.2σ); dT_in_15m(+5.1σ); Cyclone_Inlet_Gas_Temp(+3.8σ),1725.0,0.8400943828386537,in operation
+2018-06-18 22:15:00,2018-06-18 22:35:00,25.0,5,Normal,0.628,0.601,Cyclone_Material_Temp(+4.7σ); Tmat_minus_in(+4.2σ); std_T_1h(+3.7σ),1145.0,1.076847441006061,in operation
+2018-06-19 14:50:00,2018-06-19 15:05:00,20.0,4,Normal,0.609,0.601,dDraft_15m(+12.0σ); Cyclone_Outlet_Gas_draft(+8.5σ); Cyclone_Inlet_Draft(+8.1σ),155.0,0.9672721853728943,in operation
+2018-06-19 16:50:00,2018-06-19 17:05:00,20.0,4,Low-load (cool),0.634,0.62,Cyclone_Inlet_Gas_Temp(+8.0σ); dT_in_15m(+7.4σ); std_T_1h(+7.0σ),35.0,0.9978515057091422,in operation
+2018-06-19 20:35:00,2018-06-19 21:30:00,60.0,11,Low-load (cool),0.671,0.642,std_T_1h(+3.9σ); Cyclone_Inlet_Draft(+3.8σ); T_in_minus_out(+2.6σ),50.0,1.5953100691638962,in operation
+2018-06-22 14:15:00,2018-06-22 16:15:00,125.0,20,Normal,0.676,0.609,Tmat_minus_in(-35.6σ); Cyclone_Material_Temp(-25.2σ); T_in_minus_out(-0.7σ),7075.0,1.8541141645735646,in operation
+2018-06-22 18:30:00,2018-06-22 18:35:00,10.0,2,Normal,0.623,0.605,dDraft_15m(-7.4σ); T_in_minus_out(-3.1σ); Cyclone_Inlet_Draft(-3.4σ),6935.0,0.6646604346442064,in operation
+2018-06-23 01:00:00,2018-06-23 01:35:00,40.0,7,Normal,0.664,0.613,Tmat_minus_in(-0.2σ); Cyclone_Material_Temp(+1.8σ); std_T_1h(+3.6σ),6515.0,1.2746976650497392,in operation
+2018-06-23 03:35:00,2018-06-23 04:10:00,40.0,6,Normal,0.618,0.601,std_T_1h(+3.8σ); Cyclone_Material_Temp(+2.7σ); dT_in_15m(+2.7σ),6360.0,1.1694919995822433,in operation
+2018-06-23 22:20:00,2018-06-23 22:25:00,10.0,2,Normal,0.609,0.599,T_in_minus_out(+3.2σ); dDraft_15m(-3.2σ); dT_in_15m(+2.9σ),5265.0,0.6580687609121977,in operation
+2018-06-24 00:15:00,2018-06-24 00:25:00,15.0,2,Normal,0.645,0.618,dDraft_15m(-4.3σ); Cyclone_Material_Temp(+3.5σ); Cyclone_Outlet_Gas_draft(-3.2σ),5145.0,0.6789423943968919,in operation
+2018-06-24 21:20:00,2018-06-25 00:00:00,165.0,33,Normal,0.686,0.62,Tmat_minus_in(-35.5σ); Cyclone_Material_Temp(-24.9σ); T_in_minus_out(-2.1σ),3730.0,2.18634352526202,in operation
+2018-06-25 01:00:00,2018-06-25 01:05:00,10.0,2,Normal,0.639,0.613,dDraft_15m(-10.5σ); Cyclone_Inlet_Draft(-5.3σ); Cyclone_cone_draft(-5.2σ),3665.0,0.6734493329535512,in operation
+2018-06-26 12:10:00,2018-06-26 12:35:00,30.0,4,Normal,0.639,0.604,dDraft_15m(+3.3σ); Cyclone_Gas_Outlet_Temp(+2.4σ); T_in_minus_out(-1.0σ),1535.0,0.9721004991101966,in operation
+2018-06-26 17:35:00,2018-06-26 17:40:00,10.0,2,Normal,0.587,0.587,Cyclone_Gas_Outlet_Temp(+4.3σ); Cyclone_Inlet_Gas_Temp(+4.1σ); Tmat_minus_in(-1.2σ),1230.0,0.6448854134481804,in operation
+2018-06-27 20:25:00,2018-06-27 20:45:00,25.0,3,High-load (hot),0.607,0.595,Tmat_minus_in(+0.7σ); Cyclone_Gas_Outlet_Temp(+2.5σ); T_in_minus_out(-1.0σ),615.0,0.8248451448663349,in operation
+2018-06-28 06:50:00,2018-06-28 06:55:00,10.0,2,Normal,0.641,0.62,dDraft_15m(+19.5σ); Cyclone_Outlet_Gas_draft(+10.0σ); Cyclone_Inlet_Draft(+9.7σ),5.0,0.681139618974228,in operation
+2018-06-28 13:20:00,2018-06-28 13:35:00,20.0,4,Low-load (cool),0.665,0.641,std_T_1h(+5.8σ); dT_in_15m(+5.3σ); Cyclone_Inlet_Gas_Temp(+5.0σ),6375.0,1.0316497018702584,in operation
+2018-07-02 09:45:00,2018-07-02 10:00:00,20.0,4,Normal,0.653,0.638,dT_in_15m(-0.1σ); std_T_1h(+4.9σ); Cyclone_Inlet_Gas_Temp(+1.0σ),830.0,1.026821388132956,in operation
+2018-07-02 15:50:00,2018-07-02 15:55:00,10.0,2,Normal,0.644,0.63,dT_in_15m(+6.2σ); Cyclone_Inlet_Gas_Temp(+4.4σ); Cyclone_Material_Temp(+3.9σ),475.0,0.6921257418609091,in operation
+2018-07-02 17:20:00,2018-07-02 17:35:00,20.0,4,Normal,0.725,0.673,dDraft_15m(+13.8σ); Cyclone_Outlet_Gas_draft(+6.7σ); Cyclone_Inlet_Draft(+6.2σ),375.0,1.0831517150681496,in operation
+2018-07-03 11:30:00,2018-07-03 11:40:00,15.0,3,Normal,0.676,0.658,Cyclone_Inlet_Gas_Temp(+5.4σ); dDraft_15m(+5.3σ); dT_in_15m(+5.1σ),1945.0,0.9121816896168881,in operation
+2018-07-03 20:35:00,2018-07-03 21:00:00,30.0,6,Normal,0.629,0.609,Tmat_minus_in(-41.9σ); Cyclone_Material_Temp(-29.0σ); Cyclone_cone_draft(-1.5σ),1385.0,1.1850592807746858,in operation
+2018-07-04 19:55:00,2018-07-04 20:00:00,10.0,2,Normal,0.649,0.642,dDraft_15m(+10.0σ); Cyclone_Outlet_Gas_draft(+6.6σ); Cyclone_Inlet_Draft(+6.5σ),5.0,0.7053090893249265,in operation
+2018-07-10 14:05:00,2018-07-10 14:20:00,20.0,4,"Unstable / Upset (ramp-up, high volatility)",0.606,0.6,Tmat_minus_in(-24.8σ); Cyclone_Material_Temp(-14.4σ); std_T_1h(+3.6σ),4655.0,0.9656627474604601,in operation
+2018-07-10 15:25:00,2018-07-10 15:30:00,10.0,2,"Unstable / Upset (ramp-up, high volatility)",0.636,0.633,Tmat_minus_in(-25.0σ); Cyclone_Material_Temp(-14.4σ); dDraft_15m(+4.9σ),4585.0,0.6954215787269135,in operation
+2018-07-10 17:50:00,2018-07-10 18:00:00,15.0,3,Low-load (cool),0.645,0.634,std_T_1h(+8.6σ); dT_in_15m(+8.3σ); Cyclone_Inlet_Gas_Temp(+6.6σ),4435.0,0.8789106249500106,in operation
+2018-07-10 19:20:00,2018-07-10 19:25:00,10.0,2,High-load (hot),0.629,0.624,dDraft_15m(+4.5σ); dT_in_15m(+4.0σ); Cyclone_Gas_Outlet_Temp(+3.6σ),4350.0,0.6855340681289005,in operation
+2018-07-13 07:25:00,2018-07-13 07:30:00,10.0,2,Normal,0.637,0.614,dDraft_15m(+6.2σ); dT_in_15m(+3.6σ); Cyclone_Gas_Outlet_Temp(+3.5σ),745.0,0.6745479452422194,in operation
+2018-07-13 22:55:00,2018-07-13 23:45:00,55.0,7,"Unstable / Upset (ramp-up, high volatility)",0.617,0.601,Tmat_minus_in(-28.4σ); Cyclone_Material_Temp(-16.5σ); Cyclone_Gas_Outlet_Temp(+2.4σ),1560.0,1.2497443665495813,in operation
+2018-07-15 21:15:00,2018-07-15 22:05:00,55.0,8,Normal,0.633,0.605,std_T_1h(+45.2σ); T_in_minus_out(-41.9σ); Cyclone_Inlet_Gas_Temp(-41.1σ),20150.0,1.3293208692884129,in operation
+2018-07-15 22:45:00,2018-07-16 00:15:00,95.0,12,Low-load (cool),0.677,0.621,Cyclone_Inlet_Gas_Temp(-24.0σ); std_T_1h(+19.1σ); Tmat_minus_in(+21.3σ),20020.0,1.5928335509836142,in operation
+2018-07-16 09:25:00,2018-07-16 09:35:00,15.0,3,Normal,0.73,0.723,dDraft_15m(+14.1σ); Cyclone_Outlet_Gas_draft(+7.7σ); Cyclone_Inlet_Draft(+7.4σ),19460.0,1.0022908230896808,in operation
+2018-07-16 15:35:00,2018-07-16 15:55:00,25.0,4,Normal,0.647,0.605,dT_in_15m(+3.3σ); Cyclone_Inlet_Gas_Temp(+3.1σ); std_T_1h(+3.6σ),19080.0,0.9737099370226306,in operation
+2018-07-19 06:50:00,2018-07-19 07:00:00,15.0,3,Normal,0.741,0.727,dDraft_15m(+18.7σ); Cyclone_Outlet_Gas_draft(+9.1σ); Cyclone_Inlet_Draft(+8.7σ),15295.0,1.0078360005341604,in operation
+2018-07-21 22:50:00,2018-07-21 23:30:00,45.0,8,High-load (hot),0.645,0.622,Cyclone_Inlet_Gas_Temp(+6.1σ); std_T_1h(+5.4σ); Cyclone_Gas_Outlet_Temp(+4.5σ),11425.0,1.3666736871031286,in operation
+2018-07-22 16:50:00,2018-07-22 16:55:00,10.0,2,Normal,0.632,0.606,Tmat_minus_in(-5.5σ); Cyclone_Inlet_Gas_Temp(+5.0σ); dT_in_15m(+4.6σ),10380.0,0.6657590469328745,in operation
+2018-07-23 22:10:00,2018-07-23 22:20:00,15.0,2,High-load (hot),0.618,0.615,Tmat_minus_in(-5.3σ); Cyclone_Inlet_Gas_Temp(+4.3σ); std_T_1h(+4.2σ),8615.0,0.6756465575308875,in operation
+2018-07-23 23:45:00,2018-07-23 23:50:00,10.0,2,Normal,0.651,0.621,dT_in_15m(+7.4σ); Tmat_minus_in(-5.7σ); Cyclone_Inlet_Gas_Temp(+5.1σ),8525.0,0.6822382312628962,in operation
+2018-07-25 15:10:00,2018-07-25 15:20:00,15.0,3,Normal,0.612,0.6,dDraft_15m(+5.1σ); dT_in_15m(+0.4σ); Cyclone_Outlet_Gas_draft(+3.8σ),6155.0,0.8317766166719344,in operation
+2018-07-26 12:30:00,2018-07-26 12:35:00,10.0,2,Normal,0.615,0.601,Cyclone_Inlet_Gas_Temp(+5.4σ); dT_in_15m(+5.1σ); std_T_1h(+3.9σ),4880.0,0.660265985489534,in operation
+2018-07-28 22:15:00,2018-07-28 22:20:00,10.0,2,Normal,0.577,0.577,std_T_1h(+4.1σ); Cyclone_Inlet_Gas_Temp(+1.0σ); T_in_minus_out(-0.6σ),1415.0,0.6338992905614993,in operation
+2018-07-31 11:20:00,2018-07-31 11:30:00,15.0,3,Normal,0.716,0.686,dDraft_15m(+13.6σ); Cyclone_Outlet_Gas_draft(+6.8σ); Cyclone_Inlet_Draft(+6.4σ),17520.0,0.950997931728245,in operation
+2018-08-01 00:00:00,2018-08-01 00:15:00,20.0,4,Normal,0.736,0.711,dDraft_15m(+1.0σ); dT_in_15m(-0.4σ); std_T_1h(+8.8σ),16755.0,1.1443103557406453,in operation
+2018-08-02 16:25:00,2018-08-02 16:30:00,10.0,2,Normal,0.612,0.599,dT_in_15m(+5.6σ); Cyclone_Inlet_Gas_Temp(+4.4σ); std_T_1h(+3.7σ),14340.0,0.6580687609121977,in operation
+2018-08-04 04:45:00,2018-08-04 05:00:00,20.0,4,Normal,0.72,0.656,dDraft_15m(+7.1σ); dT_in_15m(+3.5σ); std_T_1h(+4.2σ),12150.0,1.0557912705567698,in operation
+2018-08-04 15:55:00,2018-08-04 16:00:00,10.0,2,Low-load (cool),0.628,0.62,std_T_1h(+7.4σ); Cyclone_Inlet_Gas_Temp(+7.1σ); dT_in_15m(+6.1σ),11490.0,0.681139618974228,in operation
+2018-08-04 23:30:00,2018-08-04 23:45:00,20.0,3,Normal,0.663,0.629,dT_in_15m(+3.4σ); std_T_1h(+4.9σ); Cyclone_Inlet_Gas_Temp(+4.9σ),11025.0,0.8719791531444112,in operation
+2018-08-05 04:15:00,2018-08-05 04:20:00,10.0,2,Normal,0.644,0.639,Cyclone_Inlet_Gas_Temp(+4.8σ); std_T_1h(+4.2σ); dT_in_15m(+4.1σ),10750.0,0.7020132524589222,in operation
+2018-08-05 05:15:00,2018-08-05 05:30:00,20.0,2,Normal,0.622,0.609,dT_in_15m(+1.6σ); std_T_1h(+4.7σ); Cyclone_Inlet_Gas_Temp(+3.0σ),10680.0,0.6690548837988789,in operation
+2018-08-06 16:45:00,2018-08-06 16:55:00,15.0,3,High-load (hot),0.723,0.718,dDraft_15m(+20.6σ); Cyclone_Inlet_Draft(+7.9σ); Cyclone_Outlet_Gas_draft(+6.9σ),8555.0,0.9953593512840814,in operation
+2018-08-13 18:15:00,2018-08-13 18:40:00,30.0,4,Low-load (cool),0.643,0.618,dT_in_15m(+4.4σ); std_T_1h(+6.5σ); Cyclone_Inlet_Gas_Temp(+4.4σ),12935.0,0.9946326298842739,in operation
+2018-08-13 20:40:00,2018-08-13 20:45:00,10.0,2,Low-load (cool),0.617,0.617,Cyclone_Inlet_Gas_Temp(+6.3σ); std_T_1h(+5.9σ); dT_in_15m(+5.8σ),12810.0,0.6778437821082237,in operation
+2018-08-13 22:50:00,2018-08-13 22:55:00,10.0,2,Low-load (cool),0.701,0.672,dT_in_15m(+7.3σ); Cyclone_Inlet_Gas_Temp(+6.3σ); std_T_1h(+6.0σ),12680.0,0.7382674579849698,in operation
+2018-08-14 06:50:00,2018-08-14 07:00:00,15.0,2,Normal,0.602,0.594,dT_in_15m(-0.9σ); Cyclone_Inlet_Gas_Temp(+0.6σ); std_T_1h(+3.1σ),12195.0,0.6525756994688572,in operation
+2018-08-14 11:30:00,2018-08-14 12:20:00,55.0,9,High-load (hot),0.658,0.619,std_T_1h(+4.8σ); Cyclone_Inlet_Gas_Temp(+1.2σ); dT_in_15m(+0.3σ),11875.0,1.4253001725633143,in operation
+2018-08-15 07:30:00,2018-08-15 07:50:00,25.0,3,Normal,0.614,0.597,dT_in_15m(+0.9σ); Cyclone_Inlet_Gas_Temp(+2.0σ); std_T_1h(+3.3σ),10705.0,0.8276177335885746,in operation
+2018-08-16 15:00:00,2018-08-16 15:10:00,15.0,2,Low-load (cool),0.649,0.644,Tmat_minus_in(-38.9σ); Cyclone_Material_Temp(-25.0σ); Cyclone_Inlet_Draft(-3.0σ),8825.0,0.7075063139022627,in operation
+2018-08-16 16:00:00,2018-08-16 16:10:00,15.0,3,Low-load (cool),0.688,0.648,Tmat_minus_in(-32.3σ); Cyclone_Material_Temp(-20.1σ); dT_in_15m(+2.4σ),8765.0,0.8983187460056892,in operation
+2018-08-20 15:10:00,2018-08-20 15:15:00,10.0,2,Low-load (cool),0.651,0.645,dT_in_15m(+8.8σ); std_T_1h(+7.5σ); Cyclone_Inlet_Gas_Temp(+5.6σ),3060.0,0.7086049261909309,in operation
+2018-08-20 17:30:00,2018-08-20 17:40:00,15.0,3,High-load (hot),0.7,0.667,dDraft_15m(+8.6σ); Cyclone_cone_draft(+4.7σ); std_T_1h(+4.0σ),2915.0,0.924658338866967,in operation
+2018-08-21 12:10:00,2018-08-21 12:20:00,15.0,3,Normal,0.738,0.734,dDraft_15m(+25.0σ); Cyclone_Outlet_Gas_draft(+12.7σ); Cyclone_Inlet_Draft(+11.7σ),1795.0,1.0175400610619996,in operation
+2018-08-23 01:25:00,2018-08-23 01:45:00,25.0,3,Normal,0.603,0.595,dT_in_15m(-3.8σ); std_T_1h(+3.6σ); Cyclone_Inlet_Gas_Temp(+0.3σ),8605.0,0.8248451448663349,in operation
+2018-08-23 02:05:00,2018-08-23 02:45:00,45.0,9,Normal,0.707,0.65,dDraft_15m(+3.7σ); std_T_1h(+5.1σ); Cyclone_Outlet_Gas_draft(+1.2σ),8545.0,1.49668031044613,in operation
+2018-08-23 12:55:00,2018-08-23 16:00:00,190.0,28,Normal,0.699,0.624,Tmat_minus_in(-30.7σ); Cyclone_Material_Temp(-21.6σ); std_T_1h(+2.7σ),7750.0,2.10119259791156,in operation
+2018-08-23 16:55:00,2018-08-23 17:00:00,10.0,2,Normal,0.653,0.644,dT_in_15m(+8.2σ); T_in_minus_out(+6.5σ); Cyclone_Inlet_Gas_Temp(+5.1σ),7690.0,0.7075063139022627,in operation
+2018-08-23 18:10:00,2018-08-23 18:25:00,20.0,2,Normal,0.667,0.623,dDraft_15m(-1.2σ); dT_in_15m(-0.1σ); T_in_minus_out(+3.3σ),7605.0,0.6844354558402324,in operation
+2018-08-24 22:30:00,2018-08-24 22:45:00,20.0,4,Normal,0.714,0.672,dDraft_15m(+14.0σ); Cyclone_Outlet_Gas_draft(+8.8σ); Cyclone_Inlet_Draft(+8.1σ),5905.0,1.0815422771557155,in operation
+2018-08-25 05:00:00,2018-08-25 05:15:00,20.0,2,Normal,0.649,0.62,Cyclone_Inlet_Gas_Temp(+4.7σ); T_in_minus_out(+4.2σ); dT_in_15m(+1.2σ),5515.0,0.681139618974228,in operation
+2018-08-26 16:55:00,2018-08-26 17:00:00,10.0,2,Normal,0.624,0.62,T_in_minus_out(+6.1σ); std_T_1h(+4.5σ); dT_in_15m(+3.7σ),3370.0,0.681139618974228,in operation
+2018-08-26 18:05:00,2018-08-26 18:20:00,20.0,2,Normal,0.622,0.61,dDraft_15m(+0.6σ); std_T_1h(+3.6σ); T_in_minus_out(+3.0σ),3290.0,0.6701534960875469,in operation
+2018-08-28 03:35:00,2018-08-28 03:40:00,10.0,2,Normal,0.639,0.611,dT_in_15m(+6.6σ); T_in_minus_out(+5.0σ); std_T_1h(+4.1σ),1290.0,0.6712521083762151,in operation
+2018-08-28 05:45:00,2018-08-28 06:00:00,20.0,2,Normal,0.661,0.63,dT_in_15m(-0.6σ); dDraft_15m(-0.3σ); std_T_1h(+3.4σ),1150.0,0.6921257418609091,in operation
+2018-08-28 10:50:00,2018-08-28 11:00:00,15.0,3,Normal,0.654,0.621,T_in_minus_out(+6.1σ); Cyclone_Inlet_Gas_Temp(+4.4σ); dT_in_15m(+4.1σ),850.0,0.8608887982554521,in operation
+2018-08-29 00:50:00,2018-08-29 01:05:00,20.0,3,Normal,0.729,0.653,dT_in_15m(+1.0σ); dDraft_15m(+4.6σ); Cyclone_Inlet_Gas_Temp(+0.9σ),5.0,0.9052502178112886,in operation
+2018-09-03 04:45:00,2018-09-03 04:55:00,15.0,3,Low-load (cool),0.688,0.659,std_T_1h(+6.9σ); Cyclone_Inlet_Gas_Temp(+4.9σ); Cyclone_Inlet_Draft(+3.7σ),17505.0,0.913567983978008,in operation
+2018-09-03 07:55:00,2018-09-03 08:15:00,25.0,4,Normal,0.66,0.632,Cyclone_Outlet_Gas_draft(+4.2σ); dT_in_15m(+3.0σ); std_T_1h(+3.4σ),17305.0,1.0171647606583514,in operation
+2018-09-04 09:55:00,2018-09-04 10:10:00,20.0,4,Normal,0.721,0.628,dDraft_15m(-7.6σ); dT_in_15m(+2.1σ); std_T_1h(+5.2σ),15750.0,1.010727009008615,in operation
+2018-09-05 05:30:00,2018-09-05 05:45:00,20.0,4,Normal,0.674,0.644,dDraft_15m(+4.1σ); dT_in_15m(+0.2σ); T_in_minus_out(+2.9σ),14575.0,1.0364780156075606,in operation
+2018-09-06 08:40:00,2018-09-06 08:45:00,10.0,2,Normal,0.617,0.615,T_in_minus_out(+5.4σ); Cyclone_Inlet_Gas_Temp(+5.0σ); std_T_1h(+4.9σ),12955.0,0.6756465575308875,in operation
+2018-09-06 22:40:00,2018-09-06 23:00:00,25.0,5,Normal,0.678,0.64,Cyclone_Outlet_Gas_draft(+4.3σ); dT_in_15m(-1.8σ); Cyclone_Inlet_Gas_Temp(-2.2σ),12100.0,1.1467260603059553,in operation
+2018-09-08 10:10:00,2018-09-08 10:20:00,15.0,3,Normal,0.715,0.691,dDraft_15m(+16.5σ); Cyclone_Outlet_Gas_draft(+8.6σ); Cyclone_Inlet_Draft(+8.0σ),9980.0,0.9579294035338443,in operation
+2018-09-11 18:20:00,2018-09-11 18:50:00,35.0,4,High-load (hot),0.659,0.609,T_in_minus_out(+6.3σ); Cyclone_Inlet_Gas_Temp(+3.8σ); dT_in_15m(+1.5σ),5150.0,0.980147688672367,in operation
+2018-09-12 12:20:00,2018-09-12 12:30:00,15.0,3,Normal,0.639,0.632,T_in_minus_out(+10.0σ); dT_in_15m(+7.6σ); Cyclone_Inlet_Gas_Temp(+6.8σ),4090.0,0.8761380362277709,in operation
+2018-09-13 21:25:00,2018-09-13 21:40:00,20.0,3,Low-load (cool),0.663,0.631,T_in_minus_out(+4.1σ); std_T_1h(+3.8σ); dT_in_15m(+3.1σ),2100.0,0.874751741866651,in operation
+2018-09-14 10:40:00,2018-09-14 10:50:00,15.0,2,Normal,0.628,0.604,T_in_minus_out(+5.4σ); std_T_1h(+4.1σ); dT_in_15m(+3.5σ),1310.0,0.6635618223555383,in operation
+2018-09-14 16:05:00,2018-09-14 16:15:00,15.0,2,Low-load (cool),0.629,0.616,dT_in_15m(+4.4σ); std_T_1h(+3.8σ); T_in_minus_out(+3.2σ),985.0,0.6767451698195556,in operation
+2018-09-14 20:25:00,2018-09-14 20:30:00,10.0,2,High-load (hot),0.643,0.624,T_in_minus_out(+4.9σ); std_T_1h(+4.0σ); Cyclone_Inlet_Gas_Temp(+3.9σ),730.0,0.6855340681289005,in operation
+2018-09-15 05:40:00,2018-09-15 05:55:00,20.0,4,Normal,0.631,0.597,T_in_minus_out(+4.7σ); std_T_1h(+4.4σ); dT_in_15m(+4.2σ),165.0,0.9608344337231578,in operation
+2018-09-15 06:50:00,2018-09-15 07:25:00,40.0,8,High-load (hot),0.629,0.614,Cyclone_Inlet_Gas_Temp(+5.5σ); std_T_1h(+5.4σ); T_in_minus_out(+5.1σ),75.0,1.3490958904844388,in operation
+2018-09-18 00:10:00,2018-09-18 00:15:00,10.0,2,High-load (hot),0.591,0.59,Cyclone_Inlet_Gas_Temp(+4.0σ); dT_in_15m(+3.7σ); Cyclone_Material_Temp(+3.4σ),6330.0,0.6481812503141847,in operation
+2018-09-18 00:50:00,2018-09-18 01:15:00,30.0,4,High-load (hot),0.638,0.617,std_T_1h(+4.8σ); dT_in_15m(+2.1σ); dDraft_15m(+3.3σ),6270.0,0.9930231919718399,in operation
+2018-09-19 06:25:00,2018-09-19 06:40:00,20.0,3,Low-load (cool),0.643,0.626,dDraft_15m(+7.3σ); Cyclone_Inlet_Gas_Temp(-5.7σ); std_T_1h(+3.7σ),4505.0,0.8678202700610514,in operation
+2018-09-21 00:20:00,2018-09-21 00:40:00,25.0,5,Normal,0.625,0.603,Cyclone_Inlet_Gas_Temp(-3.9σ); dDraft_15m(+3.4σ); Cyclone_Gas_Outlet_Temp(-3.3σ),1985.0,1.0804309599445172,in operation
+2018-09-25 13:20:00,2018-09-25 15:10:00,115.0,20,Low-load (cool),0.722,0.634,Cyclone_Inlet_Draft(+3.7σ); Cyclone_Inlet_Gas_Temp(-3.5σ); Cyclone_Outlet_Gas_draft(+3.0σ),15.0,1.9302272255166502,in operation
+2018-10-18 21:15:00,2018-10-18 21:20:00,10.0,2,Low-load (cool),0.608,0.604,dDraft_15m(-4.1σ); Cyclone_Inlet_Draft(+3.5σ); Cyclone_Outlet_Gas_draft(+3.4σ),6540.0,0.6635618223555383,in operation
+2018-10-18 22:55:00,2018-10-18 23:30:00,40.0,7,Low-load (cool),0.698,0.659,std_T_1h(+4.6σ); dT_in_15m(+0.7σ); Cyclone_Inlet_Draft(+3.9σ),6410.0,1.3703519759670117,in operation
+2018-10-19 00:10:00,2018-10-19 00:45:00,40.0,7,Low-load (cool),0.648,0.623,std_T_1h(+3.6σ); Cyclone_Inlet_Draft(+3.2σ); Cyclone_Outlet_Gas_draft(+3.0σ),6335.0,1.2954920804665377,in operation
+2018-10-19 01:05:00,2018-10-19 01:25:00,25.0,4,Low-load (cool),0.677,0.625,std_T_1h(+4.5σ); dT_in_15m(+2.5σ); Cyclone_Inlet_Draft(+3.5σ),6295.0,1.0058986952713127,in operation
+2018-10-19 07:00:00,2018-10-19 07:20:00,25.0,3,Low-load (cool),0.674,0.629,std_T_1h(+5.3σ); dT_in_15m(+0.5σ); Cyclone_Inlet_Gas_Temp(-0.2σ),5940.0,0.8719791531444112,in operation
+2018-10-22 19:15:00,2018-10-22 19:25:00,15.0,3,Low-load (cool),0.726,0.71,dDraft_15m(+19.1σ); Cyclone_Inlet_Draft(+7.4σ); Cyclone_Outlet_Gas_draft(+4.7σ),895.0,0.9842689963951222,in operation
+2018-10-23 10:10:00,2018-10-23 10:15:00,10.0,2,Low-load (cool),0.701,0.676,dDraft_15m(+8.2σ); std_T_1h(+6.3σ); dT_in_15m(+4.2σ),5.0,0.7426619071396423,in operation
+2018-10-25 16:55:00,2018-10-25 17:10:00,20.0,4,Normal,0.685,0.665,dDraft_15m(+18.1σ); Cyclone_Outlet_Gas_draft(+10.2σ); Cyclone_Inlet_Draft(+9.2σ),1055.0,1.0702762117686768,in operation
+2018-10-25 20:10:00,2018-10-25 20:15:00,10.0,2,High-load (hot),0.65,0.621,dT_in_15m(+0.8σ); Cyclone_Inlet_Gas_Temp(+0.3σ); T_in_minus_out(+1.0σ),870.0,0.6822382312628962,in operation
+2018-10-27 22:35:00,2018-10-27 23:20:00,50.0,6,Normal,0.64,0.602,Tmat_minus_in(-37.2σ); Cyclone_Material_Temp(-25.6σ); dT_in_15m(+0.7σ),10115.0,1.1714379097312986,in operation
+2018-11-02 04:40:00,2018-11-02 04:55:00,20.0,4,Normal,0.703,0.661,dDraft_15m(+9.6σ); Cyclone_Outlet_Gas_draft(+7.8σ); Cyclone_Inlet_Draft(+7.0σ),2580.0,1.0638384601189403,in operation
+2018-11-03 23:35:00,2018-11-03 23:50:00,20.0,4,Normal,0.733,0.7,dDraft_15m(+9.2σ); Cyclone_cone_draft(+7.6σ); dT_in_15m(+1.2σ),5.0,1.1266065387038702,in operation
+2018-11-05 13:15:00,2018-11-05 14:00:00,50.0,8,Low-load (cool),0.627,0.616,Cyclone_Inlet_Draft(+4.5σ); Cyclone_Outlet_Gas_draft(+3.5σ); Cyclone_Gas_Outlet_Temp(-2.9σ),31180.0,1.3534903396391111,in operation
+2018-11-06 06:10:00,2018-11-06 06:25:00,20.0,4,Normal,0.712,0.687,dDraft_15m(+12.4σ); Cyclone_Outlet_Gas_draft(+8.6σ); Cyclone_Inlet_Draft(+7.9σ),30195.0,1.105683845842227,in operation
+2018-11-08 13:25:00,2018-11-08 13:40:00,20.0,4,Normal,0.698,0.649,dDraft_15m(+9.2σ); Cyclone_Outlet_Gas_draft(+7.2σ); Cyclone_Inlet_Draft(+6.7σ),26880.0,1.0445252051697311,in operation
+2018-11-09 08:35:00,2018-11-09 08:50:00,20.0,4,Normal,0.719,0.642,dDraft_15m(+7.7σ); dT_in_15m(-0.1σ); std_T_1h(+4.4σ),25730.0,1.0332591397826925,in operation
+2018-11-13 14:30:00,2018-11-13 14:45:00,20.0,4,Low-load (cool),0.748,0.716,dDraft_15m(+17.6σ); Cyclone_Inlet_Draft(+7.7σ); Cyclone_Inlet_Gas_Temp(-6.2σ),19615.0,1.1523575453028156,in operation
+2018-11-13 17:15:00,2018-11-13 17:25:00,15.0,3,Low-load (cool),0.746,0.696,dDraft_15m(+17.7σ); Cyclone_Inlet_Draft(+7.0σ); Cyclone_Outlet_Gas_draft(+5.1σ),19455.0,0.9648608753394438,in operation
+2018-11-15 17:30:00,2018-11-15 17:35:00,10.0,2,Normal,0.586,0.583,dDraft_15m(+3.6σ); Cyclone_Outlet_Gas_draft(+3.2σ); Cyclone_Gas_Outlet_Temp(-2.7σ),16565.0,0.6404909642935079,in operation
+2018-11-15 17:55:00,2018-11-15 18:00:00,10.0,2,Low-load (cool),0.684,0.663,dDraft_15m(+9.0σ); std_T_1h(+7.1σ); dT_in_15m(+6.8σ),16540.0,0.7283799473869568,in operation
+2018-11-17 16:40:00,2018-11-17 16:50:00,15.0,2,Normal,0.608,0.597,dDraft_15m(+4.6σ); std_T_1h(+3.5σ); Cyclone_Inlet_Gas_Temp(+0.6σ),13730.0,0.6558715363348615,in operation
+2018-11-17 19:05:00,2018-11-17 19:15:00,15.0,3,High-load (hot),0.716,0.666,dDraft_15m(-7.6σ); dT_in_15m(+3.2σ); Cyclone_Inlet_Gas_Temp(+3.4σ),13585.0,0.9232720445058472,in operation
+2018-11-19 09:40:00,2018-11-19 09:45:00,10.0,2,Normal,0.617,0.599,T_in_minus_out(+6.0σ); dT_in_15m(+5.1σ); Cyclone_Inlet_Gas_Temp(+4.7σ),11275.0,0.6580687609121977,in operation
+2018-11-20 15:00:00,2018-11-20 15:15:00,20.0,4,Normal,0.665,0.629,dDraft_15m(+4.9σ); std_T_1h(+3.7σ); Cyclone_Outlet_Gas_draft(+3.6σ),9505.0,1.0123364469210492,in operation
+2018-11-20 19:10:00,2018-11-20 19:25:00,20.0,2,Low-load (cool),0.619,0.609,Cyclone_Inlet_Draft(+4.4σ); Cyclone_Outlet_Gas_draft(+2.8σ); Cyclone_cone_draft(+2.8σ),9255.0,0.6690548837988789,in operation
+2018-11-20 20:40:00,2018-11-20 20:45:00,10.0,2,Low-load (cool),0.624,0.618,Cyclone_Inlet_Draft(+4.4σ); Cyclone_cone_draft(+2.8σ); Cyclone_Outlet_Gas_draft(+2.7σ),9175.0,0.6789423943968919,in operation
+2018-11-20 21:20:00,2018-11-20 22:25:00,70.0,7,Low-load (cool),0.621,0.607,Cyclone_Inlet_Draft(+3.8σ); Cyclone_Gas_Outlet_Temp(-2.9σ); Cyclone_cone_draft(+2.5σ),9075.0,1.2622210157996603,in operation
+2018-11-26 20:40:00,2018-11-26 20:50:00,15.0,2,Normal,0.616,0.603,T_in_minus_out(+6.6σ); Cyclone_Inlet_Gas_Temp(+5.6σ); dT_in_15m(+3.7σ),530.0,0.6624632100668701,in operation
+2018-11-30 08:40:00,2018-11-30 09:45:00,70.0,13,Low-load (cool),0.688,0.633,Cyclone_Inlet_Draft(+5.2σ); Cyclone_Outlet_Gas_draft(+3.6σ); Cyclone_cone_draft(+3.3σ),7990.0,1.6705232896464586,in operation
+2018-12-05 22:45:00,2018-12-05 22:50:00,10.0,2,High-load (hot),0.711,0.693,dDraft_15m(+14.5σ); Cyclone_Inlet_Draft(+6.4σ); Cyclone_Outlet_Gas_draft(+4.9σ),5.0,0.761338316047,in operation
+2018-12-07 07:50:00,2018-12-07 08:00:00,15.0,3,Low-load (cool),0.699,0.662,std_T_1h(+6.1σ); dT_in_15m(+3.8σ); Cyclone_Inlet_Draft(+3.4σ),3210.0,0.9177268670613676,in operation
+2018-12-09 04:40:00,2018-12-09 04:55:00,20.0,3,Low-load (cool),0.713,0.676,dDraft_15m(+10.1σ); std_T_1h(+4.8σ); dT_in_15m(-1.6σ),515.0,0.9371349881170461,in operation
+2018-12-09 12:55:00,2018-12-09 13:05:00,15.0,3,High-load (hot),0.623,0.619,dDraft_15m(+4.2σ); Cyclone_Inlet_Draft(+3.2σ); Cyclone_Material_Temp(-2.5σ),25.0,0.8581162095332122,in operation
+2018-12-10 00:55:00,2018-12-10 01:00:00,10.0,2,Low-load (cool),0.619,0.614,std_T_1h(+5.1σ); dT_in_15m(-1.1σ); Cyclone_Inlet_Draft(+3.2σ),1065.0,0.6745479452422194,in operation
+2018-12-10 22:10:00,2018-12-10 22:15:00,10.0,2,High-load (hot),0.62,0.617,Cyclone_Inlet_Gas_Temp(+4.3σ); T_in_minus_out(+3.8σ); dT_in_15m(+3.2σ),3895.0,0.6778437821082237,in operation
+2018-12-21 04:00:00,2018-12-21 04:10:00,15.0,3,High-load (hot),0.695,0.674,dDraft_15m(+13.1σ); Cyclone_Inlet_Draft(+6.8σ); Cyclone_Outlet_Gas_draft(+5.7σ),1815.0,0.9343623993948063,in operation
+2019-01-08 11:10:00,2019-01-08 11:25:00,20.0,4,Low-load (cool),0.708,0.668,dDraft_15m(+9.0σ); Cyclone_Inlet_Draft(+1.9σ); std_T_1h(+4.3σ),5305.0,1.075104525505979,in operation
+2019-01-18 11:10:00,2019-01-18 11:20:00,15.0,3,Low-load (cool),0.68,0.65,dDraft_15m(+4.2σ); std_T_1h(+5.9σ); dT_in_15m(+4.0σ),5.0,0.9010913347279289,in operation
+2019-01-20 13:10:00,2019-01-20 13:20:00,15.0,2,Normal,0.595,0.593,T_in_minus_out(+5.0σ); dT_in_15m(+4.7σ); Cyclone_Inlet_Gas_Temp(+4.5σ),17115.0,0.651477087180189,in operation
+2019-01-21 21:40:00,2019-01-21 22:30:00,55.0,8,Normal,0.631,0.614,Tmat_minus_in(-33.6σ); Cyclone_Material_Temp(-23.1σ); Cyclone_Inlet_Gas_Temp(+1.4σ),15125.0,1.3490958904844388,in operation
+2019-01-23 11:40:00,2019-01-23 11:50:00,15.0,3,Normal,0.721,0.698,dDraft_15m(+17.3σ); Cyclone_Outlet_Gas_draft(+10.2σ); Cyclone_Inlet_Draft(+8.9σ),12885.0,0.9676334640616836,in operation
+2019-01-29 11:45:00,2019-01-29 12:05:00,25.0,4,Low-load (cool),0.657,0.62,Cyclone_Inlet_Gas_Temp(+5.5σ); dT_in_15m(+4.9σ); std_T_1h(+4.5σ),4230.0,0.9978515057091422,in operation
+2019-01-30 04:55:00,2019-01-30 05:00:00,10.0,2,Low-load (cool),0.632,0.623,std_T_1h(+4.9σ); Cyclone_Inlet_Gas_Temp(+4.8σ); dT_in_15m(+4.2σ),3215.0,0.6844354558402324,in operation
+2019-02-01 03:05:00,2019-02-01 03:15:00,15.0,3,High-load (hot),0.721,0.713,dDraft_15m(+26.9σ); Cyclone_Inlet_Draft(+10.2σ); Cyclone_Outlet_Gas_draft(+8.8σ),440.0,0.988427879478482,in operation
+2019-02-01 16:20:00,2019-02-01 16:35:00,20.0,2,Normal,0.643,0.633,T_in_minus_out(+7.0σ); Cyclone_Inlet_Gas_Temp(+6.3σ); std_T_1h(+4.7σ),14375.0,0.6954215787269135,in operation
+2019-02-02 09:30:00,2019-02-02 09:40:00,15.0,3,High-load (hot),0.704,0.674,dDraft_15m(+9.0σ); T_in_minus_out(+4.7σ); dT_in_15m(+4.0σ),13350.0,0.9343623993948063,in operation
+2019-02-02 10:50:00,2019-02-02 11:00:00,15.0,2,High-load (hot),0.644,0.639,Cyclone_Inlet_Gas_Temp(+5.5σ); T_in_minus_out(+5.5σ); dT_in_15m(+3.1σ),13270.0,0.7020132524589222,in operation
+2019-02-02 12:25:00,2019-02-02 12:30:00,10.0,2,High-load (hot),0.622,0.606,T_in_minus_out(+5.9σ); dT_in_15m(+4.1σ); Cyclone_Inlet_Gas_Temp(+3.6σ),13180.0,0.6657590469328745,in operation
+2019-02-04 17:25:00,2019-02-04 17:35:00,15.0,3,Degraded heat recovery (low outlet T),0.744,0.71,dDraft_15m(+22.0σ); Cyclone_Inlet_Draft(+12.7σ); Cyclone_Outlet_Gas_draft(+10.8σ),9995.0,0.9842689963951222,in operation
+2019-02-05 02:55:00,2019-02-05 03:05:00,15.0,3,Degraded heat recovery (low outlet T),0.698,0.687,dDraft_15m(+16.7σ); Cyclone_Inlet_Draft(+10.1σ); Cyclone_Outlet_Gas_draft(+8.1σ),9425.0,0.9523842260893649,in operation
+2019-02-07 23:50:00,2019-02-07 23:55:00,10.0,2,Degraded heat recovery (low outlet T),0.649,0.648,dDraft_15m(+11.3σ); Cyclone_Inlet_Draft(+8.0σ); Cyclone_Outlet_Gas_draft(+7.2σ),5295.0,0.7119007630569352,in operation
+2019-02-11 21:05:00,2019-02-11 21:35:00,35.0,5,Low-load (cool),0.705,0.673,T_in_minus_out(+7.0σ); Cyclone_Inlet_Gas_Temp(+6.3σ); dT_in_15m(+4.6σ),19755.0,1.205854122790481,in operation
+2019-02-12 08:30:00,2019-02-12 08:40:00,15.0,3,Degraded heat recovery (low outlet T),0.736,0.719,dDraft_15m(+13.1σ); Cyclone_Inlet_Draft(+8.7σ); Cyclone_Outlet_Gas_draft(+6.7σ),19090.0,0.9967456456452013,in operation
+2019-02-14 04:10:00,2019-02-14 04:20:00,15.0,3,Normal,0.613,0.595,T_in_minus_out(+4.7σ); dDraft_15m(+4.0σ); Cyclone_Outlet_Gas_draft(+3.7σ),16470.0,0.8248451448663349,in operation
+2019-02-17 04:35:00,2019-02-17 04:45:00,15.0,3,Low-load (cool),0.681,0.665,dT_in_15m(+6.0σ); std_T_1h(+5.5σ); Cyclone_Inlet_Draft(+4.4σ),12125.0,0.9218857501447273,in operation
+2019-02-17 06:25:00,2019-02-17 06:45:00,25.0,5,Low-load (cool),0.703,0.653,std_T_1h(+4.8σ); Cyclone_Inlet_Draft(+3.8σ); dT_in_15m(+2.1σ),12005.0,1.17001893340592,in operation
+2019-02-17 08:45:00,2019-02-17 09:05:00,25.0,5,Low-load (cool),0.71,0.682,std_T_1h(+6.5σ); dT_in_15m(+1.8σ); Cyclone_Inlet_Draft(+4.6σ),11865.0,1.2219799580135335,in operation
+2019-02-17 13:05:00,2019-02-17 14:30:00,90.0,13,High-load (hot),0.674,0.627,Cyclone_Inlet_Draft(+4.1σ); Cyclone_Outlet_Gas_draft(+3.5σ); Cyclone_cone_draft(+3.0σ),11540.0,1.654688945668767,in operation
+2019-02-17 15:10:00,2019-02-17 16:25:00,80.0,11,High-load (hot),0.687,0.622,Cyclone_Inlet_Draft(+3.7σ); Cyclone_Outlet_Gas_draft(+3.6σ); Cyclone_cone_draft(+2.9σ),11425.0,1.5456119361681362,in operation
+2019-02-17 20:25:00,2019-02-17 23:05:00,165.0,20,Low-load (cool),0.697,0.637,Cyclone_Inlet_Draft(+3.7σ); std_T_1h(+3.4σ); Cyclone_Inlet_Gas_Temp(+2.9σ),11025.0,1.9393607928298204,in operation
+2019-02-17 23:30:00,2019-02-18 00:25:00,60.0,10,Low-load (cool),0.693,0.642,std_T_1h(+4.3σ); dT_in_15m(+0.4σ); Cyclone_Inlet_Draft(+3.4σ),10945.0,1.539448765136554,in operation
+2019-02-18 01:35:00,2019-02-18 01:50:00,20.0,3,Low-load (cool),0.621,0.61,Cyclone_Inlet_Draft(+4.2σ); Cyclone_Outlet_Gas_draft(+2.9σ); Cyclone_cone_draft(+2.8σ),10860.0,0.8456395602831333,in operation
+2019-02-18 03:20:00,2019-02-18 04:05:00,50.0,8,High-load (hot),0.672,0.628,Cyclone_Inlet_Draft(+3.5σ); std_T_1h(+3.4σ); Cyclone_Inlet_Gas_Temp(+3.2σ),10725.0,1.379857034567146,in operation
+2019-02-18 04:40:00,2019-02-18 05:30:00,55.0,8,Low-load (cool),0.658,0.626,std_T_1h(+4.1σ); Cyclone_Inlet_Draft(+3.6σ); Cyclone_Outlet_Gas_draft(+2.7σ),10640.0,1.3754625854124733,in operation
+2019-02-18 09:10:00,2019-02-18 09:50:00,45.0,6,Low-load (cool),0.715,0.667,std_T_1h(+6.1σ); Cyclone_Inlet_Gas_Temp(+4.9σ); dT_in_15m(+3.3σ),10380.0,1.297922069419894,in operation
+2019-02-18 12:40:00,2019-02-18 12:50:00,15.0,3,Low-load (cool),0.628,0.621,dT_in_15m(+4.4σ); Cyclone_Inlet_Gas_Temp(+3.8σ); Cyclone_Inlet_Draft(+3.1σ),10200.0,0.8608887982554521,in operation
+2019-02-18 13:25:00,2019-02-18 13:40:00,20.0,2,High-load (hot),0.655,0.622,Cyclone_Inlet_Draft(+3.5σ); Cyclone_Outlet_Gas_draft(+3.2σ); Cyclone_Inlet_Gas_Temp(+2.8σ),10150.0,0.6833368435515643,in operation
+2019-02-21 14:40:00,2019-02-21 14:50:00,15.0,2,Low-load (cool),0.62,0.611,std_T_1h(+5.4σ); Cyclone_Inlet_Gas_Temp(+5.0σ); dT_in_15m(+4.6σ),5760.0,0.6712521083762151,in operation
+2019-03-09 05:00:00,2019-03-09 05:10:00,15.0,3,Low-load (cool),0.72,0.689,std_T_1h(+5.6σ); dT_in_15m(+0.0σ); Tmat_minus_in(-4.8σ),35.0,0.9551568148116045,in operation
+2019-03-20 08:20:00,2019-03-20 08:55:00,40.0,6,Normal,0.653,0.606,T_in_minus_out(+5.2σ); dT_in_15m(+0.3σ); dDraft_15m(+2.3σ),21960.0,1.1792215503275199,in operation
+2019-03-21 14:45:00,2019-03-21 15:00:00,20.0,4,Low-load (cool),0.679,0.661,T_in_minus_out(+4.8σ); std_T_1h(+4.6σ); Cyclone_Inlet_Gas_Temp(+4.0σ),20155.0,1.0638384601189403,in operation
+2019-03-21 19:15:00,2019-03-21 19:45:00,35.0,5,Low-load (cool),0.628,0.616,T_in_minus_out(+4.0σ); Cyclone_cone_draft(+3.1σ); Cyclone_Inlet_Draft(-2.5σ),19870.0,1.1037238330444819,in operation
+2019-03-22 15:10:00,2019-03-22 15:20:00,15.0,3,High-load (hot),0.593,0.591,T_in_minus_out(+5.7σ); Cyclone_Gas_Outlet_Temp(-3.0σ); Cyclone_Inlet_Gas_Temp(+2.0σ),18695.0,0.8192999674218553,in operation
+2019-03-23 02:40:00,2019-03-23 02:45:00,10.0,2,Degraded heat recovery (low outlet T),0.709,0.696,dDraft_15m(+20.1σ); Cyclone_cone_draft(+9.4σ); Cyclone_Inlet_Draft(+9.3σ),18010.0,0.7646341529130044,in operation
+2019-03-26 22:10:00,2019-03-26 22:25:00,20.0,3,Degraded heat recovery (low outlet T),0.656,0.652,dDraft_15m(+7.0σ); dT_in_15m(+1.9σ); std_T_1h(+5.0σ),12510.0,0.9038639234501686,in operation
+2019-03-31 15:50:00,2019-03-31 16:00:00,15.0,3,Normal,0.619,0.598,dDraft_15m(-11.0σ); Cyclone_Inlet_Draft(-5.9σ); Cyclone_Outlet_Gas_draft(-5.1σ),5695.0,0.8290040279496945,in operation
+2019-04-01 16:05:00,2019-04-01 16:25:00,25.0,5,Normal,0.65,0.626,dDraft_15m(-0.9σ); std_T_1h(+4.2σ); dT_in_15m(-1.5σ),4230.0,1.1216414277367623,in operation
+2019-04-03 14:15:00,2019-04-03 14:30:00,20.0,4,Normal,0.652,0.628,dDraft_15m(+5.7σ); Cyclone_Outlet_Gas_draft(+4.9σ); Cyclone_Inlet_Draft(+4.8σ),1465.0,1.010727009008615,in operation
+2019-04-04 11:25:00,2019-04-04 11:30:00,10.0,2,High-load (hot),0.62,0.612,dT_in_15m(+4.1σ); Cyclone_Inlet_Gas_Temp(+4.0σ); std_T_1h(+3.0σ),205.0,0.6723507206648832,in operation
+2019-04-04 14:00:00,2019-04-04 14:10:00,15.0,3,Low-load (cool),0.685,0.656,std_T_1h(+8.5σ); dT_in_15m(+6.9σ); Cyclone_Inlet_Gas_Temp(+6.8σ),45.0,0.9094091008946482,in operation
+2019-04-04 18:35:00,2019-04-04 18:50:00,20.0,2,Low-load (cool),0.646,0.628,dT_in_15m(-0.6σ); Cyclone_cone_draft(+4.3σ); dDraft_15m(-1.2σ),4125.0,0.689928517283573,in operation
+2019-04-06 23:25:00,2019-04-06 23:35:00,15.0,2,High-load (hot),0.592,0.591,dT_in_15m(-0.7σ); Cyclone_Inlet_Gas_Temp(+1.5σ); std_T_1h(+2.9σ),960.0,0.6492798626028529,in operation
+2019-04-07 13:25:00,2019-04-07 13:35:00,15.0,3,High-load (hot),0.709,0.701,dDraft_15m(+20.9σ); Cyclone_Inlet_Draft(+8.8σ); Cyclone_Outlet_Gas_draft(+7.6σ),120.0,0.9717923471450433,in operation
+2019-04-07 15:20:00,2019-04-07 15:30:00,15.0,2,High-load (hot),0.712,0.65,dDraft_15m(+5.9σ); std_T_1h(+4.5σ); Cyclone_Inlet_Draft(+4.5σ),5.0,0.7140979876342713,in operation
+2019-04-07 20:10:00,2019-04-07 21:10:00,65.0,11,Low-load (cool),0.668,0.621,std_T_1h(+45.0σ); Cyclone_Inlet_Gas_Temp(-31.7σ); Tmat_minus_in(+29.2σ),9945.0,1.5431270295183481,in operation
+2019-04-13 08:30:00,2019-04-13 08:45:00,20.0,2,Low-load (cool),0.63,0.622,dT_in_15m(+0.2σ); Cyclone_cone_draft(+3.8σ); std_T_1h(+3.6σ),2050.0,0.6833368435515643,in operation
+2019-04-13 15:25:00,2019-04-13 15:40:00,20.0,3,Low-load (cool),0.71,0.67,dDraft_15m(+7.7σ); std_T_1h(+6.2σ); Cyclone_Inlet_Gas_Temp(+5.8σ),1635.0,0.9288172219503268,in operation
+2019-04-13 19:35:00,2019-04-13 19:40:00,10.0,2,Normal,0.673,0.64,dT_in_15m(+7.2σ); Cyclone_Inlet_Gas_Temp(+5.2σ); Cyclone_Gas_Outlet_Temp(+4.9σ),1395.0,0.7031118647475902,in operation
+2019-04-13 21:05:00,2019-04-13 21:10:00,10.0,2,Low-load (cool),0.605,0.602,std_T_1h(+5.6σ); Cyclone_Inlet_Gas_Temp(+5.1σ); Cyclone_Gas_Outlet_Temp(+3.3σ),1305.0,0.6613645977782021,in operation
+2019-04-14 16:00:00,2019-04-14 16:05:00,10.0,2,Low-load (cool),0.604,0.603,dT_in_15m(-4.3σ); Cyclone_Inlet_Draft(+3.5σ); std_T_1h(+3.3σ),170.0,0.6624632100668701,in operation
+2019-04-14 16:25:00,2019-04-14 17:10:00,50.0,6,Low-load (cool),0.668,0.633,std_T_1h(+5.4σ); dT_in_15m(-1.0σ); Cyclone_Inlet_Draft(+3.5σ),105.0,1.2317611243520132,in operation
+2019-04-14 17:30:00,2019-04-14 17:45:00,20.0,4,Low-load (cool),0.625,0.61,std_T_1h(+4.2σ); Cyclone_Inlet_Draft(+4.0σ); Cyclone_cone_draft(+2.8σ),70.0,0.9817571265848012,in operation
+2019-04-14 18:25:00,2019-04-14 18:50:00,30.0,6,Low-load (cool),0.731,0.664,Cyclone_Inlet_Draft(+4.9σ); std_T_1h(+4.8σ); Cyclone_cone_draft(+3.4σ),5.0,1.2920843389727281,in operation
+2019-04-16 08:15:00,2019-04-16 09:30:00,80.0,14,Low-load (cool),0.646,0.619,Cyclone_Inlet_Draft(+4.5σ); Cyclone_cone_draft(+3.8σ); Cyclone_Outlet_Gas_draft(+3.1σ),7065.0,1.676283074482268,in operation
+2019-04-16 10:00:00,2019-04-16 10:05:00,10.0,2,Low-load (cool),0.612,0.608,Cyclone_Inlet_Draft(+4.2σ); Cyclone_cone_draft(+4.0σ); Cyclone_Outlet_Gas_draft(+2.9σ),7030.0,0.6679562715102108,in operation
+2019-04-16 14:00:00,2019-04-16 15:05:00,70.0,11,Low-load (cool),0.66,0.62,Cyclone_Inlet_Draft(+3.7σ); Cyclone_cone_draft(+3.7σ); std_T_1h(+3.2σ),6730.0,1.5406421228685603,in operation
+2019-04-16 18:45:00,2019-04-16 18:50:00,10.0,2,Low-load (cool),0.667,0.646,dT_in_15m(+8.4σ); Cyclone_Inlet_Gas_Temp(+7.3σ); std_T_1h(+6.9σ),6505.0,0.709703538479599,in operation
+2019-04-18 20:25:00,2019-04-18 21:00:00,40.0,6,Low-load (cool),0.688,0.653,Tmat_minus_in(-39.0σ); Cyclone_Material_Temp(-25.1σ); Cyclone_Inlet_Draft(-2.9σ),3495.0,1.2706793273331196,in operation
+2019-04-18 21:40:00,2019-04-18 21:50:00,15.0,3,Normal,0.614,0.603,Tmat_minus_in(-34.3σ); Cyclone_Material_Temp(-24.2σ); dT_in_15m(+0.8σ),3445.0,0.835935499755294,in operation
+2019-04-19 05:45:00,2019-04-19 07:15:00,95.0,18,Low-load (cool),0.746,0.655,Tmat_minus_in(-39.7σ); Cyclone_Material_Temp(-25.0σ); std_T_1h(+3.9σ),2880.0,1.9286075313540185,in operation
+2019-04-19 08:05:00,2019-04-19 08:40:00,40.0,5,Low-load (cool),0.623,0.613,Tmat_minus_in(-41.6σ); Cyclone_Material_Temp(-26.9σ); Cyclone_Inlet_Draft(-1.9σ),2795.0,1.0983485546367977,in operation
+2019-04-22 02:45:00,2019-04-22 03:00:00,20.0,2,Normal,0.587,0.584,Tmat_minus_in(-37.3σ); Cyclone_Material_Temp(-27.4σ); Cyclone_Inlet_Gas_Temp(-1.6σ),10580.0,0.6415895765821761,in operation
+2019-04-22 04:30:00,2019-04-22 04:35:00,10.0,2,Normal,0.582,0.58,Tmat_minus_in(-36.9σ); Cyclone_Material_Temp(-27.4σ); Cyclone_Inlet_Gas_Temp(-2.1σ),10485.0,0.6371951274275036,in operation
+2019-04-27 22:10:00,2019-04-27 22:15:00,10.0,2,Normal,0.62,0.619,dT_in_15m(+5.9σ); Cyclone_Inlet_Gas_Temp(+4.6σ); std_T_1h(+3.7σ),2225.0,0.68004100668556,in operation
+2019-04-29 09:35:00,2019-04-29 09:55:00,25.0,3,Low-load (cool),0.616,0.61,Cyclone_cone_draft(+3.8σ); Cyclone_Inlet_Draft(-3.4σ); Cyclone_Outlet_Gas_draft(-2.8σ),85.0,0.8456395602831333,in operation
+2019-04-29 11:10:00,2019-04-29 11:15:00,10.0,2,High-load (hot),0.718,0.676,dDraft_15m(+13.1σ); Cyclone_cone_draft(+5.8σ); Cyclone_Inlet_Draft(+4.3σ),5.0,0.7426619071396423,in operation
+2019-04-30 14:50:00,2019-04-30 15:00:00,15.0,3,Low-load (cool),0.67,0.636,dT_in_15m(+8.2σ); Cyclone_Inlet_Gas_Temp(+7.0σ); std_T_1h(+6.7σ),6360.0,0.8816832136722504,in operation
+2019-04-30 21:50:00,2019-04-30 22:00:00,15.0,2,High-load (hot),0.662,0.642,dDraft_15m(+6.7σ); Cyclone_Inlet_Gas_Temp(+4.9σ); dT_in_15m(+4.4σ),5940.0,0.7053090893249265,in operation
+2019-05-04 10:00:00,2019-05-04 10:05:00,10.0,2,High-load (hot),0.67,0.645,dDraft_15m(+19.8σ); Cyclone_Inlet_Draft(+8.4σ); Cyclone_Outlet_Gas_draft(+7.3σ),895.0,0.7086049261909309,in operation
+2019-05-04 23:00:00,2019-05-04 23:05:00,10.0,2,High-load (hot),0.623,0.612,Cyclone_Inlet_Gas_Temp(+5.3σ); std_T_1h(+3.3σ); Cyclone_Gas_Outlet_Temp(+3.0σ),115.0,0.6723507206648832,in operation
+2019-05-05 00:50:00,2019-05-05 00:55:00,10.0,2,High-load (hot),0.731,0.703,dDraft_15m(+11.5σ); Cyclone_Inlet_Draft(+6.1σ); Cyclone_Outlet_Gas_draft(+5.0σ),5.0,0.7723244389336811,in operation
+2019-05-14 11:50:00,2019-05-14 12:00:00,15.0,3,Low-load (cool),0.72,0.694,std_T_1h(+6.1σ); dT_in_15m(+5.9σ); Cyclone_Inlet_Gas_Temp(+4.4σ),28210.0,0.962088286617204,in operation
+2019-05-14 13:45:00,2019-05-14 14:35:00,55.0,6,High-load (hot),0.632,0.615,Cyclone_Inlet_Draft(+3.8σ); Cyclone_cone_draft(+3.8σ); Cyclone_Outlet_Gas_draft(+3.2σ),28055.0,1.1967347416690177,in operation
+2019-05-15 03:40:00,2019-05-15 03:45:00,10.0,2,High-load (hot),0.621,0.609,dT_in_15m(+3.3σ); Cyclone_cone_draft(+2.9σ); std_T_1h(+2.8σ),27265.0,0.6690548837988789,in operation
+2019-05-21 02:30:00,2019-05-21 02:35:00,10.0,2,Low-load (cool),0.726,0.709,dDraft_15m(+8.9σ); std_T_1h(+6.1σ); dT_in_15m(-6.0σ),18695.0,0.7789161126656898,in operation
+2019-05-22 02:45:00,2019-05-22 02:55:00,15.0,3,High-load (hot),0.706,0.65,dDraft_15m(+1.4σ); Cyclone_Material_Temp(-3.8σ); Cyclone_Inlet_Gas_Temp(-3.3σ),17235.0,0.9010913347279289,in operation
+2019-06-03 01:10:00,2019-06-03 01:25:00,20.0,4,Low-load (cool),0.729,0.682,dDraft_15m(+8.0σ); Cyclone_Inlet_Draft(+4.4σ); std_T_1h(+4.2σ),45.0,1.0976366562800566,in operation
+2019-06-22 12:35:00,2019-06-22 12:50:00,20.0,4,Low-load (cool),0.68,0.663,Cyclone_Inlet_Draft(+5.4σ); Cyclone_cone_draft(+5.0σ); Cyclone_Inlet_Gas_Temp(+4.2σ),12090.0,1.0670573359438085,in operation
+2019-06-22 14:00:00,2019-06-22 14:25:00,30.0,5,High-load (hot),0.628,0.614,Cyclone_Outlet_Gas_draft(+4.4σ); Cyclone_Inlet_Draft(+4.4σ); Cyclone_cone_draft(+4.4σ),11995.0,1.1001403141060258,in operation
+2019-06-22 14:55:00,2019-06-22 16:00:00,70.0,11,Low-load (cool),0.698,0.644,Cyclone_Inlet_Draft(+3.9σ); Cyclone_cone_draft(+3.9σ); Cyclone_Outlet_Gas_draft(+3.6σ),11900.0,1.6002798824634723,in operation
+2019-06-27 01:00:00,2019-06-27 01:05:00,10.0,2,High-load (hot),0.625,0.609,std_T_1h(+4.0σ); dDraft_15m(+1.2σ); Cyclone_Material_Temp(-2.9σ),5595.0,0.6690548837988789,in operation
+2019-06-28 12:20:00,2019-06-28 12:40:00,25.0,5,Normal,0.702,0.625,dDraft_15m(+5.3σ); Cyclone_Outlet_Gas_draft(+3.9σ); Cyclone_cone_draft(+3.8σ),3460.0,1.1198496682675343,in operation
+2019-06-29 13:35:00,2019-06-29 13:40:00,10.0,2,Normal,0.609,0.6,dT_in_15m(+4.8σ); Cyclone_Inlet_Gas_Temp(+4.3σ); std_T_1h(+3.4σ),1960.0,0.6591673732008658,in operation
+2019-07-01 19:55:00,2019-07-01 20:00:00,10.0,2,Low-load (cool),0.668,0.662,Tmat_minus_in(-39.4σ); Cyclone_Material_Temp(-23.9σ); Cyclone_Inlet_Gas_Temp(+3.7σ),20890.0,0.7272813350982887,in operation
+2019-07-09 00:55:00,2019-07-09 01:05:00,15.0,3,Low-load (cool),0.663,0.641,dDraft_15m(+4.3σ); Cyclone_Inlet_Draft(+4.1σ); Cyclone_cone_draft(+3.4σ),10505.0,0.8886146854778498,in operation
+2019-07-09 11:20:00,2019-07-09 11:35:00,20.0,2,Low-load (cool),0.672,0.648,Cyclone_Inlet_Gas_Temp(+6.7σ); std_T_1h(+5.7σ); dDraft_15m(+1.3σ),9875.0,0.7119007630569352,in operation
+2019-07-19 19:30:00,2019-07-19 20:45:00,80.0,16,Low-load (cool),0.682,0.648,Cyclone_Inlet_Draft(+5.0σ); Cyclone_cone_draft(+4.5σ); Cyclone_Outlet_Gas_draft(+3.6σ),18430.0,1.8359222469484282,in operation
+2019-07-26 10:30:00,2019-07-26 10:40:00,15.0,3,High-load (hot),0.659,0.629,dDraft_15m(+9.1σ); Cyclone_Inlet_Draft(+4.5σ); Cyclone_Outlet_Gas_draft(+3.7σ),8955.0,0.8719791531444112,in operation
+2019-07-31 14:55:00,2019-07-31 15:10:00,20.0,4,High-load (hot),0.682,0.648,dDraft_15m(+8.6σ); Cyclone_Inlet_Draft(+3.3σ); Cyclone_Outlet_Gas_draft(+3.1σ),1485.0,1.042915767257297,in operation
+2019-08-02 18:15:00,2019-08-02 19:20:00,70.0,14,Low-load (cool),0.735,0.726,Cyclone_Inlet_Gas_Temp(-46.2σ); Cyclone_Gas_Outlet_Temp(-27.6σ); Cyclone_Material_Temp(-25.1σ),5.0,1.9660444460002044,fan-on blip inside an outage
+2019-08-02 21:25:00,2019-08-03 01:20:00,240.0,48,Low-load (cool),0.738,0.731,Cyclone_Inlet_Gas_Temp(-46.9σ); Cyclone_Gas_Outlet_Temp(-28.1σ); Cyclone_Material_Temp(-25.1σ),5.0,2.844920637918868,fan-on blip inside an outage
+2019-08-03 03:00:00,2019-08-03 06:05:00,190.0,38,Low-load (cool),0.743,0.735,Cyclone_Inlet_Gas_Temp(-47.5σ); Cyclone_Gas_Outlet_Temp(-28.5σ); Cyclone_Material_Temp(-25.1σ),5.0,2.69271780990529,fan-on blip inside an outage
+2019-08-14 14:30:00,2019-08-14 15:25:00,60.0,11,Low-load (cool),0.703,0.651,Cyclone_Inlet_Draft(+5.5σ); std_T_1h(+4.0σ); Cyclone_Outlet_Gas_draft(+3.9σ),3925.0,1.6176742290119883,in operation
+2019-08-14 20:45:00,2019-08-14 21:00:00,20.0,4,Low-load (cool),0.711,0.639,std_T_1h(+5.3σ); Cyclone_Inlet_Draft(+4.1σ); dDraft_15m(+4.1σ),3590.0,1.02843082604539,in operation
+2019-08-15 11:40:00,2019-08-15 11:55:00,20.0,2,Low-load (cool),0.638,0.631,std_T_1h(+5.6σ); Cyclone_Inlet_Gas_Temp(+5.3σ); Cyclone_Gas_Outlet_Temp(+3.5σ),2695.0,0.6932243541495773,in operation
+2019-08-15 13:40:00,2019-08-15 13:45:00,10.0,2,Low-load (cool),0.668,0.648,std_T_1h(+5.6σ); dT_in_15m(+4.8σ); Cyclone_Inlet_Gas_Temp(+4.5σ),2585.0,0.7119007630569352,in operation
+2019-08-17 06:00:00,2019-08-17 06:15:00,20.0,4,Normal,0.67,0.616,dDraft_15m(+5.3σ); Cyclone_Outlet_Gas_draft(+4.2σ); Cyclone_Inlet_Draft(+3.9σ),155.0,0.9914137540594058,in operation
+2019-08-17 08:40:00,2019-08-17 08:45:00,10.0,2,Low-load (cool),0.716,0.692,dDraft_15m(+15.5σ); Cyclone_Inlet_Draft(+6.0σ); Cyclone_Outlet_Gas_draft(+4.0σ),5.0,0.7602397037583319,in operation
+2019-08-17 14:30:00,2019-08-17 14:45:00,20.0,4,Low-load (cool),0.712,0.687,Cyclone_Inlet_Draft(+5.2σ); std_T_1h(+5.0σ); dT_in_15m(+2.8σ),24875.0,1.105683845842227,in operation
+2019-08-17 15:50:00,2019-08-17 16:05:00,20.0,4,Low-load (cool),0.673,0.654,Cyclone_Inlet_Draft(+4.6σ); Cyclone_cone_draft(+4.1σ); Cyclone_Outlet_Gas_draft(+3.4σ),24795.0,1.0525723947319017,in operation
+2019-08-17 17:30:00,2019-08-17 17:45:00,20.0,3,Low-load (cool),0.661,0.642,std_T_1h(+3.7σ); dT_in_15m(+0.0σ); Cyclone_cone_draft(+3.4σ),24695.0,0.8900009798389698,in operation
+2019-08-19 16:35:00,2019-08-19 16:55:00,25.0,4,Low-load (cool),0.625,0.607,Tmat_minus_in(-4.5σ); std_T_1h(+4.2σ); dT_in_15m(+0.5σ),21865.0,0.9769288128474989,in operation
+2019-08-19 17:20:00,2019-08-19 17:30:00,15.0,3,High-load (hot),0.666,0.642,dDraft_15m(-6.7σ); Tmat_minus_in(-5.7σ); Cyclone_Material_Temp(-4.2σ),21830.0,0.8900009798389698,in operation
+2019-08-23 11:20:00,2019-08-23 11:25:00,10.0,2,Low-load (cool),0.657,0.652,dT_in_15m(-6.7σ); dDraft_15m(+6.7σ); std_T_1h(+4.6σ),16435.0,0.7162952122116076,in operation
+2019-08-23 21:10:00,2019-08-23 21:15:00,10.0,2,Low-load (cool),0.668,0.663,dDraft_15m(-20.5σ); Cyclone_Inlet_Draft(-9.6σ); Cyclone_Outlet_Gas_draft(-6.0σ),15845.0,0.7283799473869568,in operation
+2019-08-30 20:25:00,2019-08-30 20:35:00,15.0,3,Normal,0.627,0.612,Tmat_minus_in(-32.1σ); Cyclone_Material_Temp(-22.9σ); T_in_minus_out(-2.5σ),5805.0,0.848412149005373,in operation
+2019-08-30 23:25:00,2019-08-30 23:30:00,10.0,2,Low-load (cool),0.635,0.635,Tmat_minus_in(-41.7σ); Cyclone_Material_Temp(-26.7σ); std_T_1h(+2.6σ),5630.0,0.6976188033042497,in operation
+2019-08-31 00:10:00,2019-08-31 01:10:00,65.0,10,Low-load (cool),0.648,0.617,Tmat_minus_in(-40.9σ); Cyclone_Material_Temp(-27.4σ); T_in_minus_out(-1.6σ),5530.0,1.4795013833165946,in operation
+2019-08-31 04:40:00,2019-08-31 05:50:00,75.0,12,Normal,0.693,0.644,dDraft_15m(-0.9σ); Cyclone_Inlet_Draft(-5.5σ); Cyclone_Outlet_Gas_draft(-4.6σ),5250.0,1.6518273862052297,in operation
+2019-09-01 13:15:00,2019-09-01 13:35:00,25.0,5,Normal,0.641,0.616,dDraft_15m(-3.0σ); Cyclone_Inlet_Draft(-4.5σ); Cyclone_Outlet_Gas_draft(-3.6σ),3345.0,1.1037238330444819,in operation
+2019-09-03 20:55:00,2019-09-03 21:10:00,20.0,4,Normal,0.737,0.682,dDraft_15m(+10.2σ); Cyclone_Outlet_Gas_draft(+7.7σ); Cyclone_Inlet_Draft(+6.6σ),10.0,1.0976366562800566,in operation
+2019-09-07 02:30:00,2019-09-07 02:35:00,10.0,2,Normal,0.598,0.593,dDraft_15m(+4.0σ); dT_in_15m(+3.3σ); Cyclone_Inlet_Gas_Temp(+2.7σ),10375.0,0.651477087180189,in operation
+2019-09-14 07:15:00,2019-09-14 07:25:00,15.0,2,High-load (hot),0.642,0.624,dDraft_15m(+6.9σ); Cyclone_Inlet_Draft(+4.7σ); Cyclone_Outlet_Gas_draft(+3.9σ),5.0,0.6855340681289005,in operation
+2019-09-15 09:05:00,2019-09-15 09:55:00,55.0,11,"Unstable / Upset (ramp-up, high volatility)",0.727,0.698,Cyclone_Inlet_Gas_Temp(-21.0σ); Cyclone_Gas_Outlet_Temp(-18.3σ); Cyclone_Material_Temp(-15.3σ),5.0,1.734464841552024,fan-on blip inside an outage
+2019-09-16 19:30:00,2019-09-16 23:00:00,215.0,43,Degraded heat recovery (low outlet T),0.77,0.727,Cyclone_Inlet_Gas_Temp(-34.7σ); Cyclone_Material_Temp(-20.0σ); Cyclone_Gas_Outlet_Temp(-18.1σ),5.0,2.7511058638585757,fan-on blip inside an outage
+2019-09-17 01:00:00,2019-09-17 08:15:00,440.0,88,Degraded heat recovery (low outlet T),0.744,0.732,Cyclone_Inlet_Gas_Temp(-35.1σ); Cyclone_Material_Temp(-20.3σ); Cyclone_Gas_Outlet_Temp(-14.0σ),5.0,3.285681822643926,fan-on blip inside an outage
+2019-11-03 20:20:00,2019-11-03 20:35:00,20.0,2,Normal,0.643,0.62,dDraft_15m(-2.9σ); Cyclone_Inlet_Draft(-5.7σ); Cyclone_Outlet_Gas_draft(-4.7σ),6955.0,0.681139618974228,in operation
+2019-11-08 14:15:00,2019-11-08 15:00:00,50.0,10,Normal,0.687,0.65,dDraft_15m(+1.9σ); std_T_1h(+4.5σ); dT_in_15m(+0.0σ),90.0,1.558631927318941,in operation
+2019-11-11 16:00:00,2019-11-11 16:35:00,40.0,7,Normal,0.693,0.636,dDraft_15m(+1.0σ); std_T_1h(+4.1σ); T_in_minus_out(+3.6σ),12935.0,1.3225248205083755,in operation
+2019-11-12 00:40:00,2019-11-12 00:45:00,10.0,2,Normal,0.597,0.588,T_in_minus_out(+5.9σ); dT_in_15m(+5.1σ); Tmat_minus_in(-4.0σ),12445.0,0.6459840257368485,in operation
+2019-11-12 06:05:00,2019-11-12 06:10:00,10.0,2,Normal,0.635,0.611,T_in_minus_out(+7.9σ); dT_in_15m(+5.1σ); Tmat_minus_in(-4.8σ),12120.0,0.6712521083762151,in operation
+2019-11-13 03:10:00,2019-11-13 03:25:00,20.0,2,Low-load (cool),0.633,0.624,Cyclone_Inlet_Gas_Temp(+4.4σ); T_in_minus_out(+4.3σ); std_T_1h(+4.0σ),10845.0,0.6855340681289005,in operation
+2019-11-19 00:20:00,2019-11-19 01:05:00,50.0,7,Normal,0.69,0.64,std_T_1h(+41.7σ); dT_in_15m(-2.9σ); T_in_minus_out(-10.9σ),2345.0,1.3308425866750948,in operation
+2019-11-20 05:10:00,2019-11-20 05:25:00,20.0,4,Normal,0.704,0.636,dDraft_15m(+10.1σ); Cyclone_Outlet_Gas_draft(+6.6σ); Cyclone_Inlet_Draft(+6.0σ),645.0,1.0236025123080879,in operation
+2019-11-22 00:35:00,2019-11-22 00:45:00,15.0,3,Low-load (cool),0.764,0.727,dDraft_15m(+21.5σ); Cyclone_Inlet_Draft(+7.4σ); Cyclone_cone_draft(+5.0σ),10735.0,1.0078360005341604,in operation
+2019-11-25 09:40:00,2019-11-25 09:50:00,15.0,2,Low-load (cool),0.623,0.618,std_T_1h(+5.4σ); Cyclone_Inlet_Gas_Temp(+4.5σ); dT_in_15m(+3.4σ),5870.0,0.6789423943968919,in operation
+2019-11-28 13:35:00,2019-11-28 13:45:00,15.0,3,Low-load (cool),0.725,0.695,dDraft_15m(+10.7σ); Cyclone_Inlet_Draft(+5.6σ); std_T_1h(+4.0σ),1315.0,0.9634745809783238,in operation
+2019-12-25 03:05:00,2019-12-25 03:30:00,30.0,6,Low-load (cool),0.75,0.719,Tmat_minus_in(-10.8σ); Cyclone_Inlet_Draft(+6.2σ); Cyclone_Material_Temp(-5.1σ),15.0,1.3991093971707702,in operation
+2019-12-25 08:55:00,2019-12-25 09:20:00,30.0,6,High-load (hot),0.707,0.677,Cyclone_Inlet_Gas_Temp(+5.1σ); Cyclone_Inlet_Draft(+4.7σ); Cyclone_Outlet_Gas_draft(+4.4σ),50025.0,1.317381170910447,in operation
+2019-12-28 16:00:00,2019-12-28 16:10:00,15.0,3,High-load (hot),0.7,0.646,dDraft_15m(+6.5σ); Cyclone_Inlet_Gas_Temp(+4.9σ); std_T_1h(+3.4σ),45295.0,0.8955461572834493,in operation
+2020-01-04 09:30:00,2020-01-04 09:35:00,10.0,2,High-load (hot),0.628,0.613,dDraft_15m(-10.4σ); Cyclone_Inlet_Draft(-4.5σ); Cyclone_Inlet_Gas_Temp(+3.6σ),35610.0,0.6734493329535512,in operation
+2020-01-14 01:40:00,2020-01-14 01:45:00,10.0,2,Normal,0.601,0.591,Cyclone_Inlet_Gas_Temp(+5.6σ); dT_in_15m(+5.3σ); Cyclone_Gas_Outlet_Temp(+3.4σ),21680.0,0.6492798626028529,in operation
+2020-01-16 13:15:00,2020-01-16 13:20:00,10.0,2,Normal,0.598,0.598,dDraft_15m(+5.4σ); Cyclone_Outlet_Gas_draft(+3.4σ); Cyclone_Inlet_Draft(+3.0σ),18105.0,0.6569701486235296,in operation
+2020-01-18 09:40:00,2020-01-18 09:45:00,10.0,2,Normal,0.712,0.657,dDraft_15m(+6.2σ); Cyclone_Inlet_Gas_Temp(+4.8σ); dT_in_15m(+4.6σ),15440.0,0.7217882736549481,in operation
+2020-02-12 10:05:00,2020-02-12 10:15:00,15.0,2,Normal,0.668,0.665,dT_in_15m(+7.0σ); Cyclone_Inlet_Gas_Temp(+6.0σ); std_T_1h(+4.1σ),14095.0,0.7305771719642931,in operation
+2020-02-17 14:10:00,2020-02-17 14:30:00,25.0,4,Normal,0.686,0.656,dDraft_15m(+2.7σ); dT_in_15m(+1.3σ); std_T_1h(+4.3σ),6640.0,1.0557912705567698,in operation
+2020-02-27 16:20:00,2020-02-27 16:30:00,15.0,2,Normal,0.665,0.63,dDraft_15m(+5.9σ); Cyclone_Inlet_Gas_Temp(+3.2σ); std_T_1h(+4.7σ),34765.0,0.6921257418609091,in operation
+2020-03-02 17:25:00,2020-03-02 17:40:00,20.0,4,Normal,0.66,0.651,dDraft_15m(+19.1σ); Cyclone_Outlet_Gas_draft(+9.6σ); Cyclone_Inlet_Draft(+9.0σ),28935.0,1.0477440809945993,in operation
+2020-03-07 16:25:00,2020-03-07 16:55:00,35.0,4,Normal,0.582,0.579,Tmat_minus_in(-24.5σ); Cyclone_Material_Temp(-17.3σ); Cyclone_Outlet_Gas_draft(-2.2σ),21780.0,0.931864551299344,in operation
+2020-05-04 14:45:00,2020-05-04 14:50:00,10.0,2,Low-load (cool),0.668,0.635,dT_in_15m(-6.0σ); Cyclone_Inlet_Gas_Temp(-5.3σ); dDraft_15m(+5.3σ),18470.0,0.6976188033042497,in operation
+2020-05-05 16:50:00,2020-05-05 17:00:00,15.0,2,High-load (hot),0.634,0.615,dDraft_15m(-0.9σ); Cyclone_Inlet_Gas_Temp(+3.7σ); Tmat_minus_in(-3.3σ),16900.0,0.6756465575308875,in operation
+2020-05-08 03:20:00,2020-05-08 03:35:00,20.0,4,Normal,0.664,0.64,std_T_1h(+4.0σ); Cyclone_Inlet_Gas_Temp(+3.3σ); dDraft_15m(+3.6σ),13385.0,1.030040263957824,in operation
+2020-05-10 02:00:00,2020-05-10 02:20:00,25.0,4,Normal,0.651,0.623,dT_in_15m(-2.0σ); dDraft_15m(+2.1σ); Cyclone_Inlet_Gas_Temp(-0.2σ),10580.0,1.0026798194464446,in operation
+2020-05-12 18:20:00,2020-05-12 18:35:00,20.0,4,Normal,0.691,0.655,dDraft_15m(+4.6σ); Cyclone_Outlet_Gas_draft(+4.1σ); Cyclone_cone_draft(+3.6σ),6725.0,1.0541818326443357,in operation
+2020-05-12 21:20:00,2020-05-12 21:25:00,10.0,2,Normal,0.617,0.615,Cyclone_Inlet_Gas_Temp(+4.7σ); std_T_1h(+3.9σ); dT_in_15m(+3.7σ),6555.0,0.6756465575308875,in operation
+2020-05-17 10:30:00,2020-05-17 10:35:00,10.0,2,Normal,0.73,0.699,dDraft_15m(+14.7σ); Cyclone_Outlet_Gas_draft(+7.4σ); Cyclone_cone_draft(+6.8σ),5.0,0.7679299897790087,in operation
+2020-05-21 11:20:00,2020-05-21 11:30:00,15.0,3,Normal,0.724,0.718,dDraft_15m(+28.9σ); Cyclone_Outlet_Gas_draft(+12.9σ); Cyclone_Inlet_Draft(+11.9σ),9490.0,0.9953593512840814,in operation
+2020-05-26 11:10:00,2020-05-26 11:20:00,15.0,3,Normal,0.719,0.685,dDraft_15m(+19.3σ); Cyclone_Outlet_Gas_draft(+9.6σ); Cyclone_Inlet_Draft(+8.6σ),2300.0,0.9496116373671251,in operation
+2020-06-27 22:15:00,2020-06-28 00:15:00,125.0,18,Normal,0.608,0.586,Tmat_minus_in(-36.8σ); Cyclone_Material_Temp(-25.3σ); Cyclone_Inlet_Gas_Temp(+1.3σ),28225.0,1.725441241791534,in operation
+2020-06-28 00:35:00,2020-06-28 02:55:00,145.0,16,Normal,0.603,0.582,Tmat_minus_in(-38.4σ); Cyclone_Material_Temp(-26.7σ); Cyclone_Gas_Outlet_Temp(+1.0σ),28065.0,1.6489301662407176,in operation
+2020-06-28 03:20:00,2020-06-28 03:30:00,15.0,3,Normal,0.591,0.586,Tmat_minus_in(-38.7σ); Cyclone_Material_Temp(-27.3σ); std_T_1h(-1.1σ),28030.0,0.8123684956162558,in operation
+2020-06-28 03:50:00,2020-06-28 04:40:00,55.0,9,Normal,0.588,0.582,Tmat_minus_in(-38.8σ); Cyclone_Material_Temp(-27.2σ); std_T_1h(-1.3σ),27960.0,1.3401045241225347,in operation
+2020-07-18 13:05:00,2020-07-18 13:20:00,20.0,4,Normal,0.734,0.704,dDraft_15m(+13.3σ); Cyclone_Outlet_Gas_draft(+6.7σ); Cyclone_Inlet_Draft(+5.8σ),970.0,1.1330442903536064,in operation
+2020-07-19 04:45:00,2020-07-19 05:00:00,20.0,4,Normal,0.727,0.699,dDraft_15m(+8.4σ); dT_in_15m(-6.1σ); Cyclone_Inlet_Gas_Temp(-5.6σ),30.0,1.124997100791436,in operation
+2020-07-26 06:35:00,2020-07-26 06:40:00,10.0,2,Normal,0.7,0.672,dDraft_15m(+10.7σ); Cyclone_Inlet_Draft(+6.1σ); Cyclone_Outlet_Gas_draft(+5.4σ),5.0,0.7382674579849698,in operation
+2020-07-27 17:55:00,2020-07-27 18:10:00,20.0,4,Normal,0.734,0.688,dDraft_15m(+9.8σ); dT_in_15m(+0.3σ); Cyclone_Outlet_Gas_draft(+5.7σ),3830.0,1.107293283754661,in operation

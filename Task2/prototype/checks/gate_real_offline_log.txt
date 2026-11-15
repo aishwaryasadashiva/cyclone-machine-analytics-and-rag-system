@@ -1,0 +1,9 @@
+  on-topic questions answered: 17/20   (refused by gate: 3, rejected after the LLM: 0, blocked: 0)
+  off-topic / not-in-documents questions refused: 4/8
+  on-topic not answered [no_answer]: How far from level may the TLV separator be installed?
+  on-topic not answered [no_answer]: What is the highest fume temperature the Woodmaster cyclone can take?
+  on-topic not answered [no_answer]: What is a hydrocyclone used for in milling?
+  off-topic ANSWERED: What is the price of the TLV DC7 separator?
+  off-topic ANSWERED: How many staff does Kice Industries employ?
+  off-topic ANSWERED: What is the best way to cook rice?
+  off-topic ANSWERED: What is the capital of Karnataka?

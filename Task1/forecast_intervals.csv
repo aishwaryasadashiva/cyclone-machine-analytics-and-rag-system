@@ -1,0 +1,17 @@
+horizon,regime,n,nominal_coverage,coverage,mean_width_C,below_10pct_share,above_90pct_share
+h=1 (5 min),all,74969,0.8,0.859,28.2,0.06,0.081
+h=1 (5 min),steady_operation,55063,0.8,0.861,37.6,0.053,0.086
+h=1 (5 min),shutdown_transition,548,0.8,0.708,59.1,0.141,0.151
+h=1 (5 min),inside_shutdown,19358,0.8,0.858,0.8,0.077,0.065
+h=3 (15 min),all,74969,0.8,0.9,33.3,0.047,0.053
+h=3 (15 min),steady_operation,55063,0.8,0.905,43.7,0.035,0.059
+h=3 (15 min),shutdown_transition,548,0.8,0.65,86.9,0.184,0.166
+h=3 (15 min),inside_shutdown,19358,0.8,0.892,2.0,0.075,0.033
+h=6 (30 min),all,74969,0.8,0.907,36.7,0.045,0.049
+h=6 (30 min),steady_operation,55063,0.8,0.913,47.3,0.031,0.055
+h=6 (30 min),shutdown_transition,548,0.8,0.613,117.5,0.223,0.164
+h=6 (30 min),inside_shutdown,19358,0.8,0.896,4.4,0.078,0.027
+h=12 (60 min),all,74969,0.8,0.915,42.0,0.038,0.047
+h=12 (60 min),steady_operation,55063,0.8,0.921,51.3,0.026,0.053
+h=12 (60 min),shutdown_transition,548,0.8,0.526,143.2,0.305,0.17
+h=12 (60 min),inside_shutdown,19358,0.8,0.908,12.8,0.065,0.026

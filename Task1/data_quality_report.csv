@@ -1,0 +1,7 @@
+variable,text_error_cells,isolated_spikes_removed,sentinel_values,missing_timestamps_rows,nan_before_interpolation,nan_left_after_interpolation
+Cyclone_Inlet_Gas_Temp,1320,36,0,861,2181,1885
+Cyclone_Gas_Outlet_Temp,1321,13,24,861,2206,1887
+Cyclone_Material_Temp,1591,484,495,861,2947,2186
+Cyclone_Inlet_Draft,1322,227,0,861,2183,1885
+Cyclone_Outlet_Gas_draft,1321,247,0,861,2182,1885
+Cyclone_cone_draft,1320,231,0,861,2181,1885

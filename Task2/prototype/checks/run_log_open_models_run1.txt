@@ -1,0 +1,15 @@
+# First run of the open-model path, on the author's MacBook Air (Apple silicon, macOS, Python 3.14, fresh venv).
+# Packages installed: sentence-transformers 6.3.0, faiss-cpu 1.16.0, transformers 5.22.2, torch 2.15.0, huggingface-hub 2.4.0
+# This run happened BEFORE the loader fix described in README section 2 (the flan-t5 step failed, see the [warn] line).
+# Command: python rag_prototype.py --embed sentence-transformers/all-MiniLM-L6-v2 --llm google/flan-t5-small --ask "What does a sudden draft drop indicate?"
+
+W1112 15:11:39.814000 25777 venv/lib/python3.14/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 11516.36it/s]
+[warn] could not load LLM 'google/flan-t5-small' (KeyError); using extractive answerer
+[index] 5 docs -> 15 chunks | dense: sentence-transformers/all-MiniLM-L6-v2+FAISS | llm: google/flan-t5-small
+
+Q: What does a sudden draft drop indicate?
+A: Troubleshooting Guide Symptom: sudden draft drop A sudden draft drop indicates loss of suction. Reading the draft signals A sudden drop in draft magnitude, meaning the draft moving toward zero, indicates loss of induced-draft fan capacity, a closing damper, or a trip of the fan. [Troubleshooting_Guide.pdf p.1], [Cyclone_Operating_Manual.pdf p.1]  [ok]
+   - Troubleshooting_Guide#p1-12: Troubleshooting Guide Symptom: sudden draft drop A sudden draft drop indicates loss of suction. Check in order: ID fan speed and trip status, damper position, blockage in the downstream duct, and upstream surge. If inlet...
+   - Cyclone_Operating_Manual#p1-4: Reading the draft signals A sudden drop in draft magnitude, meaning the draft moving toward zero, indicates loss of induced-draft fan capacity, a closing damper, or a trip of the fan. If all three drafts move toward zero...

@@ -1,0 +1,95 @@
+# Terminal output of `bash run_final.sh real_docs`, MacBook Air, 15 Nov 2026, all 11 PDFs read (857 chunks).
+# Copied from the Terminal window as printed (library warnings left in). Same text that run_final.sh tees to run_final_output.txt on the Mac.
+# "Answered" means an answer was shown, NOT that it was correct; the answer sheets are not graded.
+
+Using: /Users/aishwaryas/Desktop/Aishwarya_S_DataScience (15).zip
+=== 1. retrieval, MiniLM + BM25 hybrid
+retrieval on 13 labelled questions  (k=4, dense backend: sentence-transformers/all-MiniLM-L6-v2+FAISS)
+  precision@4 = 0.712   recall@4 (hit rate) = 1.000   hit@1 = 0.846   MRR = 0.885
+  lenient labels (2 questions also accept a 2nd document): precision@4 = 0.712   hit@1 = 0.846   MRR = 0.885
+  answered ok: 10/13   guardrail checks passed: 8/10   -> evaluation_independent_open_models.csv
+=== 2. retrieval, with the cross-encoder reranker
+retrieval on 13 labelled questions  (k=4, dense backend: sentence-transformers/all-MiniLM-L6-v2+FAISS)
+  precision@4 = 0.635   recall@4 (hit rate) = 1.000   hit@1 = 0.769   MRR = 0.827
+  lenient labels (2 questions also accept a 2nd document): precision@4 = 0.635   hit@1 = 0.769   MRR = 0.827
+  answered ok: 10/13   guardrail checks passed: 8/10   -> evaluation_independent_rerank_open_models.csv
+=== 3. gate (answerable answered / unanswerable refused), default
+Loading weights: 100%|██████████| 190/190 [00:00<00:00, 4437.06it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+[index] 11 docs -> 857 chunks | dense: sentence-transformers/all-MiniLM-L6-v2+FAISS | rerank: off | llm: google/flan-t5-small
+
+relevance gate (gate_independent.csv; dense gate threshold 0.375 on sentence-transformers/all-MiniLM-L6-v2+FAISS)
+  on-topic questions answered: 10/13   (refused by gate: 0, rejected after the LLM: 3, blocked: 0)
+  off-topic / not-in-documents questions refused: 4/4
+  on-topic not answered [ungrounded_rejected]: How does a cyclone separator separate fine and coarse particles in a liquid stream?
+  on-topic not answered [ungrounded_rejected]: How does cyclone pressure drop vary with inlet velocity and cyclone diameter according to the design study?
+  on-topic not answered [ungrounded_rejected]: According to the operating and maintenance manual, what general relationship is described between collecting efficiency and water gauge?
+=== 4. answer sheet, default
+[index] 11 docs -> 857 chunks | dense: sentence-transformers/all-MiniLM-L6-v2+FAISS | rerank: off | llm: google/flan-t5-small
+=== 5. gate with reranker + extract fallback + cross-encoder sentences
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 6493.98it/s]
+Loading weights: 100%|██████████| 190/190 [00:00<00:00, 5001.30it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+[index] 11 docs -> 857 chunks | dense: sentence-transformers/all-MiniLM-L6-v2+FAISS | rerank: cross-encoder/ms-marco-MiniLM-L-6-v2 | llm: google/flan-t5-small
+
+relevance gate (gate_independent.csv; dense gate threshold 0.375 on sentence-transformers/all-MiniLM-L6-v2+FAISS)
+  on-topic questions answered: 12/13   (refused by gate: 0, rejected after the LLM: 1, blocked: 0)
+  off-topic / not-in-documents questions refused: 4/4
+  on-topic not answered [ungrounded_rejected]: According to the operating and maintenance manual, what general relationship is described between collecting efficiency and water gauge?
+=== 6. answer sheet, with those options
+[index] 11 docs -> 857 chunks | dense: sentence-transformers/all-MiniLM-L6-v2+FAISS | rerank: cross-encoder/ms-marco-MiniLM-L-6-v2 | llm: google/flan-t5-small
+done: paste the output above and attach answers_to_send.zip (it holds every answer sheet)
+Loading weights: 100%|██████████| 190/190 [00:00<00:00, 1728.77it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+[index] 11 docs -> 857 chunks | dense: sentence-transformers/all-MiniLM-L6-v2+FAISS | rerank: off | llm: google/flan-t5-small
+Loading weights: 100%|██████████| 190/190 [00:00<00:00, 4160.10it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+[index] 11 docs -> 857 chunks | dense: sentence-transformers/all-MiniLM-L6-v2+FAISS | rerank: off | llm: google/flan-t5-small
+
+relevance gate (gate_real.csv; dense gate threshold 0.375 on sentence-transformers/all-MiniLM-L6-v2+FAISS)
+  on-topic questions answered: 15/20   (refused by gate: 0, rejected after the LLM: 5, blocked: 0)
+  off-topic / not-in-documents questions refused: 8/8
+  on-topic not answered [ungrounded_rejected]: How far from level may the TLV separator be installed?
+  on-topic not answered [ungrounded_rejected]: What must I do before cleaning the separator?
+  on-topic not answered [ungrounded_rejected]: Does the cyclone have to be grounded?
+  on-topic not answered [ungrounded_rejected]: In what order should the equipment be started up?
+  on-topic not answered [ungrounded_rejected]: How does the cyclone pressure drop get calculated in the design project?
+Loading weights: 100%|██████████| 190/190 [00:00<00:00, 2684.48it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+[index] 11 docs -> 857 chunks | dense: sentence-transformers/all-MiniLM-L6-v2+FAISS | rerank: cross-encoder/ms-marco-MiniLM-L-6-v2 | llm: google/flan-t5-small
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8277.23it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 6829.21it/s]
+Loading weights: 100%|██████████| 190/190 [00:00<00:00, 1728.37it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+[index] 11 docs -> 857 chunks | dense: sentence-transformers/all-MiniLM-L6-v2+FAISS | rerank: cross-encoder/ms-marco-MiniLM-L-6-v2 | llm: google/flan-t5-small
+
+relevance gate (gate_real.csv; dense gate threshold 0.375 on sentence-transformers/all-MiniLM-L6-v2+FAISS)
+  on-topic questions answered: 19/20   (refused by gate: 0, rejected after the LLM: 1, blocked: 0)
+  off-topic / not-in-documents questions refused: 7/8
+  on-topic not answered [ungrounded_rejected]: What is a hydrocyclone used for in milling?
+  off-topic ANSWERED: How many staff does Kice Industries employ?
+Loading weights: 100%|██████████| 190/190 [00:00<00:00, 5620.29it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+[index] 5 docs -> 15 chunks | dense: sentence-transformers/all-MiniLM-L6-v2+FAISS | rerank: cross-encoder/ms-marco-MiniLM-L-6-v2 | llm: google/flan-t5-small
+
+relevance gate (gate_heldout.csv; dense gate threshold 0.247 on sentence-transformers/all-MiniLM-L6-v2+FAISS)
+  on-topic questions answered: 13/14   (refused by gate: 0, rejected after the LLM: 1, blocked: 0)
+  off-topic / not-in-documents questions refused: 4/6
+  on-topic not answered [ungrounded_rejected]: Why are temperatures noisy right after the feed comes back?
+  off-topic ANSWERED: What is the maximum safe refractory lining temperature?
+  off-topic ANSWERED: Which company supplies the cyclone fan?
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 6409.58it/s]
+Loading weights: 100%|██████████| 190/190 [00:00<00:00, 5055.05it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+[index] 5 docs -> 15 chunks | dense: sentence-transformers/all-MiniLM-L6-v2+FAISS | rerank: cross-encoder/ms-marco-MiniLM-L-6-v2 | llm: google/flan-t5-small
+
+relevance gate (gate_heldout_v2.csv; dense gate threshold 0.247 on sentence-transformers/all-MiniLM-L6-v2+FAISS)
+  on-topic questions answered: 10/10   (refused by gate: 0, rejected after the LLM: 0, blocked: 0)
+  off-topic / not-in-documents questions refused: 5/6
+  off-topic ANSWERED: Which refractory brick type is used in the preheater?
+done: paste everything above and attach the two answer_grading_real_open_models*.csv files
+
+ALL DONE. Paste the text printed above (from the top if you can) and attach answers_to_send.zip from this folder.
